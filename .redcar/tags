@@ -1,9 +1,0 @@
-1348060925
-Room	/Users/bwinkler/foundry/bfm_viewer/bfm_viewer.rb	class Room
-description	/Users/bwinkler/foundry/bfm_viewer/bfm_viewer.rb	  attr_accessor :vnum, :room_name, :description, :exits
-exits	/Users/bwinkler/foundry/bfm_viewer/bfm_viewer.rb	  attr_accessor :vnum, :room_name, :description, :exits
-isolate_rooms	/Users/bwinkler/foundry/bfm_viewer/bfm_viewer.rb	def isolate_rooms
-read_area	/Users/bwinkler/foundry/bfm_viewer/bfm_viewer.rb	def read_area
-read_rooms	/Users/bwinkler/foundry/bfm_viewer/bfm_viewer.rb	def read_rooms
-room_name	/Users/bwinkler/foundry/bfm_viewer/bfm_viewer.rb	  attr_accessor :vnum, :room_name, :description, :exits
-vnum	/Users/bwinkler/foundry/bfm_viewer/bfm_viewer.rb	  attr_accessor :vnum, :room_name, :description, :exits

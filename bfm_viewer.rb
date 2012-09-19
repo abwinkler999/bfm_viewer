@@ -36,11 +36,25 @@ end
 
 def read_rooms
   thisRoom = Room.new;
+  room_desc_string = "";
   #puts @room_section.shift;
-  thisRoom.vnum = @room_section.shift.chomp.delete "#";
-  thisRoom.room_name = @room_section.shift.chomp.delete "~";
-  @rooms << thisRoom;
   
+  #'#3000'
+  thisRoom.vnum = @room_section.shift.chomp.delete "#";
+  
+  #'Entrance to the Castle~'
+  thisRoom.room_name = @room_section.shift.chomp.delete "~";
+
+  #'You are standing on a gravel path which leads to the castle.'
+  #'~'
+  begin
+    room_desc_string << @room_section.shift.chomp;
+  end while @room_section.shift.chomp != "~"
+  
+  thisRoom.description = room_desc_string;
+  
+  
+  @rooms << thisRoom;
 =begin
   @room_section.each {|line|
     if line.start_with?("#")
