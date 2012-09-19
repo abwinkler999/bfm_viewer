@@ -9,28 +9,32 @@ def read_area
   reading_rooms = false;
   if areaFile
     IO.foreach("ravens.are") { |line| @area << line }
-    if content = "#ROOMS"
-      reading_a_room = true;
-    end
   else
     puts "File could not be opened!"
   end
 end
 
-def scrape_rooms
+def isolate_rooms
+  reading_rooms = false;
   @area.each {|line|
-    if line == "#ROOMS"
+    if line.chomp == "#ROOMS"
       reading_rooms = true;
     end
+    if line.chomp == "#SPECIALS"
+      reading_rooms = false;
+    end
     if reading_rooms
+      @room_section << line;
     end
   }
 end
 
 # begin
 @area = Array.new;
+@room_section = Array.new;
 @rooms = Array.new;
 puts("Welcome to BFM Area Viewer");
 read_area;
-scrape_rooms;
+isolate_rooms;
+puts @room_section;
 #puts @area;
