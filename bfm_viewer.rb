@@ -1,5 +1,5 @@
 class Room
-  attr_accessor :vnum, :description, :exits
+  attr_accessor :vnum, :room_name, :description, :exits
 end
 
 def read_area
@@ -17,19 +17,31 @@ end
 def isolate_rooms
   reading_rooms = false;
   @area.each {|line|
-    if line.chomp == "#ROOMS"
-      reading_rooms = true;
-    end
     if line.chomp == "#SPECIALS"
       reading_rooms = false;
     end
     if reading_rooms
-      @room_section << line;
+      unless line == "\n"
+        @room_section << line;
+      end
+
+
     end
+    if line.chomp == "#ROOMS"
+      reading_rooms = true;
+    end
+
   }
 end
 
 def read_rooms
+  thisRoom = Room.new;
+  #puts @room_section.shift;
+  thisRoom.vnum = @room_section.shift.chomp.delete "#";
+  thisRoom.room_name = @room_section.shift.chomp.delete "~";
+  @rooms << thisRoom;
+  
+=begin
   @room_section.each {|line|
     if line.start_with?("#")
       #must be vnum
@@ -38,6 +50,7 @@ def read_rooms
       @rooms << thisRoom;
     end
   }
+=end
 end
 
 # begin
@@ -48,6 +61,6 @@ puts("Welcome to BFM Area Viewer");
 read_area;
 isolate_rooms;
 read_rooms;
-puts @rooms;
+puts @rooms.inspect;
 #puts @room_section;
 #puts @area;
