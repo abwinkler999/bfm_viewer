@@ -29,6 +29,17 @@ def isolate_rooms
   }
 end
 
+def read_rooms
+  @room_section.each {|line|
+    if line.start_with?("#")
+      #must be vnum
+      thisRoom = Room.new;
+      thisRoom.vnum = line.delete "#";
+      @rooms << thisRoom;
+    end
+  }
+end
+
 # begin
 @area = Array.new;
 @room_section = Array.new;
@@ -36,5 +47,7 @@ end
 puts("Welcome to BFM Area Viewer");
 read_area;
 isolate_rooms;
-puts @room_section;
+read_rooms;
+puts @rooms;
+#puts @room_section;
 #puts @area;
