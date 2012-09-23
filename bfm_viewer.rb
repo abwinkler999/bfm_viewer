@@ -32,6 +32,12 @@ class GameWorld
     #puts @room_section;
     #puts @area;
     # end until we run out of .are files in the directory.
+    return_string = "";
+    @rooms.each { |i| 
+      return_string << "<p><h3>#" + i.vnum.to_s + " " + i.room_name + "</h3></p>";
+      return_string << "<p>" + i.description + "</p>";
+    }
+    return return_string;
   end
   
   def read_area
@@ -103,8 +109,21 @@ class GameWorld
       
       @rooms << thisRoom;
     end until false #ran out of rooms
-    puts "Finished reading rooms.  There were " + roomsCounter.to_s + " rooms in this area.";
+    #yield "Finished reading rooms.  There were " + roomsCounter.to_s + " rooms in this area."
+    #yield yield "Finished reading rooms."
   end # reading rooms loop
+=begin  
+  def each
+    return_string = "";
+    load_ALL_the_areas();
+    @rooms.each { |i| 
+      return_string << "#" + i.vnum.to_s + " " + i.room_name + "\n\r";
+      return_string << i.description + "\n\r";
+    }
+    yield return_string;
+    #yield "beep!"
+  end
+=end
 end
 
 # main
@@ -113,5 +132,17 @@ end
 
 get '/' do
   Balfeymere = GameWorld.new;
-  Balfeymere.load_ALL_the_areas;
+  erb '<%=Balfeymere.load_ALL_the_areas %>'
 end
+=begin
+class Stream
+  def each
+    #100.times { |i| yield "#{i}\n" }
+    yield "arbitrary string"
+  end
+end
+
+get('/') do
+  Stream.new
+end
+=end
