@@ -28,6 +28,7 @@ def isolate_rooms
 
     end
     if line.chomp == "#ROOMS"
+      puts "Found rooms section...\n\r";
       reading_rooms = true;
     end
 
@@ -39,17 +40,29 @@ def read_rooms
   room_desc_string = "";
   #puts @room_section.shift;
   
-  #'#3000'
+  #'#3074'
   thisRoom.vnum = @room_section.shift.chomp.delete "#";
-  
+  puts "Reading room " + thisRoom.vnum + "...";
+  if Integer(thisRoom.vnum) == 3074
+    return 0;
+  end
+
   #'Entrance to the Castle~'
   thisRoom.room_name = @room_section.shift.chomp.delete "~";
+  puts "It is called '" + thisRoom.room_name + "'...";
 
   #'You are standing on a gravel path which leads to the castle.'
   #'~'
+  puts "First room section is: " + @room_section[0];
+  puts "Chomped it looks like: " + @room_section[0].chomp;
   begin
-    room_desc_string << @room_section.shift.chomp;
-  end while @room_section.shift.chomp != "~"
+    #room_desc_string << @room_section.shift.chomp;
+    room_desc_string << @room_section.shift;
+    puts "Read in so far: " + room_desc_string;
+    if room_desc_string == "#3075"
+      return 0;
+    end
+  end while room_desc_string != "~"
   
   thisRoom.description = room_desc_string;
   
@@ -75,6 +88,7 @@ puts("Welcome to BFM Area Viewer");
 read_area;
 isolate_rooms;
 read_rooms;
-puts @rooms.inspect;
+#puts @rooms.inspect;
+#puts @rooms[0].description;
 #puts @room_section;
 #puts @area;
