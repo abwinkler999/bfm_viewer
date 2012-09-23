@@ -24,16 +24,30 @@ class GameWorld
     # end ...until we run out of .are files in the directory.
     return_string = "";
     @rooms.each { |i| 
-      return_string << '<p><h3>#<a name="' + i.vnum.to_s + '">' + i.vnum.to_s + " " + i.room_name + "</h3></p>";
-      return_string << "<p>" + i.description + "</p>";
-      return_string << "<p>Exits: "
-      i.exits.each {|room|
-        if room == 0
+      return_string << '<div style="margin-bottom:150px"><p><h3>#<a name="' + i.vnum.to_s + '">' + i.vnum.to_s + " " + i.room_name + "</h3></p>";
+      return_string << '<p>' + i.description + '</p>';
+      return_string << '<p>Exits: '
+      i.exits.each_with_index {|exit, index|
+        if exit == 0
           next;
         end
-        return_string << '<a href="#' + room.to_s + '">' + room.to_s + "</a> "
+        case index
+        when 0
+          return_string << 'North to '
+        when 1
+          return_string << 'East to '
+        when 2
+          return_string << 'South to '
+        when 3
+          return_string << 'West to '
+        when 4
+          return_string << 'Up to '
+        when 5
+          return_string << 'Down to '
+        end
+        return_string << '<a href="#' + exit.to_s + '">' + exit.to_s + "</a> "
       }
-      return_string << "</p>";
+      return_string << "</p></div>";
     }
     return return_string;
   end
