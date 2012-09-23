@@ -1,1 +1,3 @@
-A little Ruby program intended to parse old MUD area files.
+Originally a little Ruby program intended to parse old MUD area files.
+
+Now a small Sinatra app that loads and displays them with links between the rooms.

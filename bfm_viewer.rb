@@ -28,6 +28,9 @@ class GameWorld
       return_string << "<p>" + i.description + "</p>";
       return_string << "<p>Exits: "
       i.exits.each {|room|
+        if room == 0
+          next;
+        end
         return_string << '<a href="#' + room.to_s + '">' + room.to_s + "</a> "
       }
       return_string << "</p>";
@@ -38,7 +41,7 @@ class GameWorld
   def read_area
     content = "";
     reading_rooms = false;
-    areaFile = File.new("ravens.are", "r");
+    areaFile = File.new("./area/ravens.are", "r");
     if areaFile
       #IO.foreach("ravens.are") { |line| @area << line }
       IO.foreach(areaFile) { |line| @area << line }
