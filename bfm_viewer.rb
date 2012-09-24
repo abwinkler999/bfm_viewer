@@ -33,19 +33,19 @@ class GameWorld
         end
         case index
         when 0
-          return_string << 'North to '
+          return_string << '<span class="exit">North to '
         when 1
-          return_string << 'East to '
+          return_string << '<span class="exit">East to '
         when 2
-          return_string << 'South to '
+          return_string << '<span class="exit">South to '
         when 3
-          return_string << 'West to '
+          return_string << '<span class="exit">West to '
         when 4
-          return_string << 'Up to '
+          return_string << '<span class="exit">Up to '
         when 5
-          return_string << 'Down to '
+          return_string << '<span class="exit">Down to '
         end
-        return_string << '<a href="#' + exit.to_s + '">' + exit.to_s + "</a> "
+        return_string << '<a href="#' + exit.to_s + '">' + exit.to_s + "</a></span>"
       }
       return_string << "</p></div>";
     }

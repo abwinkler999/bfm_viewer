@@ -1,9 +1,24 @@
+body {
+  background-color:lightGrey;
+}
 div {
+  font-family:Oxygen Mono, Georgia;
+  background-color:ghostWhite;
   width:800px;
   padding-left:20px;
   padding-right:20px;
-  margin-left:80px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-left:200px;
   margin-bottom:100px;
   border-style:solid;
   border-width:2px
+}
+
+div h3 {
+  font-family:Georgia;
+}
+
+.exit{
+  margin-left:30px;
 }
