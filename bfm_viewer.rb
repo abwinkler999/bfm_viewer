@@ -11,14 +11,25 @@ end
 class GameWorld
   
   def initialize
-    @area = Array.new;
     @room_section = Array.new;
     @rooms = Array.new;
   end
   
   def load_ALL_the_areas
+    masterReturnString = ""
+    Dir.foreach("area") { |some_area|
+      if some_area.include? ".are" # only mud areas, please
+        #current_areaFile = File.new(some_area);
+        masterReturnString << load_an_area("area/" + some_area)
+      end
+    }
+    return masterReturnString
+  end
+  
+  def load_an_area(currentAreaFile)
     # begin
-    read_area; # load in file
+    @area = Array.new;
+    read_area(currentAreaFile); # load in file
     isolate_rooms; # excerpt out rooms section of file
     read_rooms; # go through isolate and pull out all rooms
     # end ...until we run out of .are files in the directory.
@@ -52,10 +63,9 @@ class GameWorld
     return return_string;
   end
   
-  def read_area
-    content = "";
+  def read_area(currentAreaFile)
     reading_rooms = false;
-    areaFile = File.new("./area/ravens.are", "r");
+    areaFile = File.new(currentAreaFile);
     if areaFile
       #IO.foreach("ravens.are") { |line| @area << line }
       IO.foreach(areaFile) { |line| @area << line }
@@ -125,18 +135,19 @@ class GameWorld
     #  ~
     #  ~
     #  0 0 3036
-      $stdout << "Beginning an exit for room " + thisRoom.vnum.to_s + "\n\r"; 
+      $stdout << "Attempting to load exit for room " + thisRoom.vnum.to_s + "\n\r"; 
       begin # scanning for exits loop
         read_line = "";
         read_line << @room_section.shift; #D2
         $stdout << "D?  " + read_line + "\n\r";
         if read_line.chomp == "S" # handling nonexit data
           break; # ran out of exits
-        elsif read_line.chomp[0] == "M" # I don't even remember what these are
+        elsif read_line.chomp[0] == "M" # Mana/healing rate bonuses
+          $stdout << "Skipping mana/healing rates in room " + thisRoom.vnum.to_s + "\n\r"
           next; #carry on
         elsif read_line.chomp == "E" #extended room description!  ack
           #bugger these things
-          $stdout << "stupid ed";
+          $stdout << "There's an extended room description here.\n\r";
           edOver = false;
           @room_section.shift; # read and discard edesc name
           
@@ -150,7 +161,7 @@ class GameWorld
         exitNum = Integer(read_line[1]);  #i.e. the "2"
         2.times {@room_section.shift} # 2x ~
         read_line = @room_section.shift.chomp! #0 0 3036
-        if (read_line[0] != "0" && read_line[0] != "1" && read_line[0] != "2")# might have exit description, feh, skip line
+        if (read_line[0] != "0" && read_line[0] != "1" && read_line[0] != "2" && read_line[0] != "9" && read_line[0..1] != "AB")# might have exit description, feh, skip line
           $stdout << "Had to skip " + read_line;
           read_line = @room_section.shift.chomp!
         end
@@ -160,12 +171,12 @@ class GameWorld
         $stdout << "Inserting at " + exitNum.to_s + " vnum " + read_line[-4, 4] + "\n\r" 
         thisRoom.exits[exitNum] = Integer(read_line[-4, 4]) #cheating -- not all vnums 4 digits
       end until false # scanning for exits loop
-      $stdout << "Finished reading exits for " + thisRoom.vnum.to_s
+      $stdout << "Finished reading exits for " + thisRoom.vnum.to_s + "\n\r"
      
       @rooms << thisRoom;
       
     end until false # main reading loop
-    $stdout << "Finished reading rooms.  There were " + roomsCounter.to_s + " rooms in this area."
+    $stdout << "Finished reading rooms.  There were " + roomsCounter.to_s + " rooms in this area.\n\r"
   end # read_rooms method
 end #class
 

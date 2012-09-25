@@ -1,0 +1,470 @@
+#AREADATA
+Name Byhampton Residence~
+Builders Dionyza Anthea~
+VNUMs 1175 1199
+Credits {HOMES} Dionyza Byhampton Residence~
+Security 1
+Deathroom 1
+Flags 1
+End
+
+
+
+#MOBILES
+#1175
+ernst bartender man human~
+Ernst the bartender~
+Ernst the bartender pulls the drafts at the Reeve & Poacher.
+~
+A balding and portly gentleman, Ernst appears jovial and full of mirth as
+he works the many taps which line the bar of the 'Poacher.  He's dressed in
+a simple cotton shirt and pants, and wears a thick, rough-woven apron,
+striped in green and white, and featuring an embroided picture of the
+signboard of the tavern.  
+~
+human~
+AB 0 0 0
+15 21 31d10+225 30d10+225 5d5+2 punch
+5 5 5 50
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#1175
+table large wooden round~
+a large round wooden table~
+A large wooden table is surrounded by a dozen or so chairs.~
+wood~
+furniture 0 0
+12 10000 BDG 103 103
+1 0 0 P
+#1176
+chair overstuffed leather brown~
+an overstuffed leather chair~
+A pair of large, overstuffed brown leather chairs sit in the corner.~
+unknown~
+furniture 0 0
+2 1000 EHK 100 100
+1 0 0 P
+#1177
+ale dark pint thick~
+a pint of dark, thick ale~
+A large glass contains a pint of thick, dark ale.~
+unknown~
+drink NU AO
+8 8 'ale' 0 0
+1 0 7 P
+#1178
+mug beer wicked reeve~
+a mug of Wicked Reeve beer~
+A hefty ceramic mug is filled with a very bitter, black beer.~
+unknown~
+drink NU AO
+8 8 'beer' 0 0
+1 0 6 P
+#1179
+mead honey golden gold cup~
+a cup of honey-gold mead~
+A cup is filled with golden-coloured honey mead.~
+unknown~
+drink NU AO
+8 8 'mead' 0 0
+1 0 8 P
+#1180
+table walnut wood chair~
+a small, round table~
+A small, round table of walnut is centered neatly in this room.~
+unknown~
+furniture 0 0
+4 1000 DE 100 100
+1 0 1 P
+#1181
+bench wooden~
+a stout wooden bench~
+A stout wooden bench rests below the branches of a large, looming tree.~
+unknown~
+furniture 0 0
+2 1000 E 100 100
+1 0 0 P
+#1182
+couch table low~
+an off-white couch~
+An off-white couch is decorated with small blue and rose-coloured flowers.~
+unknown~
+furniture 0 P
+3 1000 EHK 100 100
+1 0 0 P
+#1183
+desk chair large~
+a large wooden desk~
+A large wooden desk stands against the east wall, covered in papers.~
+unknown~
+furniture 0 P
+1 1000 D 105 105
+0 0 0 P
+#1184
+bed peach wicker frame~
+a wicker-framed bed~
+A large wicker-framed bed is made up with peach-coloured linens.~
+unknown~
+furniture 0 P
+2 1000 EHK 105 105
+1 0 0 P
+#1185
+wardrobe large wooden~
+a large wooden wardrobe~
+A large wooden wardrobe stands in the corner.~
+unknown~
+container 0 P
+1000 AC 0 100 100
+1 0 0 P
+#1186
+Orianna key house brass~
+a brass key on a slender, knotted chain~
+A brass key on a slender, knotted chain is engraved with the letters O.L.~
+brass~
+room_key 0 A
+0 0 0 0 0
+1 0 10 P
+#0
+
+
+
+#ROOMS
+#1175
+The Reeve & Poacher~
+This very conservatively-decorated tavern sits right off the main
+thoroughfare through the small village of Byhampton.  Tidy and well-stocked,
+it appears to lack no detail, so much so, that it would appear, if it
+weren't currently busy, to be a rather fine example of a small town tavern. 
+Large signs are plastered upon the wood panelled walls, each advertising a
+different type of ale or lager; upon the stone walls, various shelves have
+been erected, and household wares are displayed upon them.  A few large
+swinging candleabras hang overhead, dozens of flickering lights illuminating
+the room.  
+ 
+The main taproom lies to the east, though from the number of tables in this 
+section of the tavern, it would appear the clientle gather here, after 
+having fetched their drinks.
+~
+0 8 0
+D0
+~
+~
+0 0 3100
+D1
+~
+~
+0 0 1176
+M 105 H 105
+S
+#1176
+The taproom of the Reeve & Poacher~
+This rather low and squat room sits down around a foot from the main room
+of the Reeve & Poacher, with the bar being even farther sunken down.  Large
+stout wooden casks line the walls, all connected by bright brass fittings to
+a series of pipes which run across the bottoms of the walls, and over
+towards the eastern wall and main bar.  A few scattered leather chairs
+surround low tables upon which rest a few books and papers, each housing a
+glowing lamp.  This section of the 'Poacher seems quieter than the outlying
+room, save for the traffic passing through.  
+ 
+A large signboard, depicting a man dressed as a member of the clergy, 
+hiding a bow (clumsily) beneath his robes, is proudly displayed above
+the main taps.
+~
+0 8 0
+D3
+~
+~
+0 0 1175
+M 105 H 105
+S
+#1177
+The Scores~
+Byhampton seems impossibly tidy; unlike the majority of similar towns,
+every building is freshly-painted and the townsfolk seem uniformly
+prosperous.  The majority of buildings in Byhampton seem to be
+rooming-houses or country taverns, and there are an unusually large number
+of well-dressed ladies and gentlemen lounging about.  It seems that
+Byhampton is a largely artificial retreat for world-weary sophisticates, who
+come to the country to escape the pressures of city life, only to bring with
+them the things they sought to flee.  This small, cobbled street leads
+between rows of fine houses and quaint cottages, wide enough for three
+carriages, and lined with tidy green lawns and various flowerbeds.  The
+Scores continue to the east, and intersect the Southquarter Pike to the
+west.  
+~
+0 0 1
+D1
+~
+~
+0 0 1178
+D3
+~
+~
+0 0 3099
+S
+#1178
+The Scores~
+Byhampton seems impossibly tidy; unlike the majority of similar towns,
+every building is freshly-painted and the townsfolk seem uniformly
+prosperous.  The majority of buildings in Byhampton seem to be
+rooming-houses or country taverns, and there are an unusually large number
+of well-dressed ladies and gentlemen lounging about.  It seems that
+Byhampton is a largely artificial retreat for world-weary sophisticates, who
+come to the country to escape the pressures of city life, only to bring with
+them the things they sought to flee.  This small, cobbled street leads
+between rows of fine houses and quaint cottages, wide enough for three
+carriages, and lined with tidy green lawns and various flowerbeds.  The
+Scores bends here, heading west and north.  
+~
+0 0 1
+D0
+~
+~
+0 0 1179
+D3
+~
+~
+0 0 1177
+S
+#1179
+The Scores~
+Byhampton seems impossibly tidy; unlike the majority of similar towns,
+every building is freshly-painted and the townsfolk seem uniformly
+prosperous.  The majority of buildings in Byhampton seem to be
+rooming-houses or country taverns, and there are an unusually large number
+of well-dressed ladies and gentlemen lounging about.  It seems that
+Byhampton is a largely artificial retreat for world-weary sophisticates, who
+come to the country to escape the pressures of city life, only to bring with
+them the things they sought to flee.  This small, cobbled street leads
+between rows of fine houses and quaint cottages, wide enough for three
+carriages, and lined with tidy green lawns and various flowerbeds.  The
+houses here gradually become larger, with more lawn separating them, and
+ornate gates stand open before each small estate.  The Scores continues to
+the east and south.  
+~
+0 0 1
+D1
+~
+~
+0 0 1180
+D2
+~
+~
+0 0 1178
+S
+#1180
+The Scores~
+Byhampton seems impossibly tidy; unlike the majority of similar towns,
+every building is freshly-painted and the townsfolk seem uniformly
+prosperous.  The majority of buildings in Byhampton seem to be
+rooming-houses or country taverns, and there are an unusually large number
+of well-dressed ladies and gentlemen lounging about.  It seems that
+Byhampton is a largely artificial retreat for world-weary sophisticates, who
+come to the country to escape the pressures of city life, only to bring with
+them the things they sought to flee.  This small, cobbled street leads
+between rows of fine houses and quaint cottages, wide enough for three
+carriages, and lined with tidy green lawns and various flowerbeds. 
+Fenced-in lawns and larger houses line this section of the Scores, though a
+few cottages still dot the streetside.  
+ 
+To the south, a modest stone cottage is situated between two larger, imposing
+structures.
+~
+0 0 1
+D2
+~
+~
+1 1186 1181
+D3
+~
+~
+0 0 1179
+S
+#1181
+A small cottage~
+Just off the Scores, this small cottage is situated between two larger
+buildings that flank it on either side.  No matter how small, it seems tidy,
+as all things in Byhampton appear, and rather comfortable.  
+ 
+The entry hall in which you stand is modestly decorated, with only a few
+larger green plants lining the wall beside the door.  The western wall houses
+a framed mirror, making the space appear larger than it actually is.  Rooms
+lie to the east and south, each appearing better-furnished, and more
+lived-in than this small hallway.
+~
+0 8 0
+D0
+~
+~
+1 1186 1180
+D1
+~
+~
+0 0 1182
+D2
+~
+~
+0 0 1183
+S
+#1182
+The tea room~
+This very open and airy room features a pair of large glass doors set
+into the southern wall, allowing in a great deal of light.  A few highback
+chairs are gathered around a small table set directly in the middle of the
+room, centered just above a round stone of black marble.  The walls are
+papered in a soft yellow shade, and boarded by cheery white molding near the
+ceiling and floor, and a wide stripe of stencilled flowers and ivy which run
+about the middle of the walls.  A large cabinet stands in the northeast
+corner of the room, it's glass shelves filled with china and antique
+glassware.  A hallway leads off to the west; a set of large doors leads
+south into an open courtyard.  
+~
+0 8 0
+D2
+~
+~
+1 0 1184
+D3
+~
+~
+0 0 1181
+S
+#1183
+A tidy parlor~
+This small parlor houses a scant few, comfortable-looking chairs, and one
+larger couch, which sets low to the floor, and ajoining to a small wicker
+table.  The walls are sectioned off top and bottom, the top half being
+covered in blue striped papers, and the bottom, a solid, deep blue color,
+making the room darker than it actually is.  A large wooden door is set into
+the eastern wall, leading out towards a small garden courtyard, while a set
+of stairs wind up between two south-looking windows.  A few lanterns are set
+off from the walls, giving off a soft, white light.  
+~
+0 8 0
+D0
+~
+~
+0 0 1181
+D1
+~
+~
+1 0 1184
+D4
+~
+~
+0 0 1185
+S
+#1184
+A small courtyard garden~
+Flanked on two sides by the exterior walls of the cottage, this small
+courtyard garden is rather shady and cool.  A large tree hangs overhead,
+looming in this direction from the estate beyond, and drooping down over the
+eastern stone fence.  A small path is plotted out, being filled with gravel,
+which passes by numerous small plants and a few shrubs, including two very
+young rosebushes.  A large set of glass doors lead north into a brightly
+colored room, while a stout oak door leads west into another portion of the
+house.  
+~
+0 0 1
+D0
+~
+~
+1 0 1182
+D3
+~
+~
+1 0 1183
+S
+#1185
+The library~
+This small room houses very little in the way of furnishing; a large desk
+stands against the western wall, just near a window which overlooks the
+garden below.  It is covered in papers and books, various pots of ink, and
+perhaps a dozen different pens.  The walls are obscured from plain sight by
+large bookcases, which run the entire length of the room, each having seven
+shelves encased in glass; from behind the small doors, perhaps hundreds of
+books, scrolls, and other collected writings, and writing instruments are
+either diplayed or have been amassed.  The room is lit by way of several
+lanterns, and a few odd candles, whose wax has hardened in puddled spots
+atop the desk, and in places beneath where they are set on the floor.  A
+staircase leads down into a parlor room, while a thin wooden door stands
+ajar to the north.  
+~
+0 8 0
+D0
+~
+~
+1 0 1186
+D5
+~
+~
+0 0 1183
+S
+#1186
+A bedroom~
+A set of large windows look out over the Scores, and this quaint district
+of Byhampton from the relative comfort of this small bedroom.  A few books
+are scattered about, having overflowed from the tiny nightstand which is
+situated next to a small wicker-framed bed.  A large wardrobe stands
+cornered to the northwest, opposite the bed and stand, and a vanity dresser
+stands next to that.  The walls are colored in a light peach, matching the
+light cotton curtains, and heavy linens upon the bed.  The dresser is devoid
+of any personal belongings, save for that of a brush and mirror.  A basin
+and pitcher stands near that, filled with water.  A door leads south into a
+room cramped with bookcases.  
+~
+0 8 0
+D2
+~
+~
+1 0 1185
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 1180 2 2
+D 0 1181 0 2
+D 0 1182 2 1
+D 0 1183 1 1
+D 0 1184 0 1
+D 0 1184 3 1
+D 0 1185 0 1
+D 0 1186 2 1
+O 0 1175 0 1175
+O 0 1176 0 1175
+O 0 1176 0 1176
+M 1 1175 1 1176 1
+G 0 1177 0
+G 0 1178 0
+G 0 1179 0
+O 0 1180 0 1182
+O 0 1182 0 1183
+O 0 1181 0 1184
+O 0 1183 0 1185
+O 0 1184 0 1186
+O 0 1185 0 1186
+S
+
+
+
+#SHOPS
+1175 0 0 0 0 0 105 95 9 23
+0
+
+
+
+#$
