@@ -34,6 +34,7 @@ class GameWorld
     read_rooms; # go through isolate and pull out all rooms
     # end ...until we run out of .are files in the directory.
     return_string = "";
+    @rooms.sort!
     @rooms.each { |i| 
       return_string << '<div><p><h3>#<a name="' + i.vnum.to_s + '">' + i.vnum.to_s + " " + i.room_name + "</h3></p>";
       return_string << '<p>' + i.description + '</p>';
