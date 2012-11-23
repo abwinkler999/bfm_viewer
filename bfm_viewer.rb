@@ -1,15 +1,41 @@
 require 'sinatra'
 
 class Room
-  attr_accessor :vnum, :room_name, :description, :exits
+  attr_accessor :vnum, :room_name, :description, :exits, :eds
   def initialize
     @vnum = 0;
     @exits = [0,0,0,0,0,0];
+    @eds = Hash.new;
   end
 end
 
 class GameWorld
   
+  def get_the_last_number(roomLine)
+    returnString = ""
+    roomLine.each_line(' ') { |lineSegment|
+      returnString = lineSegment;
+    }
+    returnString;
+  end
+  
+  def decipher_exit(exit)
+    case exit
+    when 0
+      return "North"
+    when 1
+      return "East"
+    when 2
+      return "South"
+    when 3
+      return "West"
+    when 4
+      return "Up"
+    when 5
+      return "Down"
+    end
+  end
+      
   def initialize
     @room_section = Array.new;
     @rooms = Array.new;
@@ -34,7 +60,7 @@ class GameWorld
     read_rooms; # go through isolate and pull out all rooms
     # end ...until we run out of .are files in the directory.
     return_string = "";
-    @rooms.sort!
+    #@rooms.sort!
     @rooms.each { |i| 
       return_string << '<div><p><h3>#<a name="' + i.vnum.to_s + '">' + i.vnum.to_s + " " + i.room_name + "</h3></p>";
       return_string << '<p>' + i.description + '</p>';
@@ -43,23 +69,17 @@ class GameWorld
         if exit == 0
           next;
         end
-        case index
-        when 0
-          return_string << '<span class="exit">North to '
-        when 1
-          return_string << '<span class="exit">East to '
-        when 2
-          return_string << '<span class="exit">South to '
-        when 3
-          return_string << '<span class="exit">West to '
-        when 4
-          return_string << '<span class="exit">Up to '
-        when 5
-          return_string << '<span class="exit">Down to '
-        end
+        return_string << '<span class="exit">' + decipher_exit(index) + ' to '
         return_string << '<a href="#' + exit.to_s + '">' + exit.to_s + "</a></span>"
       }
-      return_string << "</p></div>";
+      return_string << '</p>'
+      if i.eds.empty? == false
+        return_string << '<p>Extra descriptions: ';
+        i.eds.each {|key, value|
+          return_string << '<span class="eds" title="' + value + '">' + key + "</span>";
+        }
+      end
+      return_string << '</div>';
     }
     return return_string;
   end
@@ -147,19 +167,28 @@ class GameWorld
           $stdout << "Skipping mana/healing rates in room " + thisRoom.vnum.to_s + "\n\r"
           next; #carry on
         elsif read_line.chomp == "E" #extended room description!  ack
-          #bugger these things
+          #just like room descriptions
           $stdout << "There's an extended room description here.\n\r";
+          i = 0; #REMOVE
           edOver = false;
-          @room_section.shift; # read and discard edesc name
-          
+          ed_desc = "";
+          ed_name = @room_section.shift.chomp.delete "~"
+          $stdout << "Recorded extended description called: " + ed_name + "\n\r";
           begin #read in lines, throw them away
-            ; # do nothing
-          end until @room_section.shift.chomp == "~"
-          
+            read_line = @room_section.shift;
+            i = i + 1;
+            if read_line.chomp == "~"
+              break;
+            end
+            ed_desc << read_line;
+          #end until false # end reading description lines loop
+          end until (i > 25)
+          thisRoom.eds[ed_name] = ed_desc;
+          $stdout << "Description was: " + ed_desc + "\n\r";
           next; #keep going looking for exits
         end # handling nonexit data
-        $stdout << "OK, valid exit in direction " + read_line[1] + "\n\r"
         exitNum = Integer(read_line[1]);  #i.e. the "2"
+        $stdout << "OK, valid exit in direction " + decipher_exit(exitNum) + "\n\r"
         2.times {@room_section.shift} # 2x ~
         read_line = @room_section.shift.chomp! #0 0 3036
         if (read_line[0] != "0" && read_line[0] != "1" && read_line[0] != "2" && read_line[0] != "9" && read_line[0..1] != "AB")# might have exit description, feh, skip line
@@ -168,9 +197,10 @@ class GameWorld
         end
         #read_line.slice!(0..5);
         #thisRoom.exits[exitNum] = Integer(read_line);
-        $stdout << "Looks like exit is to " + read_line[-4,4] + "\n\r"
-        $stdout << "Inserting at " + exitNum.to_s + " vnum " + read_line[-4, 4] + "\n\r" 
-        thisRoom.exits[exitNum] = Integer(read_line[-4, 4]) #cheating -- not all vnums 4 digits
+        $stdout << "Looks like exit is to " + get_the_last_number(read_line) + "\n\r"
+        $stdout << "Inserting at " + decipher_exit(exitNum) + " vnum " + get_the_last_number(read_line) + "\n\r"
+        thisRoom.exits[exitNum] = Integer(get_the_last_number(read_line))
+        
       end until false # scanning for exits loop
       $stdout << "Finished reading exits for " + thisRoom.vnum.to_s + "\n\r"
      
