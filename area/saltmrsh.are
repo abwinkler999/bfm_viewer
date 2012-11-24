@@ -1,0 +1,1373 @@
+#AREADATA
+Name Saltmarshes~
+Builders Uno~
+VNUMs 4350 4399
+Credits { 2 32} Uno     Saltmarshes~
+Security 9
+Deathroom 1
+Flags 1
+End
+
+
+
+#MOBILES
+#4350
+brindle hound~
+the brindle hound~
+A stiff-bristled brindle hound with dripping fangs lunges at you!
+~
+The brindle hound is a species of wild dog that inhabits marshes and damp
+forests.  Brindle hounds are large dog-like creatures that can see in the
+dark, and have excellent hearing and sense of smell.  Brindle hounds have
+fur of short wiry bristles, and a mane of extra long bristles about the neck
+and chest.  Oversized fangs make brindle hounds menacing, and they can
+sometimes spit venom at prey, although it is only a mild irritant.  
+~
+wolf~
+AFGH JQZ 0 0
+5 11 11d10+25 10d10+25 1d5+4 bite
+65 65 65 80
+FH 0 0 0
+stand stand male 0
+AGV ACDEFJKQV medium unknown
+#4351
+banded anaconda~
+the banded anaconda~
+A massive banded anaconda slithers up and tried to crush you!
+~
+The anaconda is a giant snake that lives its entire life in swampy and
+marshy regions.  The banded anaconda tends to makes it home near bodies of
+salt water.  The anaconda is as wide about the body as your torso, and is
+easily four or five times onger than you are tall.  This massive snake could
+crush you and eat you whole in only a matter of moments.  
+~
+snake~
+AFGH 0 0 0
+6 12 13d10+36 12d10+36 2d5+0 crush
+59 59 59 77
+0 0 L I
+stand stand either 0
+AGXYc ADEFKLQVX medium unknown
+#4352
+red kraken~
+the red kraken~
+A tangled mess of red tentacles reaches out to attack you!
+~
+The kraken is half monster, and half plant.  Consisting mostly of an
+uncertain number of tentacles, plantlike, but sinewy, and lined with suction
+cups and claws, the kraken is very dangerous.  The red kraken is a smaller
+cousin to the ocean variety found in deeper and cooler waters.  Somewhere
+within that mass of writhing, grappling tentacles is a razor-sharp beak that
+could tear your meat from your bones.  
+~
+water fowl~
+AFG LTb 0 0
+7 13 15d10+49 14d10+49 3d4+0 suction
+53 53 53 74
+0 0 R 0
+stand stand none 0
+AGW ACDEFHKP medium unknown
+#4353
+frog man hideous~
+the hideous frog-man~
+A hideous frog-man leaps from beneath the water to strike at you!
+~
+The frog man is some cruel mutation left behind from arcane battles
+fought long ago.  The frog-men were created to guard swampy strongholds, and
+were left to fend for themselves when their masters were destroyed or had
+left on a whim.  They are humanoid in shape and size, but that is where the
+similarity ends.  He has a definite frog face, with bulging eyes,
+nictitating membranes, wide nose, and large gaping mouth.  Gangly arms and
+legs propel him through the water with the ease provided by webbed hands and
+feet.  He carries crude spear, which he aims directly at your face.  
+~
+kobold~
+AGH JQ 0 0
+7 13 15d0+49 14d0+49 2d5+2 none
+53 53 53 74
+0 0 L C
+stand stand male 0
+ABHMV ABCDEFGHIJKQ medium unknown
+#4354
+gnat biting insect bug~
+the annoying gnat~
+A small biting insect buzzes incessantly around your head.
+~
+The gnat is too small to see.  There are only two ways you can detect it.
+This little bug has a very distinctive and annoying buzzing sound, high
+pitched and whiny, as it flies very close to your ear.  You can also tell
+where the gnat is buy its ferocious appetite, which casues it to feed on
+just about anything that is remotely animal-based, and still living.  Sound
+and touch are your only indicators for finding this annoying pest.  
+~
+bat~
+AFG JQT 0 0
+1 7 3d10+1 2d10+1 1d5+-3 bite
+89 89 89 92
+FH 0 0 S
+stand stand none 0
+AGHMV ABCDEFGHIJKP medium unknown
+#4355
+viper slug~
+the viper slug~
+A large viper slug spits venom at its prey it a long poisonous stream.
+~
+The viper slug is a long grey blob of slimy flesh with two slender eye
+stalks at one end.  It crawls slowly along the bottom of the marsh, and
+sometimes up along the grassy hillocks in order to find smaller creatures to
+feed on.  The viper slug is about the size of a small dog, making it
+dangerous enough to merit a close eye, lest it try and spit its poisonous
+venom at you.  
+~
+centipede~
+AGH JZ 0 0
+4 10 9d10+16 8d10+16 1d5+2 acbite
+71 71 71 83
+0 0 FI E
+stand stand none 0
+ABGO ACK medium unknown
+#4356
+hummock troll~
+the hummock troll~
+A large troll living on this hummock is not pleased to see you here.
+~
+The troll is long of limb and quite wide in the chest.  He is covered by
+leather-thick skin, and matted fur.  He wears simple reed-woven clothes, and
+has the odd buckle made out of metal.  A large pot is crammed on his head in
+immitation of a helmet, and only fits because it has split up the side.  He
+is quite large, and seems fairly unfriendly.  
+~
+troll~
+ABF FJac 0 0
+6 12 13d10+36 12d0+36 3d3+1 slash
+59 59 59 77
+D 0 BE HK
+stand stand male 30
+ABHMV ABCDEFGHIJKUV medium unknown
+#0
+
+
+
+#OBJECTS
+#4350
+twisted gnarled tree~
+the nasty, gnarled tree~
+A twisted and gnarled tree hunches over the forest trail here.~
+unknown~
+container 0 P
+0 0 0 50 0
+0 300 0 P
+#4351
+vine twisty crawling~
+the crawling vine~
+A twisty, ground-hugging vine grapples onto a tree trunk here.~
+unknown~
+trash 0 P
+0 0 0 0 0
+1 0 0 P
+#4352
+scab melon fruit~
+the scabmelon~
+A large greenish brown melon with oozing pustules is attached to the vine.~
+unknown~
+food 0 AP
+0 0 0 A 0
+0 3 1 P
+#4353
+tree malevolent~
+the malevolent-looking tree~
+A twisted tree with a seemingly malevolent face in the trunk is here.~
+unknown~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+#4354
+frog spear~
+the frog-spear~
+A crude spear made of bamboo and a sharpened stone is on the ground here.~
+wood~
+weapon S AN
+spear 3 7 stab 0
+6 3 33 P
+A
+19 2
+#4355
+pot helmet~
+an old, split cook-pot~
+A battered old cooking pot is on the ground here.~
+iron~
+armor 0 AE
+3 1 2 1 0
+6 3 21 P
+#4356
+troll axe~
+the hummock troll axe~
+A large and dull axe is on the ground here.~
+unknown~
+weapon 0 AN
+axe 3 7 chop 0
+6 3 43 P
+A
+18 3
+#4357
+reagent poison aelm spade leaves plant~
+a leaflet of poison aelm~
+A small plant with reddish, spade-shaped leaves pokes up from the sodden ground.~
+unknown~
+reagent 0 A
+AC 0 0 0 0
+1 1 0 P
+#0
+
+
+
+#ROOMS
+#4350
+Saltmarsh Forest~
+You are trampling among the grotesque and misshapen trees in a dark and
+foggy forest.  The boles of the trees are extremely thick, yet they have
+very few branches.  What branches these trees do have are gnarled and
+twisted, with large black leaves that tend to blot out most of the sky.  A
+pervading smell of rot and decay make you think that death is a common and
+everyday occurence around here.  
+~
+0 1 3
+D0
+~
+~
+0 0 4351
+D2
+~
+~
+0 0 4397
+S
+#4351
+Saltmarsh Forest~
+You are walking down a narrow path that leads through and choked and
+dying forest.  Some unseen force has twisted the trees in the forest such
+that their trunks are bulbuous and knotted, and their branches are gnarled
+ugly.  There seems to be an unusual amount of moisture around here for a
+forest of this size.  Small pools of stagnant water collect in depressions,
+while tendrils of mist waft through the forest, pushed by some unfelt breath
+of wind.  
+~
+0 1 3
+D1
+~
+~
+0 0 4352
+D2
+~
+~
+0 0 4350
+S
+#4352
+Saltmarsh Forest~
+Trees loom tall and dark above you as you make your way through this
+unsettling forest.  The sky is obscured by large and twisted branches that
+hold black leaves.  Stagnant water collects in small pools everywhere, and
+the scents of rot, decay and death hand heavy in the air.  Every once in a
+while, you hear the heavy shufflings of some forest dweller, but you can't
+cudgel your mind for the type of creature that is heavy enough to make those
+sounds.  
+~
+0 0 3
+D1
+~
+~
+0 0 4353
+D3
+~
+~
+0 0 4351
+S
+#4353
+Saltmarsh Forest~
+You are wandering on a small path that winds between the stunted and
+gnarled trees here that ring a large marshy swamp.  The trees are wide but
+not too tall, making them seem imposing here as you walk among them.  There
+are smells of decay and rot which billow up from the carpet of the forest
+floor as you walk along.  There is scant underbrush here in the forest, and
+what little there is seems to be oversized mushrooms, choking vines, and odd
+shaped, discoloured melons.  
+~
+0 1 3
+D0
+~
+~
+0 0 4354
+D3
+~
+~
+0 0 4352
+S
+#4354
+Saltmarsh Forest~
+You are following a dark forest path that winds its way around stunted
+and gnarled trees.  Most of the trees display a wide variety of leaves,
+mostly rotten and withered.  There is not much underbrush here in the damp
+forest, save for thick clinging vines, large purple and green mushrooms, and
+an odd sort of ground vegetation that has large, scabrous melon fruits
+growing on it.  
+~
+0 1 3
+D0
+~
+~
+0 0 4355
+D2
+~
+~
+0 0 4353
+S
+#4355
+Saltmarsh Forest~
+You are on a dark and foggy trail that cuts through a forest out of
+nightmare.  The trees are all stunted and sick looking, and there is hardly
+any vegetation on the ground.  Pools of stagnant water collect in
+depressions, and the stink of rot and death is in the air.  There is likely
+a large source of water nearby because there is an everpresent fog here that
+rolls in and out of the trunks of the trees, casting an ominous light on
+this place.  
+~
+0 1 3
+D1
+~
+~
+0 0 4356
+D2
+~
+~
+0 0 4354
+D3
+~
+~
+0 0 4365
+S
+#4356
+Saltmarsh Forest~
+You are walking throuh a dim forest filled with trees pulled straight
+from a ghoulish nightmare.  Gnarled branches reach for your head, and
+withered, rotted leaves rustle together with the sound of a snake shuffling
+off its own skin.  The path is damp and mucky, and there are pools of
+stagnant water that the path skirts every once in a while.  Thick mists
+skirl in from some unseen source of water, probably to the west, since there
+is a distinctive smell of brine and rot coming from that direction.  
+ 
+A path has been hacked through the marsh, leading east towards more solid
+ground.
+~
+0 1 3
+D0
+~
+~
+0 0 4357
+D1
+~
+~
+0 0 8412
+D3
+~
+~
+0 0 4355
+S
+#4357
+Saltmarsh Forest~
+You are walking through a hell-like forest that seems twisted by the evil
+thoughts of some unknown dreamer.  The trees seem to have ghoulish faces
+twisted right into their trunks, with eyes that constantly watch you.  There
+is scant cover on the forest floor, under the canopy of dark oily leaves. 
+What little vegetation does grow on the ground is covered by mushrooms of
+mottled browns and greys, and mosses that are dark and fibrous.  There is
+one species of vine that seems to do well here, and it has large oblong
+fruits covered with scabby pustules, emanating a smell that is quite
+distasteful.  
+~
+0 1 3
+D2
+~
+~
+0 0 4356
+D3
+~
+~
+0 0 4358
+S
+#4358
+Saltmarsh Forest~
+You are wandering around on a path that cuts through a twisted and ugly
+forest.  The trees are all stunted and unhealthy looking, with leaves that
+are either rotten or oily with some vegetation-type disease.  The mucky
+carpet of the forest is dotted with pools of stagnant water, from which rise
+the fetid odors of decay and decomposition.  Thick mists cling to your
+clothing and armor as you make you way through this forest fit for a
+ghoulish nightmare.  
+~
+0 1 3
+D0
+~
+~
+0 0 4359
+D1
+~
+~
+0 0 4357
+D3
+~
+~
+0 0 4368
+S
+#4359
+Saltmarsh Forest~
+You are on a path that leads through a dark and uninviting forest.  There
+do not seem to be any animals living anywhere close by, but there are plenty
+of twisted and gnarled trees, with interlocking branches, and leaves of an
+oily black colour.  Thick mists from some unseen source of water rise up
+from the forest floor and curl about you and the ugly trees.  Sometimes a
+shuffling sound from somewhere deep in the fog will make you start, but you
+are never able to discern what made the sound.  
+~
+0 1 3
+D0
+~
+~
+0 0 4360
+D2
+~
+~
+0 0 4358
+S
+#4360
+Saltmarsh Forest~
+The forest is dark and moist, and clings to you with the feel of some
+desperate animal.  Thick mists skirl about as you make your way along a
+narrow and sometimes difficult path through the stunted and gnarled trees. 
+Branches seem to rub together, making a creaking and moaning sound, yet
+there is no wind in evidence.  Odd melons that seem to grow on vines
+permeate this area.  The disgusting wild fruit seems to be covered in some
+sort of disease because it is scabbed over and oozing some sort of vile
+secretion.  
+~
+0 1 3
+D1
+~
+~
+0 0 2354
+D2
+~
+~
+0 0 4359
+D3
+~
+~
+0 0 4361
+S
+#4361
+Saltmarsh Forest~
+You are walking through a rotten forest with twisted and ugly trees. 
+There are thick mists which obscure your path as well as your vision, and
+pools of stagnant water and sucking mud which sometimes make footing
+treacherous.  Sometimes a loud barking howl will pierce the air, and a twig
+will snap when there are none underfoot that you could have walked on.  Odd
+vines with scabbrous melons cover the forest floor, while interlocked
+branches with oily black leaves block out most of the sky.  
+~
+0 1 3
+D0
+~
+~
+0 0 4362
+D1
+~
+~
+0 0 4360
+S
+#4362
+Saltmarsh Forest~
+You are in a damp and dark forest full of strange sounds and the scents
+of death and decay.  The trees are twisted and gnarled, as if some malignant
+hand had wrestled them until they were wound up and half destroyed. 
+Sometimes you think you can see the features of a malevolent face within the
+crusty bark of certain trees, as if they had eyes and were following your
+every move.  Thick fog slowly billows about, stirring up as you walk
+through, but seeming much heavier, and showing more resistance than fog
+normally would.  
+~
+0 1 3
+D0
+~
+~
+0 0 4363
+D2
+~
+~
+0 0 4361
+S
+#4363
+Saltmarsh Forest~
+You are on a narrow trail that leads through some of the ugliest and most
+intimidating forest you have ever seen.  The trees are twisted, with
+branches horribly gnarled and leaves of an oily black texture.  Moulds and
+fungi carpet the forest floor, avoiding the many small pools of stagnant
+water.  You have not seen much sign of forest wildlife, but there are many
+more sounds of movement audible than you can account for yourself.  
+~
+0 0 3
+D2
+~
+~
+0 0 4362
+D3
+~
+~
+0 0 4364
+S
+#4364
+Saltmarsh Forest~
+You are in a dark and moist forest, following a narrow path as it skirts
+between twisted and evil-looking trees.  The forest seems to hunch in on
+itself, while at the same time, offering a menacing breathing feeling as you
+travel through.  The forest floor is covered by mosses, moulds and various
+types of large mushrooms.  Stagnant pools of water collect moisture from the
+air, and dead plant material to give off an odor of rot and decay. 
+Somewhere there must be a large source of water, because there is a thick,
+clinging mist that seems to be climbing up the trees, as well as up your
+legs.  
+~
+0 1 3
+D0
+~
+~
+0 0 2575
+D1
+~
+~
+0 0 4363
+S
+#4365
+Great Saltmarsh~
+You are up to your waist in a dark and murky water.  A brackish smell of
+salt tickles your nose, and the water seems fairly bouyant.  Dead plant
+material swirls up as you wade through the marshy waters, and occaisionally
+a bubbling of noxious rotten gasses will rise to the surface of the water. 
+Clumps of seemingly dry land dot the marsh, with low marshy vegetation like
+mosses and saw grass growing on them.  
+~
+0 5 6
+D0
+~
+~
+0 0 4368
+D1
+~
+~
+0 0 4355
+D3
+~
+~
+0 0 4366
+S
+#4366
+Great Saltmarsh~
+You are wading through a large marsh of brackish water.  Up to your waist
+in the turbid, stagnant and filmy water, you slowly wade around, stirring up
+the thick layers of decaying plant material below.  A pervading smell of
+decay and fetid rot assails your nose, and there is no sweet breezes to be
+had here to cleanse the smell.  Large hummocks of seemingly dry land dot the
+surface of the marsh, covered with mosses and tough wiry grass.  There are
+numerous sucking weeds and tangly plants, all trying the trip you as you
+carefully make your way through the large salty marsh.  
+~
+0 1 6
+D0
+~
+~
+0 0 4369
+D1
+~
+~
+0 0 4365
+D2
+~
+~
+0 0 4376
+D3
+~
+~
+0 0 4367
+S
+#4367
+Great Saltmarsh~
+You are making your way through a large swampy area, that stretches out
+quite far in every direction.  The water is only about waist deep, so you
+can wade through, with only minor difficulty from the tangled and thick
+carpet of weeds at your knees.  Sometimes you think you can feel something
+slither out from underfoot, but you never really feel anything solid enough
+to have been able to slither away from you.  There is a foul smell of rot
+and decay, and it rises up anew with every step you take through this fetid
+and noxious swamp where nothing healthy seems to grow.  
+~
+0 1 6
+D0
+~
+~
+0 0 4370
+D1
+~
+~
+0 0 4366
+D2
+~
+~
+0 0 4375
+D3
+~
+~
+0 0 4372
+S
+#4368
+Great Salt Marsh~
+You are wading throuh the murky and viscous waters of an immense salt
+marsh.  The lowlands of water-filled marsh extend as far as you can see away
+to the north and west.  The water is about waste deep, and full of all
+manner of tanglesome weeds.  Tall and willowy reeds sway in your wake, and
+some of the supposedly dry hummocks of grass and moss seem to bob slightly,
+as if they were floating here in the marsh.  Your tread also stirs up the
+thick carpet of dead plant material covering the floor fot he saltmarsh,
+causing bubbles of rotten gas to percolate up to the surface and blister
+open with sickening fumes.  
+~
+0 5 6
+D1
+~
+~
+0 0 4358
+D2
+~
+~
+0 0 4365
+D3
+~
+~
+0 0 4369
+S
+#4369
+Great Saltmarsh~
+You are making your way through a great briny marshland.  The water is
+brackish and salty, and does not support much life, save for the troublesome
+weeds and tangly plants you have to wade through.  Every so often a large
+hummock of seemingly dry land, covered in wiry grass and mosses, will bob
+slightly indicating that it is floating and none too stable.  The reek of
+death and fetid decay is heavy in your nose, and you sometimes have to pause
+to breathe through your mouth in order to keep from becoming sick from the
+smell.  
+~
+0 1 6
+D0
+~
+~
+0 0 4374
+D1
+~
+~
+0 0 4368
+D2
+~
+~
+0 0 4366
+D3
+~
+~
+0 0 4370
+S
+#4370
+Great Saltmarsh~
+You are making your way through the great saltmarsh, a salty body of
+water that infiltrates a large depression.  The result is a wide swampy area
+where not too many things can survive, due to the brackishness of the water.
+There is the occaisional gnat or irritating insect, but not many larger
+forms of life.  Sometimes you think you can hear the sound of something
+large splashing or slithering into the water, but you are never sure where. 
+Your footsteps constantly churn up a thick layer of dead plant material, and
+other dead matter.  
+~
+0 1 6
+D0
+~
+~
+0 0 4373
+D1
+~
+~
+0 0 4369
+D2
+~
+~
+0 0 4367
+D3
+~
+~
+0 0 4371
+S
+#4371
+Great Saltmarsh~
+You are wading through the uncomfortably warm waters of an immense salty
+marsh area.  There are a lot of tangled weeds that catch your feet as you
+try to wade about, and a thick stench of rot and decay assails your nose at
+every step.  There are some large hummocks of seemingly dry land, upon which
+tough saw grass and certain types of dark mosses flourish, but nothing
+larger or more appetizing.  Sometimes you hear the water parting in a
+splashing sigh, as if a large creature were gently slipping in, yet you are
+unable to catch sight of any such occurence.  
+~
+0 1 6
+D1
+~
+~
+0 0 4370
+D2
+~
+~
+0 0 4372
+D3
+~
+~
+0 0 4396
+S
+#4372
+Great Saltmarsh~
+You are wading through the saltmarsh, a body of shallow brackish water
+that fills a large valley.  Everything here is pretty much submerged, and
+only the occaisional hummock of dead plant material will rise up out of the
+water to provide purchase for wiry grasses and certain types of weeds and
+mosses.  Your every step stirs up the thick carpet of dead plant material
+beneath the water, as well as a bubbly outpouring of fetid swamp gas.  
+~
+0 1 6
+D0
+~
+~
+0 0 4371
+D1
+~
+~
+0 0 4367
+D3
+~
+~
+0 0 4395
+S
+#4373
+Great Saltmarsh~
+The smells of rot and death are heavy on the air as you wade through this
+great fetid morass.  The salt marsh is enormous and fills the entire valley
+with its stagnant pools of water, and dead and decaying plants.  The thick
+carpet of muck under your feet gets stirred up with every step, making the
+already turbid water even more unappealing.  
+~
+0 1 6
+D1
+~
+~
+0 0 4374
+D2
+~
+~
+0 0 4370
+D3
+~
+~
+0 0 4390
+S
+#4374
+Great Saltmarsh~
+You are in the heart of a large saltmarsh, where nothing but the toughest
+of plants and animals can survive.  The water is brackish and heavy with
+salt, and so still that it stagnates and bubbles with noxious swampy gasses.
+All about you are hummocks of dead plant material that have built up over
+time to provide seemngly dry islands amidst the shallow turbid waters of the
+marsh.  Every so often you hear the splash of something large entering the
+water, but you can't be sure of where the sound is coming from.  
+~
+0 1 6
+D1
+~
+~
+0 0 4386
+D2
+~
+~
+0 0 4369
+D3
+~
+~
+0 0 4373
+S
+#4375
+Great Saltmarsh~
+You are up to your armpits in the warm and fetid water of the great salt
+marsh.  The water is brackish and murky, and the tang of salt is thikck on
+the air.  Large hummocks of dead plant material dot the marsh, providing dry
+hills of floating grasses and small brushy plants.  Every so often a
+startled bird will take flight, or a large wave of ripples will course
+across the water, as if something large had just slid under the surface.  
+~
+0 1 6
+D0
+~
+~
+0 0 4367
+D1
+~
+~
+0 0 4376
+D3
+~
+~
+0 0 4383
+S
+#4376
+Great Saltmarsh~
+You are wading about in a deep morass of dead weeds and brackish, salty
+water.  There is a thick stench of rotten plants and things long since dead
+all about, that you can't help but inhale.  The water is murky, fill of
+floating sediment, and is punctuated by large hillocks of seemingly dry
+land.  The hillocks are covered by tough wiry grasses and various types of
+moss.  You think you can hear the sound of something large sliding into the
+water, but you are not quite able to pinpoint where that sound originated
+from.  
+~
+0 1 6
+D0
+~
+~
+0 0 4366
+D1
+~
+~
+0 0 4377
+D3
+~
+~
+0 0 4375
+S
+#4377
+Great Saltmarsh~
+You are wading through the great salt marsh, where death and decay are an
+everyday fact of life.  Noxious odors of things rotting, and the annoying
+buzz of biting insects assail you.  Sometimes you think you can hear the
+sound of something rather large splshing into the water, yet you are never
+quite able to pinpoint where that sound is coming from.  Large hillocks of
+dead plant material obscure your view, making the salt marsh seem like a
+maze of interconnected canals.  
+~
+0 1 6
+D2
+~
+~
+0 0 4378
+D3
+~
+~
+0 0 4376
+S
+#4378
+Great Saltmarsh~
+The sickening smells of death, rot and decay fight for dominance here in
+the salt marsh.  Bubbles of swamp gas, leftovers of the decay, bubble to the
+surface of the briny water as you wade through.  Once in a while you think
+you step on something that wriggles out from underfoot, yet when you look
+down into the water, you find it is far too murky to see more than a
+handsbreadth.  The thick film of swamp scum seems to collect in the stagnant
+waters, offering a place for the myriad biting insects to alight and lay
+their offsrping in.  
+~
+0 1 6
+D0
+~
+~
+0 0 4377
+D2
+~
+~
+0 0 4379
+S
+#4379
+Great Saltmarsh~
+You are trying to make your way through a great salt marsh, a swampy
+expanse of salty, brackish water, where nothing seems to flourish.  There
+are weeds aplenty beneath the surface of the water, and some reeds and
+cattails poking up in the odd place, and even the occaisional buzz of a
+gnat, but nothing else seems to live here.  The fetid smells of death and
+decay assail your nose, and make you wish that you were someplace better
+smelling than this.  
+~
+0 1 6
+D0
+~
+~
+0 0 4378
+D3
+~
+~
+0 0 4380
+S
+#4380
+Great Saltmarsh~
+You are wading through a large marsh, trying not to breathe in the
+noxious smells of death and decay.  A large hillock of dead plant material
+is directly to the north, and blocks out most of your view to the swamp in
+that direction.  You could probably climb it if you tried hard enough.  The
+fetid water swirls about you as you push your way through the weed-choked
+brine.  
+~
+0 1 6
+D1
+~
+~
+0 0 4379
+D3
+~
+~
+0 0 4381
+D4
+~
+~
+0 0 4384
+S
+#4381
+Great Saltmarsh~
+You are wandering around in the great salt marsh, a vast swamp-like area
+filled with salty water.  The marsh stretches away beyond sight in all
+directions, punctuated by the occaisional hillock of dead plant material. 
+There are no large plants or animals growing in this marsh, only reeds,
+cattails, and thick tangled weeds at your ankles and knees.  Sometimes you
+think you can hear the sound of something large sliding into the water, but
+you are never able to discover the source of that sound.  
+~
+0 1 6
+D0
+~
+~
+0 0 4382
+D1
+~
+~
+0 0 4380
+S
+#4382
+Great Saltmarsh~
+You are wading through the stagnant waters of the great salt marsh,
+soaked with briny swamp water up to your neck.  There is a thick layer of
+mushy, mucky swamp gunk under your feet, which gets stirred up with every
+step.  All about you are seemingly dry hillocks, composed mostly of dead
+plant material which has collected over the years.  On the hillocks you can
+see wiry sawgrass growing, and various forms of mosses, lichens and some
+mushrooms.  
+~
+0 1 6
+D0
+~
+~
+0 0 4383
+D2
+~
+~
+0 0 4381
+S
+#4383
+Great Saltmarsh~
+You are wading through the warm and murky waters of an immense salt
+marsh.  There is a thick carpeting of dead plant material and sucking ooze
+beneath your feet, that gets stirred up with every step you take.  The thick
+stench of death and decay fills your nostrils, and sometimes a bubbling of
+noxious swamp gasses will rise to the surface of the water with a fetid
+stink.  The marsh fills the entire lowland area here, stretching as far as
+you can see.  
+~
+0 1 6
+D1
+~
+~
+0 0 4375
+D2
+~
+~
+0 0 4382
+S
+#4384
+On the Floating Hillock~
+You are climbing on the side of a floating hillock of dead and decaying
+plant material.  The hill is the size of a small house, and the
+grass-covered sides are fairly steep.  The hill tilts alarmingly as you
+grapple with the edge, making you understand that this mass is floating on
+the turbid waters of the swamp, and is not stable.  
+~
+0 1 2
+D0
+~
+~
+0 0 4385
+D5
+~
+~
+0 0 4380
+S
+#4385
+On the Floating Hillock~
+You are on top of a large floating hillock of dead plant fibres.  It
+seems at one point various birds may have made a nets up here, because there
+are broken eggshells all over.  On closer examination you decide that the
+eggs where not laid by birds because they are far too large, and you do not
+want to run into whatever may have laid them.  You can see out over a large
+portion of the vast swamp from your vantage point here on top of the
+hillock.  Far to the east you can see a forest, and southwards and eastwards
+you can see a slow-moving river, shrouded in mist.  
+~
+0 1 2
+D2
+~
+~
+0 0 4384
+D5
+~
+~
+0 0 4375
+S
+#4386
+Great Saltmarsh~
+You are wading through a great swampy area that fills the entire lowland
+area here.  The swamp is all salty water and dead plants, overlain with the
+incessant buzz of biting insects.  The water is warm and stagnant, and has
+an odor about it of rot and death.  Beneath your feet is a thick layer of
+slimy muck, which you stiir up with every step.  Weeds try to trip you,
+beneath the waters surface, and sometimes you think you are stepping on
+something squirmy that wriggles away before you put all your weight down.  
+~
+0 1 6
+D0
+~
+~
+0 0 4387
+D3
+~
+~
+0 0 4374
+S
+#4387
+Great Salthmarsh~
+You are wading thorugh the great salt marsh, a vast swampy expanse where
+nothing fruitful grows, and death and decay are supreme.  The marsh is not
+overly deep, and you are able to wade through all but the deepest areas. 
+There is plant life beneath the surface, in the form of tangled weeds, and
+sticking mosses.  Thick carpets of dead plant material get stirred up with
+every step you take, and sometimes you stir up a billowing bubble of noxious
+swampy gasses which burst forth with fetid smells of putrid rot.  
+~
+0 1 6
+D1
+~
+~
+0 0 4388
+D2
+~
+~
+0 0 4386
+S
+#4388
+Great Saltmarsh~
+You are up to your neck in the filthy scum and slimy ooze that floats on
+the surface of the waters of the great salt marsh.  The biting insects buzz
+incessantly in your ears, and flit through your hair.  Large cattails and
+reeds seem to block out most of yor view, yet you can see between the large
+hummocks of dead plant material that have built up over the years that there
+is almost a canal-like passage through the marsh.  Sometimes you hear a
+large splash, as if something big had just entered the water, yet you can't
+tell where that sound came from.  
+~
+0 1 6
+D0
+~
+~
+0 0 4389
+D3
+~
+~
+0 0 4387
+S
+#4389
+Great Saltmarsh~
+You are making your way through the stagnant waters of the great salt
+marsh.  There are numerous different smells of death and decay, and rotten
+plant material is thick beneath your feet underwater.  A film of swamp scum
+collects near the hillocks of dead plants that have built up over the course
+of years.  Sometimes your footsteps disturb a pocket of decaying matter,
+sending putrid bubbles of fetid stink rising up through the water to burst in
+your face.  
+~
+0 1 6
+D2
+~
+~
+0 0 4388
+S
+#4390
+Great Saltmarsh~
+You are wading through the scummy, viscous water of the great salt marsh.
+The water is murky and extremely salty, such that not much can grow around
+here.  There is a thick layer of muck and ooze, which sucks at your feet
+with every step, and some very tangly weeds through which you often trip. 
+Lokoing about, large hillocks of dead plant material dot the marsh, making
+the waterways seem almost like canals between the dry hills.  Sometimes your
+are distracted from the noxious smells of the marsh by the loud splash of
+something large hitting the water, but you are never able to see what made
+the commotion.  
+~
+0 1 6
+D1
+~
+~
+0 0 4373
+D3
+~
+~
+0 0 4391
+S
+#4391
+Great Saltmarsh~
+You are wandering through the vast, and smelly expanse of a great salty
+marsh.  The waters are extremely brackish, and do not support much life. 
+The odors of death and decay reign supreme, and the thick carpeting of muck
+and ooze underfoot makes you wonder what you are really walking through. 
+Large hummocks of seemingly dry land seem to rise up our of the marsh in
+certain places, creating canals of brackish water between them.  
+~
+0 1 6
+D0
+~
+~
+0 0 4392
+D1
+~
+~
+0 0 4390
+S
+#4392
+Great Saltmarsh~
+You are wading through a large marsh which fills this entire lowland
+region.  The marsh is extremely salty, and the brackish water is turbid and
+stagnant.  Dead and rotten things float by you, making the water seem murky.
+Each step you take stirs up the thick carpet of muck and swampy ooze that
+has collected on the bottom of the marsh.  There is a vile odor that is
+presumeably from things decaying, and it almost hurts your nose to breathe
+it in.  
+~
+0 1 6
+D0
+~
+~
+0 0 4393
+D2
+~
+~
+0 0 4391
+S
+#4393
+Great Saltmarsh~
+You are in murky turbid water up to your neck.  There is a film of swampy
+scum that clings to your body as you pass through it.  From all about you
+waft smells of rot and death, and putrid decay, making you want to breathe
+through your mouth, so long as you don't gulp down any swamp water.  From
+somewhere not far off a loud splash resounds, making think something much
+larger than yourself has just entered the water.  All about hillocks of dead
+plant material collect and rise above the level of the swamp water, making
+seemingly dry land masses.  
+~
+0 1 6
+D0
+~
+~
+0 0 4394
+D2
+~
+~
+0 0 4392
+S
+#4394
+Great Saltmarsh~
+You are making your way through a vast swampy expanse of salt water
+marsh.  There are many cattails and reedy looking plants which grow
+throughout, and you are constantly being tripped up by tough, tanglesome
+weeds below the water's surface.  There is an underlying stench of decay and
+rot which causes your nose to wrinkle.  Here and there large hillocks of
+accumulated dead plant material rise above the water level to give purchase
+for land vegetation like sawgrasses and mushrooms.  
+~
+0 1 6
+D2
+~
+~
+0 0 4393
+S
+#4395
+Great Saltmarsh~
+You are wading through the warm, stagnant water sof the great salt marsh.
+There is pervading smell of fetid death and decay here, most of it bubbling
+up in the form of gaseous swamp bubbles as you disturb the mucky floor of
+the marsh.  There are large hummocks of accumulated plant material that has
+settled and drufted over the years, and these dot the marsh, forming
+seemingly dry places for land vegetation to grow.  The hummocks of dry land
+are so numerous that they seem to cause canals and streams to appear, intead
+of one vast water-covered swamp.  
+~
+0 1 6
+D0
+~
+~
+0 0 4396
+D1
+~
+~
+0 0 4372
+S
+#4396
+Great Saltmarsh~
+You part the filmy, viscuous surface of the water as you wade through the
+shoulder deep brine of the salt marsh.  The water is so salty here that only
+the toughest of lplants can survive here, and seemingly no animals would
+dare.  Thick weeds which grow out of the mucky ooze on the floor of the
+marsh tangle your legs and cause you to trip quite often.  The stench of
+fetid rot is constantly making your nose wrinkle, and the warmth of the
+water makes you feel uncomfortable.  Every so often you hear a loud splash,
+as if something much larger than yourself has just entered the water in a
+hurry.  
+~
+0 1 6
+D1
+~
+~
+0 0 4371
+D2
+~
+~
+0 0 4395
+S
+#4397
+Saltmarsh Forest~
+You are walking into a damp, forested region.  There is a mist-enshrouded
+river towards the south, and the fog continues here in the grassy thicket
+and on into the forest to the north.  The plants here are quite odd, being
+gnarled and misshapen.  There is an odd variety of creeping vine that seems
+to entwine about the bases of the larger shrubs.  The vine has large ugly
+fruit, with scabbrous pustules speckling them, which leak a fetid brown
+ooze.  
+~
+0 0 3
+D0
+~
+~
+0 0 4350
+D3
+~
+~
+0 0 4398
+S
+#4398
+Saltmarsh Forest~
+You are wandering through a thicket of bizarre bushes and ugly looking
+trees.  The bushes are stunted and covered with glistening thorns.  The
+trees are thick-boled and gnarled, but do not have many branches, despite
+their large dark leaves.  There is an odd smell of fetid decay in the area,
+and a heavy mist seems to roll in from somewhere to the north and west.  An
+odd type of creeping vine seems to flourish here, among the mushrooms and
+toadstools.  The vine has a large green and brown fruit, which is covered in
+nasty pustules which ooze a brownish green ichor.  To the west, you can see
+a clearing in the vegetation, and a clear expanse of slow-moving water.  
+~
+0 1 3
+D1
+~
+~
+0 0 4397
+D3
+~
+~
+0 0 2401
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 0 4350 0 4350
+O 0 4353 0 4350
+O 0 4353 0 4352
+O 0 4351 0 4353
+O 0 4352 0 4353
+O 0 4350 0 4354
+O 0 4352 0 4354
+O 0 4351 0 4354
+O 0 4353 0 4356
+M 1 4350 4 4356 1
+O 0 4350 0 4357
+O 0 4351 0 4357
+O 0 4352 0 4357
+O 0 4357 0 4357
+O 0 4353 0 4359
+O 0 4351 0 4360
+O 0 4352 0 4360
+M 1 4350 4 4360 1
+O 0 4350 0 4361
+O 0 4353 0 4361
+M 1 4350 4 4361 1
+O 0 4353 0 4363
+O 0 4350 0 4364
+M 1 4350 4 4364 1
+M 1 4351 3 4366 1
+M 1 4353 8 4367 1
+M 1 4354 8 4369 8
+M 1 4352 3 4370 1
+M 1 4353 8 4371 1
+M 1 4355 8 4371 1
+M 1 4355 8 4372 1
+M 1 4355 8 4373 1
+M 1 4353 8 4374 1
+E 0 4354 0 16
+M 1 4353 8 4377 1
+E 0 4354 0 16
+M 1 4353 8 4379 1
+M 1 4353 8 4382 1
+E 0 4354 0 16
+M 1 4352 3 4383 1
+M 1 4355 8 4383 1
+M 1 4356 1 4385 1
+E 0 4355 0 6
+E 0 4356 0 16
+M 1 4351 3 4386 1
+M 1 4355 8 4388 1
+M 1 4353 8 4389 1
+E 0 4354 0 16
+M 1 4355 8 4390 1
+M 1 4351 3 4391 1
+M 1 4355 8 4392 1
+M 1 4352 3 4394 1
+O 0 4351 0 4397
+O 0 4352 0 4397
+O 0 4351 0 4398
+O 0 4352 0 4398
+O 0 4353 0 4398
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

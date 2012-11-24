@@ -1,0 +1,2727 @@
+#AREADATA
+Name New Endmoors~
+Builders Sartorius~
+VNUMs 2300 2399
+Credits { ALL } Sartori The New Endmoors~
+Security 1
+Deathroom 1
+Flags 3
+End
+
+
+
+#MOBILES
+#2300
+moor jackal moorjackal~
+a moorjackal~
+A moorjackal slinks through the rough grasses of the Endmoors.
+~
+The moorjackal is an elusive canid that hunts in loose packs through the
+vast expanse of the Endmoors The jackal is only about knee-high to a human,
+but is heavily muscled, and lopes through the moors with a grace that belies
+its broad shoulders.  The jackal has two rows of teeth, which are usually
+agape in hunger, and a thick bristly grey fur which blends in well with the
+surrounding grasses.  The green eyes of the moorjackal fix on you, and it
+lets out a howl, which is answered by other loping green eyes, not too far
+distant.  
+~
+wolf~
+AGH J 0 0
+6 12 13d10+36 12d10+36 2d5+0 bite
+59 59 59 77
+FH 0 0 0
+stand stand either 0
+AGV ACDEFJKQV medium unknown
+#2301
+builder human~
+a builder~
+A builder works on the castle site, hauling bricks to the wall.
+~
+This rough-looking human is part of a work crew hired by the City Legion
+to build a new keep in the Endmoors.  He is part of a gang of several dozen,
+inhabiting a work camp around the construction site in this desolate place. 
+~
+human~
+AB 0 0 0
+1 7 3d10+1 2d10+1 1d0+1 none
+89 89 89 92
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#0
+
+
+
+#OBJECTS
+#2300
+wooden boundary stake~
+a wooden boundary stake~
+A wooden boundary stake is carved with the arms of Ravenspur.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+stake~
+The stake is a square wooden peg which protrudes about a yard out of the
+ground.  The emblem of a raven is burned into the top of the peg.  
+~
+#2301
+crumbling tombstone~
+a crumbling tombstone~
+A crumbling tombstone is cracked nearly in two.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#2302
+ancient road marker obelisk limestone~
+an ancient road marker~
+An ancient road marker is a squat obelisk of black limestone.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+marker~
+This road marker is prominently carved with the emblem of a raven.  The
+top is almost completely weathered away, however.  
+~
+#2303
+massive throne~
+a massive marble throne~
+A massive marble throne rests by itself on a raised outcrop of stone.~
+unknown~
+portal 0 0
+9999 0 0 6625 0
+0 0 0 P
+E
+throne~
+This marble throne, taller than a man and seemingly crafted for a giant,
+sits by itself on a rocky outcrop in the desolate Endmoors.  There is no
+sign of who put this object here, or for what purpose.  At some point in the
+recent past, however, the throne was apparently struck by lightning, as the
+seat has cracked wide open, revealing a hollow space below.  
+~
+#2304
+moorjackal jackal skeleton~
+the skeleton of a moorjackal~
+The skeleton of a moorjackal is half-submerged in a pool of water.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#2305
+old hitching post~
+an old hitching post~
+An old hitching post has been chopped apart with an axe.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#2306
+gravelroot herb green plant thick patch~
+a gathering of gravelroot~
+A patch of thick greenish plantlife pokes up from a small close of stone.~
+unknown~
+herb 0 A
+B 0 0 0 0
+1 2 2 P
+#0
+
+
+
+#ROOMS
+#2300
+Black Horses Road~
+You are standing before the imposing northern gate of the city of
+Ravenspur.  The Black Horses Gate was built ages ago to defend the city from
+the threat of barbarian attacks from the far north.  Looking up the wall of
+the city at the well-fitted stone, you can see a few members of the city
+watch as they make their rounds.  There is a small dirt road that leads
+northwards from the Black Horses Gate, out into the Endmoors.  The moors are
+bleak and desolate, and appear to be all rolling swales and shallow
+depressions filled with bogs and swamps.  A cool mist of rain sprinkles down
+from a slate-grey sky, chilling you as you look out over the unforgiving
+expanse of the Endmoors.  
+~
+0 0 2
+D0
+~
+~
+0 0 2301
+D2
+~
+~
+0 0 3040
+S
+#2301
+Black Horses Road~
+You are following the road which leads between the Endmoors and the city
+of Ravenspur.  The path you are on is narrow and straight, consisting of
+packed dirt with small weeds poking through the crust.  To the south, you
+can see the grey, forbidding walls of the city, where the road passes
+through the Black Horses Gate.  To the north stretches the vast expanse of
+the Endmoors, a boggy wasteland of low swales and cold drizzle.  
+~
+0 0 2
+D0
+~
+~
+0 0 2302
+D2
+~
+~
+0 0 2300
+S
+#2302
+Black Horses Road~
+You are following the road which leads between the Endmoors and the city
+of Ravenspur.  The path you are on is narrow and straight, consisting of
+packed dirt with small weeds poking through the crust.  To the south, you
+can see the grey, forbidding walls of the city, where the road passes
+through the Black Horses Gate.  To the north stretches the vast expanse of
+the Endmoors, a boggy wasteland of low swales and cold drizzle.  
+~
+0 0 2
+D0
+~
+~
+0 0 2303
+D2
+~
+~
+0 0 2301
+S
+#2303
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The moors stretch out all around in you in a grey, boggy expanse.  Against the
+southern horizon are the distant walls of Ravenspur, and the north is
+framed by the line of the Orc Hills.
+~
+0 0 2
+D0
+~
+~
+0 0 2313
+D1
+~
+~
+0 0 2307
+D2
+~
+~
+0 0 2302
+D3
+~
+~
+0 0 2304
+S
+#2304
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2314
+D1
+~
+~
+0 0 2303
+D3
+~
+~
+0 0 2305
+S
+#2305
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2315
+D1
+~
+~
+0 0 2304
+D3
+~
+~
+0 0 2306
+S
+#2306
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2316
+D1
+~
+~
+0 0 2305
+S
+#2307
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2312
+D1
+~
+~
+0 0 2308
+D3
+~
+~
+0 0 2303
+S
+#2308
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2311
+D1
+~
+~
+0 0 2309
+D3
+~
+~
+0 0 2307
+S
+#2309
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2310
+D3
+~
+~
+0 0 2308
+S
+#2310
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2318
+D1
+~
+~
+0 0 2317
+D2
+~
+~
+0 0 2309
+D3
+~
+~
+0 0 2311
+S
+#2311
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2319
+D1
+~
+~
+0 0 2310
+D2
+~
+~
+0 0 2308
+D3
+~
+~
+0 0 2312
+S
+#2312
+Endmoors~
+You are walking through the thin, yellow grasses of the Endmoors.  The
+rolling terrain undulates towards the horizon, a nearly uniform damp yellow
+color.  Water from the frequent rainfall has collected in the small hollows
+between the hills, breeding countless tiny, dark-looking ponds.  Little
+vegetation grows around these, except for a few scrubby bushes and some
+stubborn cattails.  The muttering of tiny frogs echoes across the Moors
+whenever the wind quiets.  
+~
+0 0 2
+D0
+~
+~
+0 0 2320
+D1
+~
+~
+0 0 2311
+D2
+~
+~
+0 0 2307
+D3
+~
+~
+0 0 2313
+S
+#2313
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The moors stretch out all around in you in a grey, boggy expanse.  Against the
+southern horizon are the distant walls of Ravenspur, and the north is
+framed by the line of the Orc Hills.
+~
+0 0 2
+D0
+~
+~
+0 0 2321
+D1
+~
+~
+0 0 2312
+D2
+~
+~
+0 0 2303
+D3
+~
+~
+0 0 2314
+S
+#2314
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2322
+D1
+~
+~
+0 0 2313
+D2
+~
+~
+0 0 2304
+D3
+~
+~
+0 0 2315
+S
+#2315
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2323
+D1
+~
+~
+0 0 2314
+D2
+~
+~
+0 0 2305
+D3
+~
+~
+0 0 2316
+S
+#2316
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2324
+D1
+~
+~
+0 0 2315
+D2
+~
+~
+0 0 2306
+S
+#2317
+Abandoned Campsite~
+A few large bushes have managed to take root in the damp soil here,
+forming a rough semicircle.  In this partial ring sits a large firepit,
+surrounded by smoke-darkened stones.  The packed ashes of years of campfires
+are heaped within the pit, along with the broken charcoal of more recent
+visitors.  The footprints around this site are almost too numerous to count.
+Human bootprints, orcs, dwarves, and the tracks of scavenging jackals are
+all visible.  
+ 
+A rough, muddy path leads west into the moors.
+~
+0 4 2
+D3
+~
+~
+0 0 2310
+S
+#2318
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2326
+D2
+~
+~
+0 0 2310
+D3
+~
+~
+0 0 2319
+S
+#2319
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2327
+D1
+~
+~
+0 0 2318
+D2
+~
+~
+0 0 2311
+D3
+~
+~
+0 0 2320
+S
+#2320
+Ragged Cemetery~
+A clump of weathered tombstones marks all that remains of an old,
+forgotten cemetery.  The tombstones are chipped and largely toppled, the
+result of years of erosion and neglect, and the motifs of urns and skulls,
+along with the carved names, are completely weathered away, leaving only
+smooth, crumbling shale faces.  Brown moor grasses grow up upon the graves
+now, and it is now impossible to tell who were consecrated here.  
+ 
+At the edge of the old cemetery is a crude excavation, where it seems that
+a lone shovel has been digging up the tombs.
+~
+0 4 2
+D0
+~
+~
+0 0 2328
+D1
+~
+~
+0 0 2319
+D2
+~
+~
+0 0 2312
+D3
+~
+~
+0 0 2321
+M 40 H 40
+S
+#2321
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The moors stretch out all around in you in a grey, boggy expanse.  Against the
+southern horizon are the distant walls of Ravenspur, and the north is
+framed by the line of the Orc Hills.
+ 
+The remains of an ancient cemetery are visible alongside the road to the east.
+~
+0 0 2
+D0
+~
+~
+0 0 2329
+D1
+~
+~
+0 0 2320
+D2
+~
+~
+0 0 2313
+D3
+~
+~
+0 0 2322
+S
+#2322
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2330
+D1
+~
+~
+0 0 2321
+D2
+~
+~
+0 0 2314
+D3
+~
+~
+0 0 2323
+S
+#2323
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2331
+D1
+~
+~
+0 0 2322
+D2
+~
+~
+0 0 2315
+D3
+~
+~
+0 0 2324
+S
+#2324
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2332
+D1
+~
+~
+0 0 2323
+D2
+~
+~
+0 0 2316
+S
+#2325
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2334
+D3
+~
+~
+0 0 2326
+S
+#2326
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2335
+D1
+~
+~
+0 0 2325
+D2
+~
+~
+0 0 2318
+D3
+~
+~
+0 0 2327
+S
+#2327
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2336
+D1
+~
+~
+0 0 2326
+D2
+~
+~
+0 0 2319
+D3
+~
+~
+0 0 2328
+S
+#2328
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2337
+D1
+~
+~
+0 0 2327
+D2
+~
+~
+0 0 2320
+D3
+~
+~
+0 0 2329
+S
+#2329
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The moors stretch out all around in you in a grey, boggy expanse.  Against the
+southern horizon are the distant walls of Ravenspur, and the north is
+framed by the line of the Orc Hills.
+~
+0 0 2
+D0
+~
+~
+0 0 2338
+D1
+~
+~
+0 0 2328
+D2
+~
+~
+0 0 2321
+D3
+~
+~
+0 0 2330
+S
+#2330
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2339
+D1
+~
+~
+0 0 2329
+D2
+~
+~
+0 0 2322
+D3
+~
+~
+0 0 2331
+S
+#2331
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2340
+D1
+~
+~
+0 0 2330
+D2
+~
+~
+0 0 2323
+D3
+~
+~
+0 0 2332
+S
+#2332
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2341
+D1
+~
+~
+0 0 2331
+D2
+~
+~
+0 0 2324
+D3
+~
+~
+0 0 2333
+S
+#2333
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2342
+D1
+~
+~
+0 0 2332
+S
+#2334
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2343
+D2
+~
+~
+0 0 2325
+D3
+~
+~
+0 0 2335
+S
+#2335
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2344
+D1
+~
+~
+0 0 2334
+D2
+~
+~
+0 0 2326
+D3
+~
+~
+0 0 2336
+S
+#2336
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2345
+D1
+~
+~
+0 0 2335
+D2
+~
+~
+0 0 2327
+D3
+~
+~
+0 0 2337
+S
+#2337
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2346
+D1
+~
+~
+0 0 2336
+D2
+~
+~
+0 0 2328
+D3
+~
+~
+0 0 2338
+S
+#2338
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The moors stretch out all around in you in a grey, boggy expanse.  Against the
+southern horizon are the distant walls of Ravenspur, and the north is
+framed by the line of the Orc Hills.
+~
+0 0 2
+D0
+~
+~
+0 0 2347
+D1
+~
+~
+0 0 2337
+D2
+~
+~
+0 0 2329
+D3
+~
+~
+0 0 2339
+S
+#2339
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2348
+D1
+~
+~
+0 0 2338
+D2
+~
+~
+0 0 2330
+D3
+~
+~
+0 0 2340
+S
+#2340
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2349
+D1
+~
+~
+0 0 2339
+D2
+~
+~
+0 0 2331
+D3
+~
+~
+0 0 2341
+S
+#2341
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2350
+D1
+~
+~
+0 0 2340
+D2
+~
+~
+0 0 2332
+D3
+~
+~
+0 0 2342
+S
+#2342
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2351
+D1
+~
+~
+0 0 2341
+D2
+~
+~
+0 0 2333
+S
+#2343
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2356
+D2
+~
+~
+0 0 2334
+D3
+~
+~
+0 0 2344
+S
+#2344
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2357
+D1
+~
+~
+0 0 2343
+D2
+~
+~
+0 0 2335
+D3
+~
+~
+0 0 2345
+S
+#2345
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2358
+D1
+~
+~
+0 0 2344
+D2
+~
+~
+0 0 2336
+D3
+~
+~
+0 0 2346
+S
+#2346
+Shattered Mausoleum~
+The broken remains of an ancient mausoleum have nearly collapsed.  The
+stone structure is carved of some kind of hard black stone, perhaps basalt,
+and was decorated with carvings and symbols which time and erosion have worn
+almost completely illegible.  The repeated flooding in this area has
+softened the ground such that the building has now almost completely
+collapsed; it now forms a lopsided trapezoid.  The door has fallen in,
+revealing an interior of old sarcophagi long since broken by tomb robbers.  
+ 
+The faint remains of a road run close by to the west.
+~
+0 0 2
+D0
+~
+~
+0 0 2359
+D1
+~
+~
+0 0 2345
+D2
+~
+~
+0 0 2337
+D3
+~
+~
+0 0 2347
+S
+#2347
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The moors stretch out all around in you in a grey, boggy expanse.  Against the
+southern horizon are the distant walls of Ravenspur, and the north is
+framed by the line of the Orc Hills.
+ 
+A small, ruined building sits alongside the road to the east.
+~
+0 0 2
+D0
+~
+~
+0 0 2360
+D1
+~
+~
+0 0 2346
+D2
+~
+~
+0 0 2338
+D3
+~
+~
+0 0 2348
+S
+#2348
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2361
+D1
+~
+~
+0 0 2347
+D2
+~
+~
+0 0 2339
+D3
+~
+~
+0 0 2349
+S
+#2349
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2362
+D1
+~
+~
+0 0 2348
+D2
+~
+~
+0 0 2340
+D3
+~
+~
+0 0 2350
+S
+#2350
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2363
+D1
+~
+~
+0 0 2349
+D2
+~
+~
+0 0 2341
+D3
+~
+~
+0 0 2351
+S
+#2351
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2364
+D1
+~
+~
+0 0 2350
+D2
+~
+~
+0 0 2342
+D3
+~
+~
+0 0 2352
+S
+#2352
+Fern-Lined Path~
+A lush, misty forest clings to the western side of the Endmoors.  Its
+mass of foliage is dense and dark, and the trees seem stooped, heavy with
+vines and trapped moisture.  When the wind is still, a strange creaking or
+moaning sound is audible, wafting out of the dense wood.  To the east, the
+forest thins into a scrabble of ferns and low shrubs, which finally
+concentrate around a narrow ravine.  
+ 
+A thin path runs through this ravine, passing west into the Saltmarsh
+and northeast into the moors.
+~
+0 0 2
+D1
+~
+~
+0 0 2351
+D2
+~
+~
+0 0 2353
+S
+#2353
+Fern-Lined Path~
+A lush, misty forest clings to the western side of the Endmoors.  Its
+mass of foliage is dense and dark, and the trees seem stooped, heavy with
+vines and trapped moisture.  When the wind is still, a strange creaking or
+moaning sound is audible, wafting out of the dense wood.  To the east, the
+forest thins into a scrabble of ferns and low shrubs, which finally
+concentrate around a narrow ravine.  
+ 
+A thin path runs through this ravine, passing west into the Saltmarsh
+and northeast into the moors.
+~
+0 0 2
+D0
+~
+~
+0 0 2352
+D3
+~
+~
+0 0 2354
+S
+#2354
+Fern-Lined Path~
+A lush, misty forest clings to the western side of the Endmoors.  Its
+mass of foliage is dense and dark, and the trees seem stooped, heavy with
+vines and trapped moisture.  When the wind is still, a strange creaking or
+moaning sound is audible, wafting out of the dense wood.  To the east, the
+forest thins into a scrabble of ferns and low shrubs, which finally
+concentrate around a narrow ravine.  
+ 
+A thin path runs through this ravine, passing west into the Saltmarsh
+and east into the moors.
+~
+0 0 2
+D0
+~
+~
+0 0 12100
+D1
+~
+~
+0 0 2353
+D3
+~
+~
+0 0 4360
+S
+#2355
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2366
+D3
+~
+~
+0 0 2356
+S
+#2356
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2367
+D1
+~
+~
+0 0 2355
+D2
+~
+~
+0 0 2343
+D3
+~
+~
+0 0 2357
+S
+#2357
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2368
+D1
+~
+~
+0 0 2356
+D2
+~
+~
+0 0 2344
+D3
+~
+~
+0 0 2358
+S
+#2358
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2369
+D1
+~
+~
+0 0 2357
+D2
+~
+~
+0 0 2345
+D3
+~
+~
+0 0 2359
+S
+#2359
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2370
+D1
+~
+~
+0 0 2358
+D2
+~
+~
+0 0 2346
+D3
+~
+~
+0 0 2360
+S
+#2360
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The moors stretch out all around in you in a grey, boggy expanse.  Against the
+southern horizon are the distant walls of Ravenspur, and the north is
+framed by the line of the Orc Hills.
+~
+0 0 2
+D0
+~
+~
+0 0 2371
+D1
+~
+~
+0 0 2359
+D2
+~
+~
+0 0 2347
+D3
+~
+~
+0 0 2361
+S
+#2361
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The moors stretch out all around in you in a grey, boggy expanse.  Against the
+southern horizon are the distant walls of Ravenspur, and the north is
+framed by the line of the Orc Hills.
+~
+0 0 2
+D0
+~
+~
+0 0 2372
+D1
+~
+~
+0 0 2360
+D2
+~
+~
+0 0 2348
+D3
+~
+~
+0 0 2362
+S
+#2362
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2373
+D1
+~
+~
+0 0 2361
+D2
+~
+~
+0 0 2349
+D3
+~
+~
+0 0 2363
+S
+#2363
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2374
+D1
+~
+~
+0 0 2362
+D2
+~
+~
+0 0 2350
+D3
+~
+~
+0 0 2364
+S
+#2364
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2375
+D1
+~
+~
+0 0 2363
+D2
+~
+~
+0 0 2351
+D3
+~
+~
+0 0 2365
+S
+#2365
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2376
+D1
+~
+~
+0 0 2364
+S
+#2366
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D2
+~
+~
+0 0 2355
+D3
+~
+~
+0 0 2367
+S
+#2367
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2390
+D1
+~
+~
+0 0 2366
+D2
+~
+~
+0 0 2356
+D3
+~
+~
+0 0 2368
+S
+#2368
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2389
+D1
+~
+~
+0 0 2367
+D2
+~
+~
+0 0 2357
+D3
+~
+~
+0 0 2369
+S
+#2369
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2388
+D1
+~
+~
+0 0 2368
+D2
+~
+~
+0 0 2358
+D3
+~
+~
+0 0 2370
+S
+#2370
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D1
+~
+~
+0 0 2369
+D2
+~
+~
+0 0 2359
+D3
+~
+~
+0 0 2371
+S
+#2371
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D1
+~
+~
+0 0 2370
+D2
+~
+~
+0 0 2360
+D3
+~
+~
+0 0 2372
+S
+#2372
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+A collection of slumping ruins is all that remains of a former village.
+Two piles of rotten timbers which were once houses partially block the road,
+while a hollow stone shell appears to have once been an inn or barn.
+~
+0 0 2
+D0
+~
+~
+0 0 2377
+D1
+~
+~
+0 0 2371
+D2
+~
+~
+0 0 2361
+D3
+~
+~
+0 0 2373
+S
+#2373
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2378
+D1
+~
+~
+0 0 2372
+D2
+~
+~
+0 0 2362
+D3
+~
+~
+0 0 2374
+S
+#2374
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D1
+~
+~
+0 0 2373
+D2
+~
+~
+0 0 2363
+D3
+~
+~
+0 0 2375
+S
+#2375
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D1
+~
+~
+0 0 2374
+D2
+~
+~
+0 0 2364
+D3
+~
+~
+0 0 2376
+S
+#2376
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D1
+~
+~
+0 0 2375
+D2
+~
+~
+0 0 2365
+S
+#2377
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The road runs towards the Orc Hills to the north, a line of tall,
+tree-covered hills which frame the edge of the moors.
+~
+0 0 2
+D0
+~
+~
+0 0 2379
+D2
+~
+~
+0 0 2372
+D3
+~
+~
+0 0 2378
+S
+#2378
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D0
+~
+~
+0 0 2380
+D1
+~
+~
+0 0 2377
+D2
+~
+~
+0 0 2373
+S
+#2379
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The road runs towards the Orc Hills to the north, a line of tall,
+tree-covered hills which frame the edge of the moors.
+~
+0 0 2
+D0
+~
+~
+0 0 2381
+D2
+~
+~
+0 0 2377
+D3
+~
+~
+0 0 2380
+S
+#2380
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+ 
+The nearest of the hills is a single tor to the west, surmounted by
+what appear the ruins of a tower.  Around the base of the hill rise
+abandoned earthworks.
+~
+0 0 2
+D0
+~
+~
+0 0 2382
+D1
+~
+~
+0 0 2379
+D2
+~
+~
+0 0 2378
+D3
+~
+~
+0 0 2383
+S
+#2381
+Black Horses Road~
+A forlorn, fading road leads across the damp, trackless expanse of the
+Endmoors.  In former times, this trail was well-maintained and
+oft-travelled, guarded by the City Legion and dotted with taverns and small
+hamlets.  Now, it has almost disappeared, a scanty line of slightly drier
+and harder-packed earth which stretches north and south across the moors,
+marred only by the occasional old hoofprint or nearly-vanished wheel rut.  
+ 
+The road runs towards the Orc Hills to the north, a line of tall,
+tree-covered hills which frame the edge of the moors.
+~
+0 0 2
+D0
+~
+~
+0 0 2384
+D2
+~
+~
+0 0 2379
+D3
+~
+~
+0 0 2382
+S
+#2382
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D1
+~
+~
+0 0 2381
+D2
+~
+~
+0 0 2380
+S
+#2383
+Agg's Tor~
+A rather large hill peeks above the low-rolling swales and water-filled
+hollows of the Endmoors, the nearest of the large range of the Orc Hills
+which borders the northern edge of the moors.  A slumping grey mass of stone
+marks where a tall tower once stood, its foundation now collapsed and its
+bulk partially scattered down the hillside.  The grasses around are
+scorched, and the ground around the hill is pitted and broken by craters and
+turned-up earth.  
+ 
+Around the hill are ringed abandoned earthworks, temporary fortifications
+of heaped dirt surmounted by the rusted remains of metal spikes.  The battered
+condition of these makes it clear that considerable strife, probably
+magical, recently took place here.
+~
+0 4 2
+D1
+~
+~
+0 0 2380
+S
+#2384
+Black Horses Road~
+A forlorn, fading road winds through a muddy pass between two hills.  The
+Endmoors give way to the fringes of the Orc Hills here, a range of tall
+tree-covered ridges which loom over the flat, barren moors.  At the edge of
+the hills are numerous canyons or gullies, into one of which the ancient
+road passes.  The hillsides to the east and west give evidence of artificial
+construction, possibly human or dwarven attempts to prevent erosion or build
+fortifications.  
+~
+0 0 2
+D0
+~
+~
+0 0 2385
+D2
+~
+~
+0 0 2381
+S
+#2385
+Black Horses Road~
+A forlorn, fading road winds through a muddy pass between two hills.  The
+Endmoors give way to the fringes of the Orc Hills here, a range of tall
+tree-covered ridges which loom over the flat, barren moors.  At the edge of
+the hills are numerous canyons or gullies, into one of which the ancient
+road passes.  The hillsides to the east and west give evidence of artificial
+construction, possibly human or dwarven attempts to prevent erosion or build
+fortifications.  
+~
+0 0 2
+D2
+~
+~
+0 0 2384
+D3
+~
+~
+0 0 2386
+S
+#2386
+Black Horses Road~
+A forlorn, fading road winds through a muddy pass between two hills.  The
+Endmoors give way to the fringes of the Orc Hills here, a range of tall
+tree-covered ridges which loom over the flat, barren moors.  At the edge of
+the hills are numerous canyons or gullies, into one of which the ancient
+road passes.  The hillsides to the east and west give evidence of artificial
+construction, possibly human or dwarven attempts to prevent erosion or build
+fortifications.  
+~
+0 0 2
+D0
+~
+~
+0 0 2387
+D1
+~
+~
+0 0 2385
+S
+#2387
+Black Horses Road~
+A forlorn, fading road winds through a muddy pass between two hills.  The
+Endmoors give way to the fringes of the Orc Hills here, a range of tall
+tree-covered ridges which loom over the flat, barren moors.  At the edge of
+the hills are numerous canyons or gullies, into one of which the ancient
+road passes.  The hillsides to the east and west give evidence of artificial
+construction, possibly human or dwarven attempts to prevent erosion or build
+fortifications.  
+ 
+The road ends abruptly to the north, where it disappears into the hillside.
+A carved tunnel-mouth is evident, marked with dwarf-runes of old, and
+cut into blocks with a black keystone.  However, a large collapse has
+blocked the passage a few feet inside.
+~
+0 0 2
+D2
+~
+~
+0 0 2386
+S
+#2388
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D0
+~
+~
+0 0 2393
+D1
+~
+~
+0 0 2389
+D2
+~
+~
+0 0 2369
+S
+#2389
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2392
+D1
+~
+~
+0 0 2390
+D2
+~
+~
+0 0 2368
+D3
+~
+~
+0 0 2388
+S
+#2390
+Endmoors~
+All around you stretches the endless yellow-grey terrain of the Endmoors.
+Low, rolling hills, surrounded by damp ponds of cold, stagnant water, extend
+through a light mist in all directions.  The sky always seems to be overcast
+here, and a light rain falls intermittently between gusts of the constantly-
+blowing wind.  The ululating howl of a wild animal echoes somewhere in the
+distance, echoed farther off by another of its kind.  
+~
+0 0 2
+D0
+~
+~
+0 0 2391
+D2
+~
+~
+0 0 2367
+D3
+~
+~
+0 0 2389
+S
+#2391
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2395
+D2
+~
+~
+0 0 2390
+D3
+~
+~
+0 0 2392
+S
+#2392
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2394
+D1
+~
+~
+0 0 2391
+D2
+~
+~
+0 0 2389
+D3
+~
+~
+0 0 2393
+S
+#2393
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D1
+~
+~
+0 0 2392
+D2
+~
+~
+0 0 2388
+S
+#2394
+Edge of the Endmoors~
+The low-undulating terrain of the Endmoors ends here as the ground rises
+into the edge of the Orc Hills.  A line of high, tree-covered ridges frames
+the north edge of the Endmoors, rising abruptly above the grey, boggy
+ground.  The green hills above you look too steep to climb here, though you
+can make out the tiny white tracks of hillside paths near the tops.  The
+bases of the hills are marked by ponds of dark, stagnant water from runoff,
+frequented by noisome insects and sickly vegetation.  
+~
+0 0 2
+D1
+~
+~
+0 0 2395
+D2
+~
+~
+0 0 2392
+S
+#2395
+Endmoors~
+You are in the midst of the Endmoors, a great region of low hills
+surrounding shallow, water-filled valleys.  The sky seems perpetually
+overcast here, a heavy, leaden grey color, and it frequently rains in a
+stubborn drizzle which coats the land with puddles.  The wind carries on it
+the smell of damp and swampy vegetation.  There is no sign of habitation in
+this place, although a rotten pile of boards or a faint outline of a
+foundation indicates where settlement might once have been.  
+~
+0 0 2
+D0
+~
+~
+0 0 2396
+D2
+~
+~
+0 0 2391
+D3
+~
+~
+0 0 2394
+S
+#2396
+Construction Site~
+This large, open, flat area is cradled between two ridges of hills to the
+east and west.  You are in a slightly raised area, forming a low plateau
+above the boggy expanse of the Endmoors.  A very faint path runs to the
+north and south through this area, twisting through the rough, broken edges
+of the hills.  The path to the south has been recently marred by heavy wagon
+ruts and the passage of many boots and hooves.  
+ 
+A large structure is under construction.  In the center is a large,
+square cellar, about twelve feet deep, with the excavated earth removed
+into a great heap.  A small hut, probably a kiln, is surrounded by
+large stacks of enormous, sturdy fired bricks.  A thick defensive wall is
+being built around the excavation at a distance of about fifty feet,
+constructed of two layers of bricks with earth being heaped in between.
+Huge stacks of lumber are nearby, covered by great tarpaulins weighted
+down by stones.
+~
+0 0 2
+D0
+~
+~
+0 0 2397
+D2
+~
+~
+0 0 2395
+S
+#2397
+Black Ashen Path~
+A small, muddy path winds through the rocky periphery of the Endmoors. 
+Pools of standing water occasionally block the path, as the frequent
+rainfall runs off the eroded hillsides and collects in the middle.  A thick
+layer of mud lines the ground, stained by black ash blown in on easterly
+winds.  Few tracks are visible along the trail, except the prints of
+wandering jackals.  
+ 
+The path leads east towards a range of low hills, and west into the Moors.
+~
+0 0 4
+D1
+~
+~
+0 0 2398
+D2
+~
+~
+0 0 2396
+S
+#2398
+Black Ashen Path~
+A small, muddy path winds through the rocky periphery of the Endmoors. 
+Pools of standing water occasionally block the path, as the frequent
+rainfall runs off the eroded hillsides and collects in the middle.  A thick
+layer of mud lines the ground, stained by black ash blown in on easterly
+winds.  Few tracks are visible along the trail, except the prints of
+wandering jackals.  
+ 
+The ash-stained path leads east and west.
+~
+0 0 4
+D1
+~
+~
+0 0 2399
+D3
+~
+~
+0 0 2397
+S
+#2399
+Black Ashen Path~
+A small, muddy path winds through the rocky periphery of the Endmoors. 
+Pools of standing water occasionally block the path, as the frequent
+rainfall runs off the eroded hillsides and collects in the middle.  A thick
+layer of mud lines the ground, stained by black ash blown in on easterly
+winds.  Few tracks are visible along the trail, except the prints of
+wandering jackals.  
+ 
+The ash-stained path wanders east into a range of low, scarred hills,
+and west into the edge of the Moors.
+~
+0 0 4
+D1
+~
+~
+0 0 950
+D3
+~
+~
+0 0 2398
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 0 2302 0 2303
+M 1 2300 14 2305 1
+M 1 2300 14 2308 1
+M 1 2300 14 2316 1
+M 1 2300 14 2318 1
+O 0 2301 0 2320
+M 1 2300 14 2327 1
+O 0 2304 0 2332
+M 1 2300 14 2337 1
+O 0 2302 0 2338
+M 1 2300 14 2340 1
+M 1 2300 14 2348 1
+O 0 2306 0 2349
+M 1 2300 14 2358 1
+O 0 2302 0 2360
+O 0 2303 0 2365
+M 1 2300 14 2366 1
+O 0 2305 0 2372
+M 1 2300 14 2373 1
+M 1 2300 14 2375 1
+O 0 2302 0 2377
+M 1 2300 14 2382 1
+O 0 2302 0 2385
+M 1 2300 14 2392 1
+M 1 2301 4 2396 4
+O 0 2300 0 2396
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

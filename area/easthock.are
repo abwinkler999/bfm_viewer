@@ -1,0 +1,757 @@
+#AREADATA
+Name East Hocking~
+Builders Sartorius~
+VNUMs 1000 1049
+Credits { XXX } BFM     East Hocking River~
+Security 9
+Deathroom 1
+Flags 1
+End
+
+
+
+#MOBILES
+#1000
+frog~
+a grey-green frog~
+A grey-green frog squats in the cool shadows beneath the bridge.
+~
+This unusually large creature lives beneath the bridge, apparently eating
+river flies and other water bugs.  Fortunately, ample supplies tend to float
+downstream from the fetid Greywater.  
+~
+lizard~
+ABG 0 0 0
+4 10 9d10+16 8d10+16 1d6+1 slime
+71 71 71 83
+0 0 L I
+stand stand none 0
+AGXc ACDEFHKQV huge unknown
+#1001
+goblin fisherman~
+the goblin fisherman~
+A goblin sits on the bank under the bridge, fishing with an old rod and reel.
+~
+This goblin, unusually for his kind, wears a pair of waterproof leather
+pants, and rests upon a rotten beam beneath the north bank of the river.  He
+doesn't seem to pay any attention to the boats passing by, tending his line
+with detachment.  
+~
+goblin~
+ABHK J 0 0
+3 9 7d10+9 6d0+9 1d5+0 punch
+77 77 77 86
+0 0 P NSXY
+stand stand male 9
+AHMV ABCDEFGHIJK huge unknown
+#1002
+duck~
+a duck~
+A duck paddles serenely along.
+~
+This small waterfowl seems well-fed.
+~
+water fowl~
+AW Tb 0 0
+1 7 3d10+1 2d10+1 1d6+-4 peck
+89 89 89 92
+0 0 R 0
+stand stand none 0
+AGW ACDEFHKP huge unknown
+#1003
+river pike~
+a river pike~
+A river pike stalks the river, seeking smaller fish.
+~
+River pikes are a variety of fish which dwell in the Hocking.  Larger
+specimens can grow to a length of as much as three feet.  Their spiny heads
+conceal several rows of razor-sharp teeth; locals tend to prefer catching
+river pikes through fly- rather than spear-fishing, or even better to avoid
+them completely.  
+~
+snake~
+ACG 0 0 0
+6 12 13d10+36 12d10+36 2d4+2 bite
+59 59 59 77
+0 0 L I
+stand stand male 0
+AGXYc ADEFKLQVX huge unknown
+#0
+
+
+
+#OBJECTS
+#1000
+reagent idlewither tangle mat plant~
+a reed of idlewither~
+A tangled mat of plantlife partially obstructs the waterway here.~
+unknown~
+reagent 0 A
+BD 0 0 0 0
+1 1 0 P
+#0
+
+
+
+#ROOMS
+#1024
+Rapids of the Hocking~
+The roiling Hocking flows through a much wider channel here, where it
+seems a large shelf of rock collapsed into the river, forming a chaotic mass
+of rapids.  It is difficult to control a boat in the churning, muddy waters,
+as almost wavelike masses of water crash against the rocks and spin in
+treacherous whirlpools.  Flotsam of all sorts is tossed about in the wild
+spray of water; driftwood from upstream, great slurries of scum and floating
+leaves, and even broken planks from unfortunate boats.  The river flows west
+to east.  
+~
+0 0 7
+D0
+~
+~
+0 0 1025
+D1
+~
+~
+9 0 1027
+D3
+~
+~
+0 0 1023
+S
+#1025
+Rapids of the Hocking~
+The roiling Hocking flows through a much wider channel here, where it
+seems a large shelf of rock collapsed into the river, forming a chaotic mass
+of rapids.  It is difficult to control a boat in the churning, muddy waters,
+as almost wavelike masses of water crash against the rocks and spin in
+treacherous whirlpools.  Flotsam of all sorts is tossed about in the wild
+spray of water; driftwood from upstream, great slurries of scum and floating
+leaves, and even broken planks from unfortunate boats.  The river flows west
+to east.  
+~
+0 0 7
+D1
+~
+~
+9 0 1026
+D2
+~
+~
+0 0 1024
+D3
+~
+~
+0 0 1022
+S
+#1026
+Hocking River, near its End~
+The chaotic Hocking settles down into a suspiciously calm channel, racing
+in a straight tube from west to east.  Great clots of flotsam form, blocking
+the river, only to be blasted aside by a fallen log or broken boat as the
+the racing waters fling them along.  The muddy waters beneath you become a
+foaming mass of grey as the Hocking picks up speed alarmingly.  To the west
+lie the rapids, and to the east the river seems almost to flow straight out
+into the sky...  
+~
+0 0 7
+D1
+~
+~
+9 0 1028
+D3
+~
+~
+0 0 1025
+S
+#1027
+Hocking River, near its End~
+The chaotic Hocking settles down into a suspiciously calm channel, racing
+in a straight tube from west to east.  Great clots of flotsam form, blocking
+the river, only to be blasted aside by a fallen log or broken boat as the
+the racing waters fling them along.  The muddy waters beneath you become a
+foaming mass of grey as the Hocking picks up speed alarmingly.  To the west
+lie the rapids, and to the east the river seems almost to flow straight out
+into the sky...  
+~
+0 0 7
+D1
+~
+~
+9 0 1028
+D3
+~
+~
+0 0 1024
+S
+#1028
+Cartharine Falls~
+The twin channels of the Hocking burst beautifully out of a scooped cliff
+face, soaring in two graceful arcs into midair as they plunge some eight
+hundred feet to a lake below.  Cartharine Falls appears to empty at the
+western end of a gargantuan rift valley, which stretches in a huge, deep
+scar across the land towards the eastern horizon.  Strange trees and animals
+dot the landscape; while the view is excellent, the prospects for survival
+while plummeting such a long distance are not.  
+~
+0 260 6
+S
+#1000
+Confluence of the Hocking~
+Swirling grey and muddy water marks the turbulent confluence of the
+rivers Hocking and Greywater.  Beneath the old brick embankments which prop
+up Ravenspur's waterfront, the muddy Hocking turns to the east, joining the
+murky Greywater between the spans of two old stone bridges.  The widened
+Hocking flows through Ravenspur's riverport district, and watercraft from
+small rafts to barges throng the river.  To the east the Hocking passes
+beneath the massive Southquarter Bridge; to the south it flows past a row of
+elegant old mansions.  The Greywater emerges sullenly from the west beneath
+the crumbling span of Old Arches.  
+~
+0 0 7
+D1
+~
+~
+9 0 1001
+D2
+~
+~
+0 0 1050
+D3
+~
+~
+0 0 2424
+S
+#1001
+Hocking River, beneath the Southquarter Bridge~
+The Hocking is thick with watercraft here in the midst of Ravenspur's
+riverfront district.  Barges loaded with grain and produce make their way
+laboriously down the river, while small sailcraft and skiffs ply the waters
+amongst these giants.  The Hocking is smooth and placid on this stretch. 
+The great stone span of the Southquarter Bridge hangs overhead, supported by
+huge stone pilings which divide the river into three wide lanes.  The
+crumbling masonry looks ancient but sturdy, and you can hear the quiet
+rattle of carriage traffic overhead.  The Hocking flows west to east here,
+passing through Ravenspur.  
+~
+0 0 7
+D1
+~
+~
+9 0 1002
+D3
+~
+~
+0 0 1000
+S
+#1002
+Hocking River, in Ravenspur~
+The Hocking is thick with watercraft here in the midst of Ravenspur's
+riverfront district.  Barges loaded with grain and produce make their way
+laboriously down the river, while small sailcraft and skiffs ply the waters
+amongst these giants.  The Hocking is smooth and placid on this stretch. 
+The Hocking flows east and west.  To the north, the Riverwalk extends partly
+into the river, and numerous boats are tied up to the public landing. 
+Docktoilers work busily on shore, loading and unloading crates from boats. 
+The City of Ravenspur extends to the north, rolled like a carpet over a
+large hillside.  
+~
+0 0 7
+D0
+~
+~
+0 0 3042
+D1
+~
+~
+9 0 1003
+D3
+~
+~
+0 0 1001
+S
+#1003
+Hocking River, beneath Mandover's Bridge~
+You pass beneath a rickety old wooden bridge which spans the Hocking in
+one graceful, if creaking, arch.  Built of some kind of chestnut wood and
+elaborately decorated with carvings, this bridge has clearly seen better
+days.  You hear very little traffic passing above.  This stretch of the
+Hocking River, however, sees a great deal of river traffic; a wide variety
+of rafts and barges ply the muddy waters here.  You can see the piers and
+landings of the Riverwalk to the east and west along the river.  
+~
+0 0 7
+D1
+~
+~
+9 0 1004
+D3
+~
+~
+0 0 1002
+S
+#1004
+Hocking River, in Ravenspur~
+The Hocking is thick with watercraft here in the midst of Ravenspur's
+riverfront district.  Barges loaded with grain and produce make their way
+laboriously down the river, while small sailcraft and skiffs ply the waters
+amongst these giants.  The Hocking is smooth and placid on this stretch. 
+The Hocking flows east and west.  To the north, the Riverwalk extends partly
+into the river, and numerous boats are tied up to the public landing. 
+Docktoilers work busily on shore, loading and unloading crates from boats. 
+The City of Ravenspur extends to the north, rolled like a carpet over a
+large hillside.  
+~
+0 0 7
+D0
+~
+~
+0 0 3049
+D1
+~
+~
+9 0 1005
+D3
+~
+~
+0 0 1003
+S
+#1005
+Hocking River, outside Ravenspur~
+The broad, muddy channel of the Hocking flows east between the tall brick
+embankments which keep Ravenspur from eroding into the river.  On the north
+bank is some sort of ersatz rubbish-yard, where centuries of odds and ends
+of junk and rotten cargoes have been dumped.  To the west is a large wooden
+bridge spanning the river, and the busy docks of the Riverwalk district. 
+Eastward the Hocking flows into open countryside, leaving the city behind. 
+There is a somber grey building on the north bank of the river, with a
+small dock that leads to a rusty iron gate in the wall of the building.  
+~
+0 0 7
+D1
+~
+~
+9 0 1006
+D3
+~
+~
+0 0 1004
+S
+#1006
+Hocking River, outside Ravenspur~
+The Hocking River turns slightly southeastward, away from the great hill
+of Ravenspur and into the open countryside of the Fallows.  To the north
+stands a great tower, the riverside terminus of the city wall.  A few
+warehouses dot the water's edge; one particularly large one seems to have
+its own covered docks.  Past the walls, the metropolis peters out into a few
+lone shacks, and beyond that, the rolling countryside.  
+~
+0 0 7
+D1
+~
+~
+9 0 1007
+D3
+~
+~
+0 0 1005
+S
+#1007
+Hocking River, in the Dawn Fallows~
+The slow-moving, muddy Hocking River here passes through open, rolling
+countryside.  The gentle hills and green meadows around you are occasionally
+interrupted by small farms and freeholdings, but remain largely uninhabited.
+The Hocking itself is moderately busy here; the occasional raft carries
+passengers or farm produce up or down river.  The Hocking flows west to
+east.  To the west you can see the imposing walls and great escarpment of
+the City of Ravenspur, rising above the riverbanks.  
+~
+0 0 7
+D1
+~
+~
+9 0 1008
+D3
+~
+~
+0 0 1006
+S
+#1008
+Hocking River, in the Dawn Fallows~
+The slow-moving, muddy Hocking River here passes through open, rolling
+countryside.  The gentle hills and green meadows around you are occasionally
+interrupted by small farms and freeholdings, but remain largely uninhabited.
+The Hocking itself is moderately busy here; the occasional raft carries
+passengers or farm produce up or down river.  The Hocking flows west to
+east.  To the west you can see the imposing walls and great escarpment of
+the City of Ravenspur, rising above the riverbanks.  
+~
+0 0 7
+D1
+~
+~
+9 0 1009
+D3
+~
+~
+0 0 1007
+S
+#1009
+Hocking River, in the Dawn Fallows~
+The slow-moving, muddy Hocking River here passes through open, rolling
+countryside.  The gentle hills and green meadows around you are occasionally
+interrupted by small farms and freeholdings, but remain largely uninhabited.
+The Hocking itself is moderately busy here; the occasional raft carries
+passengers or farm produce up or down river.  The Hocking flows west to
+east.  Here and there, you can see someone fishing on the riverbank.  
+~
+0 0 7
+D1
+~
+~
+9 0 1010
+D3
+~
+~
+0 0 1008
+S
+#1010
+Hocking River, in the Dawn Fallows~
+The slow-moving, muddy Hocking River here passes through open, rolling
+countryside.  The gentle hills and green meadows around you are occasionally
+interrupted by small farms and freeholdings, but remain largely uninhabited.
+The Hocking itself is moderately busy here; the occasional raft carries
+passengers or farm produce up or down river.  The Hocking flows west to
+east.  To the east you can see a small village on the bank of the river.  It
+has a surprisingly large landing, where men load sacks of grain and bales of
+hay onto barges.  
+~
+0 0 7
+D1
+~
+~
+9 0 1011
+D3
+~
+~
+0 0 1009
+S
+#1011
+Hocking River, before Epping~
+The slow-moving, muddy Hocking flows serenely past the little village of
+Epping, which rests upon the north bank.  Epping looks like a small, cozy
+town of thatched cottages and a few large white wooden houses.  To the
+north, a rather large landing is crowded with small barges and rafts; men
+load crates and sacks of grain of produce onto the various watercraft, and
+the river is crowded with other boats moving up and downstream.  The Hocking
+flows west to east.  
+~
+0 0 7
+D0
+~
+~
+0 0 3620
+D1
+~
+~
+9 0 1012
+D3
+~
+~
+0 0 1010
+S
+#1012
+Hocking River, before Epping~
+The slow-moving, muddy Hocking flows serenely past the little village of
+Epping, which rests upon the north bank.  Epping looks like a small, cozy
+town of thatched cottages and a few large white wooden houses.  To the
+north, what looks like a large mill projects out on stilts over part of the
+river.  A curiously fashioned waterwheel draws its power from the Hocking
+flowing through it; the slow current seems to provide a strong, steady
+turning motion.  The mill is painted white, with a large green 'S' on the
+side.  The Hocking flows west to east.  Upstream you can see a number of
+boats pulled up at the village landing.  
+~
+0 0 7
+D1
+~
+~
+9 0 1013
+D3
+~
+~
+0 0 1011
+S
+#1013
+Hocking River, below Epping~
+The slow-moving, muddy Hocking River here passes through open, rolling
+countryside.  The gentle hills and green meadows around you are occasionally
+interrupted by small farms and freeholdings, but remain largely uninhabited.
+The river is not heavily travelled here; the few craft you see are small
+fishing boats or the occasional lone traveller's canoe.  The river flows
+from the west, and bends to the south.  Upstream you can see a small village
+with a watermill.  
+~
+0 0 7
+D2
+~
+~
+9 0 1014
+D3
+~
+~
+0 0 1012
+S
+#1014
+Hocking River~
+The Hocking River swirls muddily through its heavily eroded banks,
+turning a few slow bends to the southeast.  The landscape here seems to
+consist mostly of long-abandoned fields.  Here and there is a rotten or
+burned-out farmhouse, but the surrounding countryside is for the most part
+utterly desolate.  To the west a small creek, too narrow for navigation,
+spills into the Hocking.  Someone has set up an eel trap across the mouth of
+the creek, you notice.  The Hocking flows from the north, bending east.  
+~
+0 0 7
+E
+trap~
+An eel trap is a series of concentric rings leading into a net.  Eels
+wriggle themselves through the rings into the net, following the current,
+but find it too difficult to make their way back out.  
+~
+D0
+~
+~
+0 0 1013
+D1
+~
+~
+9 0 1015
+S
+#1015
+Hocking River~
+The Hocking River swirls muddily through its heavily eroded banks,
+beginning to speed up a little.  The landscape here seems to consist mostly
+of long-abandoned fields.  Here and there is a rotten or burned-out
+farmhouse, but the surrounding countryside is for the most part utterly
+desolate.  The river flows from west to east, flowing noticeably downhill to
+the east, and passing through a region of broken rocks and caverns.  
+~
+0 0 7
+D1
+~
+~
+9 0 1016
+D3
+~
+~
+0 0 1014
+S
+#1016
+Hocking River, in the Hermit Caverns~
+The broad, muddy Hocking flows through a rocky region of massive boulders
+and weirdly echoing caverns.  Large limestone caves yawn on both sides of
+the river, the flickering river reflecting dimly off crystalline formations
+inside.  These caves, called for reasons long forgotten the Hermit Caverns,
+are formed where the Hocking has bored its way over time through a small
+ridge.  The river flows from west to east.  To the north is a small place
+which might be suitable for landing, before a large cave opening.  
+~
+0 0 7
+D0
+~
+~
+0 0 600
+D1
+~
+~
+9 0 1017
+D3
+~
+~
+0 0 1015
+S
+#1017
+Hocking River, in the Hermit Caverns~
+The broad, muddy Hocking flows through a rocky region of massive boulders
+and wierdly echoing caverns.  Large limestone caves yawn on both sides of
+the river, the flickering river reflecting dimly off crystalline formations
+inside.  These caves, called for reasons long forgotten the Hermit Caverns,
+are formed where the Hocking has bored its way over time through a small
+ridge.  The river flows from west to east.  
+~
+0 0 7
+D1
+~
+~
+9 0 1018
+D3
+~
+~
+0 0 1016
+S
+#1018
+Hocking River, in the Hermit Caverns~
+The broad, muddy Hocking flows through a rocky region of massive boulders
+and weirdly echoing caverns.  Large limestone caves yawn on both sides of
+the river, the flickering river reflecting dimly off crystalline formations
+inside.  These caves, called for reasons long forgotten the Hermit Caverns,
+are formed where the Hocking has bored its way over time through a small
+ridge.  The river flows from west to east.  
+ 
+A small crevice opens in the rock face to the south.
+~
+0 0 7
+D1
+~
+~
+9 0 1019
+D2
+~
+~
+0 0 2450
+D3
+~
+~
+0 0 1017
+S
+#1019
+Hocking River~
+The muddy Hocking begins to increase its speed as it flows downhill
+through a region of broken rocks, splashing over jagged boulders worn smooth
+by the passage of water over the years.  Boats are beginning to be a little
+hard to control this far downstream.  The Hocking cuts a deep channel
+through the natural limestone of the rough ground here, and it is difficult
+to see over the banks.  The river flows west to east.  To the north, through
+a narrow crevice in the rocks you can see a cataract of misty water which
+courses down through the surrounding hills.  
+~
+0 0 7
+D0
+~
+~
+0 0 6449
+D1
+~
+~
+9 0 1020
+D3
+~
+~
+0 0 1018
+S
+#1020
+Hocking River~
+The Hocking flows swiftly through a deeply cut channel, splashing its way
+down a rocky but gentle slope and making boating treacherous.  The banks of
+the river are a mass of smoothed limestone and broken boulders, and over
+their sides you can see occasional glimpses of the rocky wasteland through
+which this region of the river flows.  The swirling muddy waters roil and
+churn with increasing force.  The river flows west to east.  
+~
+0 0 7
+D1
+~
+~
+9 0 1021
+D3
+~
+~
+0 0 1019
+S
+#1021
+Hocking River~
+The Hocking flows swiftly through a deeply cut channel, splashing its way
+down a rocky but gentle slope and making boating treacherous.  The banks of
+the river are a mass of smoothed limestone and broken boulders, and over
+their sides you can see occasional glimpses of the rocky wasteland through
+which this region of the river flows.  The swirling muddy waters roil and
+churn with increasing force.  The river flows west to east.  
+~
+0 0 7
+D1
+~
+~
+9 0 1022
+D3
+~
+~
+0 0 1020
+S
+#1022
+Rapids of the Hocking~
+The roiling Hocking suddenly bursts into a wider channel here, where it
+seems a large shelf of rock collapsed into the river, forming a chaotic mass
+of rapids.  It is difficult to control a boat in the churning, muddy waters,
+as almost wavelike masses of water crash against the rocks and spin in
+treacherous whirlpools.  Flotsam of all sorts is tossed about in the wild
+spray of water; driftwood from upstream, great slurries of scum and floating
+leaves, and even broken planks from unfortunate boats.  The broader channel
+of the Hocking extends to the south and flows east; it empties into the
+rapids from the west.  
+~
+0 0 7
+D1
+~
+~
+9 0 1025
+D2
+~
+~
+0 0 1023
+D3
+~
+~
+0 0 1021
+S
+#1023
+Rapids of the Hocking~
+The roiling Hocking suddenly bursts into a wider channel here, where it
+seems a large shelf of rock collapsed into the river, forming a chaotic mass
+of rapids.  It is difficult to control a boat in the churning, muddy waters,
+as almost wavelike masses of water crash against the rocks and spin in
+treacherous whirlpools.  Flotsam of all sorts is tossed about in the wild
+spray of water; driftwood from upstream, great slurries of scum and floating
+leaves, and even broken planks from unfortunate boats.  The river flows
+east, swirling down from the north.  
+~
+0 0 7
+D0
+~
+~
+0 0 1022
+D1
+~
+~
+9 0 1024
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 1 1000 3 1001 3
+M 1 1000 3 1001 3
+M 1 1000 3 1001 3
+M 1 1001 1 1003 1
+M 1 1002 6 1006 2
+M 1 1002 6 1006 2
+M 1 1003 3 1008 1
+M 1 1003 3 1015 1
+O 0 1000 0 1017
+M 1 1003 3 1021 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

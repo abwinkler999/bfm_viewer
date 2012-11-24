@@ -1,0 +1,1577 @@
+#AREADATA
+Name Throne Caves~
+Builders Sartorius~
+VNUMs 6625 6674
+Credits { 8 11} Bleys   The Throne Caves~
+Security 9
+Deathroom 1
+Flags 1
+End
+
+
+
+#MOBILES
+#6625
+red spider~
+a red spider~
+A nine-legged red spider is descending towards you.
+~
+This strange specimen, a rare nine-legged spider, is nearly two feet
+across and is covered in coarse red hair.  You think you can see young
+spiders clinging to its back: its brood, perhaps.  It looks all too eager to
+provide food for its young.  
+~
+centipede~
+AB DJ 0 0
+8 14 17d10+64 16d10+64 2d5+4 acbite
+47 47 47 71
+0 0 FI E
+stand stand none 0
+ABGO ACK medium unknown
+#6626
+devilgrass grass stalk~
+a stalk of devilgrass~
+An eerily waving stalk of grass undulates as you approach.
+~
+A patch of the carnivorous weed called "devilgrass" grows here from a
+wall.  Devilgrass or "choking grass" lures prey close with its undulating
+motions before overwhelming and squeezing the life from the unfortunate
+victim.  
+~
+plant~
+AB 0 0 0
+9 15 19d10+81 18d10+81 4d4+0 crush
+41 41 41 68
+0 BLPQ ST 0
+stand stand none 0
+A 0 medium unknown
+M random 6626 15~
+#6627
+transformed owlbear~
+a thin owlbear~
+A thin, sickly-looking owlbear is cornered and dangerous.
+~
+This unwell-looking creature appears to be suffering from some sort of
+disease.  The owlbear stands nearly eight feet tall, with the bizarre
+features common to its kind.  However, its bloodshot and seeping eyes seem
+almost to exhibit a human intelligence, and there is something more than
+bestial in the way it sweeps wreckage out of its way to improve its tactical
+position.  Perhaps it was not always in the form you see, but in any case it
+appears too late for this now insane monster.  
+~
+bear~
+AF Y 0 0
+9 15 19d10+81 18d10+81 2d6+4 claw
+41 41 41 68
+DEO 0 EI 0
+stand stand none 0
+AGV ABCDEFHJKUV medium unknown
+#6628
+efreeti xjij fat man~
+the efreeti Xjij~
+A fat man shrouded in flames hovers above the ground.
+~
+This fat, imposing figure is as tall and as broad as a man.  Clad of
+flame-red silk pajamas and a belt of living fire itself, he has a thick
+black beard but a bright red mane.  He hovers about three feet off the
+ground, arms crossed over his chest and sparks dancing in his eyes.  You get
+the impression that he is trapped in this place, and has been for some time,
+perhaps trying to trick foolish sorcerers into conjuring him.  
+~
+gnoll~
+ABKT FJT 0 0
+11 17 23d10+121 22d0+121 3d5+4 flame
+29 29 29 62
+E 0 0 Y
+stand stand male 22
+AHMV ABCDEFGHIJKUV medium unknown
+#6629
+furred snake furry~
+a furred snake~
+A furry, dirt-colored shape lurks in the shadows.
+~
+This rare subterranean creature, resembling a long, legless weasel or
+lamprey more than a snake, is about eight feet long and bears a double row
+of needle-sharp teeth.  Furred snakes are carnivorous and extraordinarily
+vicious; while they do not usually attack creatures much larger than them,
+they have been known to kill halflings or even humans.  
+~
+snake~
+AB Q 0 0
+8 14 17d10+64 16d10+64 2d6+2 bite
+47 47 47 71
+FM 0 L I
+stand stand none 0
+AGXYc ADEFKLQVX medium unknown
+#6630
+dancing gnome~
+the Dancing Gnome~
+A solitary gnome dances vigorously upon the marble floor, ignoring all else.
+~
+This gnome dances a furious jig, clattering up a racket upon the hard
+marble floor.  No music is audible, but the gnome pays no heed to this, or,
+in fact, anything else.  All attempts to communicate with the solitary
+dancer are futile; he pays no attention to words or gestures.  Judging by
+the length of his unkempt beard and fingernails, he has been at this
+activity for quite a while; to what end unknown.  
+~
+gnome~
+AB J 50 0
+9 15 19d10+81 18d10+81 2d6+4 charge
+41 41 41 68
+0 0 P R
+stand stand male 5
+AHMV ABCDEFGHIJK medium unknown
+M grall 6630 100~
+#6631
+dwarf ghoul~
+a dwarven ghoul~
+A dwarven ghoul scratches at his prison for eternity.
+~
+This feeble, wan figure appears to be nothing more than skin stretched
+like parchment over a frame of old bones, animated by undying hatred.  The
+dwarven prisoner's desire for freedom appears to have outlasted his mortal
+existence; the undead remains scratch still at the walls, trying hopelessly
+to dig free at last.  
+~
+dwarf~
+ABFO J -300 0
+11 17 23d10+121 22d10+121 1d3+19 scratch
+29 29 29 62
+0 0 LQ R
+stand stand male 113
+AHMV ABCDEFGHIJK medium unknown
+#6632
+sandviper sand viper~
+a sandviper~
+A sandviper lurks just beneath the surface of the sand.
+~
+This dangerous predator, difficult to spot in its native habitat of sandy
+deserts or dunes owing to its dull brown color and loose-scaled skin,
+typically hides beneath the surface of the sand, waiting for prey to
+approach.  Its usual mode of attack is to leap suddenly from its sandy lair,
+trying to attack like a lamprey to the victim's skin, preferring the throat.
+Its razor-sharp teeth making disengaging difficult.  
+~
+snake~
+ABFG Q 0 0
+9 15 19d10+81 18d10+81 3d5+1 shbite
+41 41 41 68
+0 0 L I
+stand stand none 0
+AGXYc ADEFKLQVX medium unknown
+M random 6632 2~
+#6633
+Tyrnod warrior fighter~
+Tyrnod the Fighter~
+A thickly moustached fighter sharpens his sword.
+~
+Tyrnod is a tall, burly-looking human fighter.  Judging by the number of
+scars on his face, he's been an adventurer for some time.  He moves with a
+deliberate economy of motion, as if he's never sure when his next chance to
+rest might come.  
+~
+human~
+ABT 0 -300 0
+8 14 17d10+64 16d10+64 4d3+2 punch
+47 47 47 71
+CI 0 0 0
+stand stand male 25
+AHMV ABCDEFGHIJK medium unknown
+M greet 6633 100~
+#6634
+Batris cleric mystic~
+Batris the Mystic~
+A mystic studies some runes drawn upon a piece of paper.
+~
+Batris is a thin, reedy-looking halfling with a sallow face and blotchy
+complexion.  This person, obviously a mystic from his unusual dress and
+collection of religious tablets, seems constantly nervous, always fidgeting
+with his fingers and staring at the door.  
+~
+halfling~
+ABFQ 0 -200 0
+8 14 17d10+64 16d10+64 3d4+2 punch
+47 47 47 71
+E 0 LQ S
+rest stand none 14
+AHMV ABCDEFGHIJK medium unknown
+#6635
+Ailios thief rogue halfelf lanky~
+Ailios the Rogue~
+A lanky halfelf reclines in an easy chair.
+~
+Ailios is a young, lanky halfelven man with long, unkempt brown hair.  He
+is constantly staring into space with a slightly distracted, superior smile
+upon his face, or juggling what look like large jewels of low worth. 
+Despite his distracted appearance, you get the impression that he is sizing
+you up.  
+~
+halfelf~
+ABFS J -160 0
+8 14 17d10+64 16d10+64 2d6+2 punch
+47 47 47 71
+B 0 0 0
+sit stand male 35
+AHMV ABCDEFGHIJK medium unknown
+#6636
+no headed dog~
+a no-headed dog~
+A bizarre, no-headed dog gurgles frantically as it runs in circles.
+~
+This weird, frightening creature is identical to a large wolfhound, save
+for its unnatural headless state.  Its neck ends at a blunt stump of fur,
+apparently still possessing some rudiments of a throat, for it emits a
+horrifying wailing gurgle, flinging itself at where it thinks you are in a
+suicidal rage.  What could have created such a monstrosity, or how it
+preserves its existence, is inexplicable.  
+~
+dog~
+AB 0 0 0
+9 15 19d10+81 18d10+81 1d5+16 scratch
+41 41 41 68
+DN 0 0 0
+stand stand none 0
+AGV ACDEFHJKUV medium unknown
+M random 6636 1~
+#6637
+copper golem~
+the copper golem~
+A golem, crafted of copper plates, stands mutely.
+~
+This automaton, shaped more or less like a man with a squarish,
+bucket-like head and strong metal arms, is constructed from plates of copper
+fused together with some kind of welding.  A flickering spark is visible in
+its eye sockets, burning somewhere inside its metal head.  
+~
+human~
+AB 0 0 0
+10 16 21d10+100 20d10+100 4d4+2 beating
+35 35 35 65
+CLP MNS GKO F
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+M speech 6637 Cadamoc~
+#6638
+carrion crawler insect~
+a carrion crawler~
+A carrion crawler skitters towards you, dripping slime from its tentacles.
+~
+This horrible insectoid creature, nearly six feet long, looks like a
+cross between a snake and a centipede.  These crawlers, as their name
+indicates, prefer to feed upon corpses left by others, but they are not
+averse to manufacturing their own food.  Typically, a carrion crawler coats
+a carcass in its preservative slime before hauling it back to its lair to
+save for later.  
+~
+centipede~
+ABF J 0 0
+10 16 21d10+100 20d10+100 3d5+3 slime
+35 35 35 65
+0 0 FI E
+stand stand none 0
+ABGO ACK medium unknown
+#6639
+paper tiger beast origami~
+a paper tiger~
+A strange beast, folded from huge sheets of paper, is in the shape of a tiger.
+~
+Some strange artifice of sorcery has given life to a great construct of
+folded paper.  This creature, in the shape of a tiger, stands four feet tall
+at its shoulder but little more than four inches wide.  Thick paper of an
+orange hue is cunningly folded to produce its form, but a lifelike glitter
+is apparent in its foolscape eyesockets.  Two rows of sharp origami teeth
+are visible within its mouth, and its folds crackle sinuously with
+malevolent grace.  
+~
+wolf~
+AFGY J 0 0
+9 15 19d10+81 18d10+81 16d1+0 scratch
+41 41 41 68
+FH 0 0 0
+stand stand none 0
+AGV ACDEFJKQV medium unknown
+#0
+
+
+
+#OBJECTS
+#6625
+chipped ivory scroll~
+a chipped ivory scroll-case~
+A chipped ivory scroll-case is forgotten upon a shelf.~
+ivory~
+scroll G A
+11 'faerie fog' 'reserved' 'reserved' 'reserved'
+6 12 114 P
+#6626
+withered lump root~
+a withered lump of grass root~
+A withered lump of grass root is an unusual glossy black.~
+unknown~
+herb Q A
+BC 0 0 0 0
+3 2 54 P
+#6627
+ruptured sack~
+a ruptured sack of silver marks~
+A ruptured sack spills tarnished silver coins.~
+silver~
+money 0 A
+117 0 0 0 0
+1 20 1 P
+#6628
+quartz pendant~
+a quartz pendant~
+A polished cube of quartz is threaded to make a pendant.~
+unknown~
+jewelry G AC
+0 0 0 0 0
+2 1 55 P
+A
+17 -6
+#6629
+gigantic spear~
+a gigantic spear~
+A gigantic spear is far too heavy to lift.~
+unknown~
+weapon E 0
+spear 14 0 pierce F
+40 700 80 P
+#6630
+portal flames burning pit~
+a portal of fire~
+Flames lick at a burning pit in the very center of the room.~
+unknown~
+portal G 0
+9999 0 0 6647 0
+1 1 1 P
+#6631
+flames burning ring portal~
+a portal of fire~
+Flames lick at a burning ring, suspended in midair.~
+unknown~
+portal G 0
+9999 0 0 6646 0
+1 1 1 P
+#6632
+flaming bracer~
+a flaming bracer~
+A bronze bracer dances and crackles with illusory flames.~
+bronze~
+armor AG AM
+1 1 1 1 0
+10 14 78 P
+A
+2 1
+#6633
+pitted gold ring~
+a pitted gold ring~
+A large golden ring is marred by acid pits.~
+gold~
+jewelry Q AB
+0 0 0 0 0
+1 1 23 P
+#6634
+tap fountain~
+a tap~
+A disused steel tap, overgrown with mold, is embedded in the dam.~
+unknown~
+fountain B 0
+4000 4000 'salt water' 0 0
+1 1 1 P
+#6635
+encrusted key~
+an encrusted key~
+An ancient key is encrusted with hardened slime.~
+unknown~
+key 0 A
+0 0 0 0 0
+1 4 4 P
+#6636
+flimsy pick~
+a flimsy pick~
+A flimsy pick seems to have been made from a stick and a belt buckle.~
+unknown~
+weapon 0 AN
+axe 3 3 pierce 0
+5 12 1 B
+#6637
+grey marble~
+a small grey marble~
+A small grey marble is chalky and slightly spongy in texture.~
+unknown~
+pill Q A
+14 'slow' 'reserved' 'reserved' 'reserved'
+1 1 22 P
+#6638
+heap bones~
+a pile of bones~
+A pile of bones is heaped at one end of the room.~
+unknown~
+container 0 0
+40 0 0 2 100
+1 1 1 P
+#6639
+electrum belt~
+a tarnished electrum belt~
+A delicately-fashioned belt is made from electrum wire.~
+unknown~
+jewelry 0 AL
+0 0 0 0 0
+1 35 31 P
+#6640
+mummified corpse~
+a mummified corpse~
+The mummified corpse of a humanoid is held within the slime.~
+unknown~
+container E 0
+50 0 0 5 100
+1 1 1 P
+E
+corpse~
+This corpse appears relatively fresh; the layer of slime over it is thin
+and still wet in places.  You think you can make out an embroidered name
+upon the sleeve of a robe: 'Rudhros'.  
+~
+#6641
+sabre steel~
+a steel sabre~
+A steel sabre is sharpened to a finely-honed edge.~
+unknown~
+weapon 0 AN
+sword 3 7 slash 0
+7 22 70 P
+A
+18 3
+A
+19 3
+#6642
+morning star morningstar~
+a battered morning star~
+A battered morning star is set with dozens of sharp nails.~
+unknown~
+weapon 0 AN
+mace 3 7 smash 0
+7 20 64 P
+A
+18 1
+A
+19 4
+#6643
+squill whip~
+a weighty squill whip~
+A weighty squill whip is tied of sharp, fibrous plant strands.~
+unknown~
+weapon G AN
+whip 3 7 whip 0
+7 15 90 P
+A
+18 4
+A
+19 2
+A
+14 15
+E
+squill~
+A squill is a kind of wild onion which grows in coastal areas by the
+sea-side.  Its long stalk, reaching to the surface, is reknowned for its
+strength as well as its toughness.  Three or four wound together makes a
+strong whip.  
+~
+#6644
+blue leather breeches~
+a pair of blue leather breeches~
+A pair of leather breeches is dyed a dark blue.~
+unknown~
+armor 0 AF
+1 3 4 1 0
+8 8 34 P
+#6645
+coat banded mail~
+a coat of banded mail~
+A coat of banded mail is easily concealed beneath clothes.~
+unknown~
+armor 0 AD
+5 2 4 1 0
+8 80 100 P
+#6646
+leather sash~
+a leather sash, sewn with metal disks~
+A leather sash is sewn with dozens of metal disks.~
+unknown~
+armor 0 AR
+0 0 5 4 0
+8 10 25 P
+#6647
+elven shoes~
+a pair of elven shoes~
+A pair of elven shoes is made of strange yellow leather.~
+unknown~
+armor G AG
+1 1 1 5 0
+7 10 105 P
+#6648
+iron breastplate~
+an iron breastplate~
+An iron breastplate is dented in places.~
+unknown~
+armor 0 AD
+3 3 3 2 0
+8 35 70 G
+#6649
+iron sleeves~
+a pair of iron sleeves~
+A pair of iron sleeves is mounted with leather straps for tightening.~
+unknown~
+armor 0 AI
+3 0 6 0 0
+8 20 48 P
+#6650
+key straw twisted~
+a metal key, twisted with straw~
+A long metal key is wound with a twist of straw.~
+unknown~
+key 0 A
+0 0 0 0 0
+1 1 5 P
+#6651
+edible fungus~
+a block of edible fungus~
+A block of edible fungus is carefully wrapped in cheesecloth.~
+unknown~
+food 0 A
+40 5 0 0 0
+1 40 30 P
+#6652
+copper flanged gauntlet~
+a copper-flanged gauntlet~
+A copper-flanged gauntlet is inlaid with letters upon its palm.~
+unknown~
+armor G AH
+2 2 6 4 0
+8 20 115 P
+E
+letters~
+The word 'Cadamoc' is engraved into the palm of the gauntlet.
+~
+#6653
+charred corpse~
+the charred corpse of an adventurer~
+The charred corpse of an adventurer is collapsed upon the grid.~
+unknown~
+container 0 0
+50 0 0 1 100
+1 1 1 P
+E
+corpse~
+It appears that this person, possibly a spellfilcher, perished by being
+decapitated by some trap.  However, at a later point some passers-by set
+fire to the corpse.  
+~
+#6654
+cistern shimmering fluid~
+a large cistern of shimmering fluid~
+A large stone cistern of shimmering fluid is forgotten in a corner.~
+unknown~
+pool G 0
+0 0 0 0 0
+1 1 1 P
+#6655
+ingot lead~
+a lead ingot~
+A large lead ingot rests upon the floor.~
+unknown~
+treasure 0 A
+0 0 0 0 0
+1 300 4 P
+#6656
+opal gemstone~
+a small opal~
+A small opal lies discarded upon the floor.~
+unknown~
+gem Q A
+0 0 0 0 0
+1 6 140 P
+#6657
+bundle coiled rope ladder~
+a coiled rope ladder~
+A rope ladder is coiled up into a tight bundle.~
+rope~
+trash G A
+0 0 0 0 0
+0 200 40 P
+E
+ladder~
+This rope ladder is cleverly coiled up into a tightly-wrapped bundle,
+secured with one large and elegant knot.  It is, unfortunately, impossible
+to determine how to unravel the knot and open the bundle.  
+~
+#6658
+remains puppet slab~
+the remains of a puppet~
+The carefully dissected remains of a puppet lie upon the slab.~
+unknown~
+trash Y 0
+0 0 0 0 0
+0 0 0 P
+E
+puppet~
+This puppet, a large marionette nearly three feet long, has been
+partially and carefully disassembled into its constituent pieces.  The
+strings have been cut and neatly coiled into individual bundles, each
+labelled in an unfamiliar language.  Both hands have been removed and cut
+into several sections; one leg is bisected and some sort of metal clamp
+applied to the papier mache stump.  The chest cavity has been neatly sliced
+open with a seven-inch-long incision; a small wooden bowl holds the cotton
+batting removed, partially separated into clumps.  
+ 
+The puppet's face is skillfully painted with an expression of agony.
+~
+#6659
+torn burlap sack~
+a torn burlap sack~
+A torn burlap sack is labelled 'GINGER'.~
+unknown~
+container 0 A
+12 0 0 4 100
+1 1 1 P
+#0
+
+
+
+#ROOMS
+#6625
+Damp, Mossy Hallway~
+This damp, mossy hallway extends from east to west.  The walls are
+covered in a curious kind of red ceramic tile, at one point closely fitted
+together but now damaged by the relentless growth of moss and lichens over
+the years.  The floor is muddy and puddles of water are frequent; this is
+probably due to the jagged hole in the ceiling about nine feet above you
+through which sunlight (and weather) enter this space.  The air smells damp
+and musty, full of the rot of time.  The hallway continues east and west,
+and you can climb back out above.  
+~
+0 9 0
+D1
+~
+~
+0 0 6628
+D3
+~
+~
+0 0 6626
+D4
+~
+~
+0 0 2365
+M 80 H 80
+S
+#6626
+Green Slime Pool~
+This large, square room is set with very heavy, closely-fitted red
+ceramic tiles on all four walls.  A hallway leads out of the room to the
+east through a darkened corridor, while a small door appears to open into a
+small cupboard or closet to the south.  Covering the floor in a huge oozing
+puddle is a great mass of green slime, which flows and undulates slowly in a
+sickening pulsating motion.  The etched remains of bones which lie here and
+there within the mass advise you that the muck is likely not terribly safe
+to investigate.  However, some enterprising soul has placed a row of eight
+wooden buckets, evidently for use as stepping-stones, through the room
+leading towards a cleared space before the closet door.  
+~
+0 9 0
+D1
+~
+~
+0 0 6625
+D2
+~
+~
+1 0 6627
+M 100 H 15
+S
+#6627
+Closet~
+This cramped closet was constructed of now-peeling plaster, painted with
+some sort of mural, upon dressed stone, and appears to have been an
+architectural afterthought.  The walls are set with a few shelves, upon
+which remain a scant few odds and ends, from overturned (and corroded) metal
+boxes to the rotten remains of a silken sack.  You note a thick mass of
+spiderwebs suspended, oddly enough, across the ceiling of this closet.  The
+door leads back out to the north.  
+~
+0 8 0
+D0
+~
+~
+1 0 6626
+S
+#6628
+Old Well~
+The hallway ends here at a slightly wider alcove.  In the center of the
+floor is a large square stone dais, surrounded by steps.  The dais appears
+to be the top of an ancient well; the corroded remains of an iron dipper are
+attached to the dais by a ruined chain.  A metal grating which once capped
+the well has been detached and dragged aside to lean against a wall nearby. 
+The rotten remains of ropes are tied in various places around the edge of
+the well, memorials of numerous expeditions of years past.  A hallway leads
+towards sunlight to the west.  
+~
+0 9 0
+D3
+~
+~
+0 0 6625
+D5
+~
+~
+0 0 6629
+M 85 H 85
+S
+#6629
+Old Well~
+An old stone well extends up and down through darkness.  This shaft, long
+disused, is coated with slimy lichens and algae which have grown here over
+the years, feeding over the still-present moisture.  Grab-irons are hammered
+into the wall all along the shaft, forming a crude ladder; although some are
+dangerously rusted, it is still possible to climb up and down the well.  To
+the east, you can see a small ledge which appears to have been dug out of
+the side of the wall by removing bricks.  The well extends up and down into
+the gloom.  
+~
+0 9 0
+D1
+~
+~
+0 0 6631
+D4
+~
+~
+0 0 6628
+D5
+~
+~
+0 0 6630
+M 80 H 80
+S
+#6630
+Old Well, Bottom~
+You are in a small room, about twenty feet square.  In the center of the
+ceiling is a large open shaft, lined with stone blocks and overgrown with a
+thick, slimy layer of moss and algae.  Some badly decomposed ropes, hung
+with lichens, protrude from the shaft, the longest reaching to a rotting
+coil upon the floor.  Set into the center of the room is the top of a stone
+cistern, from which water was presumably drawn through the shaft in the
+ceiling.  Someone has covered over the cistern with a large mass of lumber
+hastily nailed together, and this blockade, despite its dilapidated
+condition, is too strong to easily move.  A hallway leads west into
+darkness.  
+~
+0 13 0
+D3
+~
+~
+0 0 6632
+D4
+~
+~
+0 0 6629
+D5
+~
+~
+0 0 6654
+M 50 H 50
+S
+#6631
+Cramped Lair~
+This cramped space, little more than four feet high, appears to have been
+created by laboriously pulling masonry blocks out of the wall.  The crawlway
+extends a little more than eight feet to the east, before ending finally at
+a wall of hard-packed clay.  The walls and ceiling are rough to the touch
+with jagged chunks of mortar, while the floor is carpeted by a blanket of
+moss which appears to, in places, cover a quantity of animal bones.  A faint
+charnel smell hangs in the air, giving you the impression that something
+makes this its lair.  
+The ledge opens onto a well to the west.
+~
+0 13 0
+D3
+~
+~
+0 0 6629
+M 45 H 45
+S
+#6632
+Chamber of the Dog~
+The builder of this room left no doubt as to the subject of its devotion.
+Two large statues of snarling dogs, carved of some green stone, guard the
+exit to the south; murals of hunting scenes featuring packs of bloodhounds
+are upon the walls, and a large mosaic depicting a fearsome cur is set into
+the floor.  Dog-shaped torch sconces, now empty, are bolted to all four
+walls.  The purpose of this shrine to caninity is unclear; no altar is in
+evidence, merely artistic tokens of devotion.  Hallways lead east, west, and
+south from this room.  From the west you hear a loud tapping sound.  
+~
+0 9 0
+E
+statue~
+Someone has apparently broken off the ears and tails of the stone
+mastiffs.  
+~
+E
+mural~
+Deep, parallel scratches have been cut into the murals, badly damaging
+them.  
+~
+D1
+~
+~
+0 0 6630
+D2
+~
+~
+0 0 6639
+D3
+~
+~
+0 0 6633
+M 90 H 90
+S
+#6633
+Marble-Floored Room~
+This chamber is otherwise unremarkable, about thirty feet square and
+constructed of stone blocks, were it not for its spotless white marble
+floor, polished to a nearly mirror-like shine.  Not a mark mars the
+brilliant if slippery floor, made apparently of one solid block or sheet of
+the whitest marble.  Low archways lead out to the east and south.  This room
+is very noisy, you notice, on account of the loud clatter produced by
+footsteps upon the marble floor.  
+~
+0 12 0
+D1
+~
+~
+0 0 6632
+D2
+~
+~
+0 0 6634
+M 80 H 80
+S
+#6634
+Room of Straw~
+This small chamber is filled with a choking, unhealthful atmosphere thick
+with mold and mildew.  The reasons are plain: the walls, floor, and ceiling
+of this room are entirely covered with bundles of straw.  Large masses have
+been affixed to every surface with large, rusting metal staples; you can see
+compressed pads of straw beneath these.  The sagging ceiling is hung with
+damp, rotten clumps of straw, with more straw beneath these.  No walls are
+visible beneath the straw, except upon the floor where someone has slashed
+away the matting to reveal a wooden trapdoor.  The mold growing upon the
+damp, cold straw is visible, making your lungs itch and your eyes water.  A
+hallway leads north out of the room.  
+~
+0 9 0
+D0
+~
+~
+0 0 6633
+D5
+~
+trapdoor~
+1 6650 6635
+M 35 H 35
+S
+#6635
+Owlbear's Lair~
+This dank, cramped hole is full of fallen ceiling-beams, perhaps the
+wreckage of rooms collapsed above.  You appear to be in a large room, now
+subdivided into dozens of small, cramped passages by a great profusion of
+rubble and debris which has poured from the ruined ceiling.  What was once a
+wood- panelled floor is now a slippery layer of muck.  There is the
+unmistakeable musk of a large creature somewhere nearby, who frequents this
+area, and tangled clumps of coarse, matted fur are caught upon the
+splintered ends of several timbers.  
+You can force your way through to the east and south, and it is possible to
+climb the fallen beams upwards to what looks like a trap-door.
+~
+0 9 0
+D1
+~
+~
+0 0 6637
+D2
+~
+~
+0 0 6636
+D4
+~
+~
+1 6650 6634
+M 60 H 60
+S
+#6636
+Owlbear's Lair~
+This dank, cramped hole is full of fallen ceiling-beams, perhaps the
+wreckage of rooms collapsed above.  You appear to be in a large room, now
+subdivided into dozens of small, cramped passages by a great profusion of
+rubble and debris which has poured from the ruined ceiling.  What was once a
+wood- panelled floor is now a slippery layer of muck.  There is the
+unmistakeable musk of a large creature somewhere nearby, who frequents this
+area, and tangled clumps of coarse, matted fur are caught upon the
+splintered ends of several timbers.  
+ 
+You can force your way through to the north and east.
+~
+0 9 0
+D0
+~
+~
+0 0 6635
+D1
+~
+~
+0 0 6638
+S
+#6637
+Owlbear's Lair~
+This dank, cramped hole is full of fallen ceiling-beams, perhaps the
+wreckage of rooms collapsed above.  You appear to be in a large room, now
+subdivided into dozens of small, cramped passages by a great profusion of
+rubble and debris which has poured from the ruined ceiling.  What was once a
+wood- panelled floor is now a slippery layer of muck.  There is the
+unmistakeable musk of a large creature somewhere nearby, who frequents this
+area, and tangled clumps of coarse, matted fur are caught upon the
+splintered ends of several timbers.  
+You can force your way through to the west and south.
+~
+0 9 0
+D2
+~
+~
+0 0 6638
+D3
+~
+~
+0 0 6635
+M 70 H 70
+S
+#6638
+Owlbear's Lair~
+This dank, cramped hole is full of fallen ceiling-beams, perhaps the
+wreckage of rooms collapsed above.  You appear to be in a large room, now
+subdivided into dozens of small, cramped passages by a great profusion of
+rubble and debris which has poured from the ruined ceiling.  What was once a
+wood- panelled floor is now a slippery layer of muck.  There is the
+unmistakeable musk of a large creature somewhere nearby, who frequents this
+area, and tangled clumps of coarse, matted fur are caught upon the
+splintered ends of several timbers.  
+You can force your way through to the north and west.
+~
+0 9 0
+D0
+~
+~
+0 0 6637
+D3
+~
+~
+0 0 6636
+M 60 H 60
+S
+#6639
+Scattered Bones~
+This large chamber has perfectly round walls, broken only by elegant
+archways set to the north and south, and a small door to the east.  It is
+apparent that some sort of battle has been fought in this room in the past;
+shattered stonework on the walls bears witness to sword- or axe-blows, and
+old bloodstains are seeped into the stone floor.  The only present contents
+of this room are bones; two or three human skeletons are confounded in a
+heap to one side complete with the rotten remains of their garments.  A
+strange design or pattern is laid out in the center of the room, appearing
+to be some sort of exercise in geometry.  Fingerbones of various persons are
+laid in a compass-like pattern, with radiant lines pointing at each exit and
+laid out in interlocking circles.  It is impossible to determine what the
+design is intended to signify.  
+~
+0 9 0
+E
+design~
+You note this curious property of the pattern: any component bone which
+is picked up begins to drift back, as if pulled magnetically, to its proper
+place in the design.  Even violently scattering the bones ensures only a
+slow recomposition.  
+~
+D0
+~
+~
+0 0 6632
+D1
+~
+~
+1 0 6640
+D2
+~
+~
+0 0 6642
+S
+#6640
+Dry, Dusty Room~
+The suffocatingly dry atmosphere strikes you as soon as you enter this
+chamber.  It is about forty feet by thirty feet, rectangular, with smooth
+walls fashioned of some kind of metal.  A thick layer of dry dust crunches
+underfoot; the air here is cool but unbelievably arid; the moistureless
+breeze seems to lash stingingly against your cheeks.  Small square vents,
+set at foot level, glow with an orange light and seem to circulate the air. 
+Square, featureless metal doors are set into the west, east, and south
+walls.  Nothing of value is here, although you can see recent footprints in
+the deep layer of dust, leading from west to south.  
+~
+0 8 0
+D1
+~
+~
+1 6635 6641
+D2
+~
+~
+1 0 6648
+D3
+~
+~
+1 0 6639
+M 55 H 55
+S
+#6641
+Dwarf's Delve~
+You stand in what appears to be a small prison cell.  This cramped,
+square room, about six feet square, is built of sturdy stone blocks with a
+stout, reinforced wooden door.  No light source is evident, although a small
+ventilation space is set into the ceiling about eight feet above your head. 
+However, it is apparent that whoever was imprisoned here tried hard to
+escape; the wood of the door around the lock is deeply scored, as if someone
+had whittled at it repeatedly attempting to pry the lock out.  In addition,
+an escape tunnel has been dug eastwards; it extends about ten feet into the
+wall, and must have been difficult work as it is largely excavated through
+stone.  The cell door leads out to the west.  
+~
+0 9 0
+D3
+~
+~
+1 6635 6640
+M 70 H 70
+S
+#6642
+Darkened Hallway~
+This dark and shadowy hallway, nearly a hundred feet long, is lined on
+either side with gloomy alcoves in which squat gargoyles sit upon pedestals.
+Light seems dim and watery here, and the stonework casts bizarre if vague
+shadows from any angle.  This passage is very disorienting, and it is hard
+to tell how far along you are; even deliberate attempts to peer forward into
+the gloom are frustrating and difficult.  The passage opens into larger
+rooms to the north and south, and a grey door is concealed behind a gargoyle
+in one of the alcoves to the west.  
+~
+0 9 0
+E
+gargoyle~
+Each of the statues appears to be a savage satire of an adventurer.  Here
+is a clumsy warrior, here a pernicious thief, here an incomptent wizard or a
+cynical mystic.  All bear the most disfiguring expressions, and seem almost
+to vomit forth derision.  
+~
+D0
+~
+~
+0 0 6639
+D2
+~
+~
+0 0 6644
+D3
+~
+~
+1 0 6643
+M 75 H 60
+S
+#6643
+Sand-Filled Room~
+This curious chamber is about twenty feet square and of unremarkable
+construction.  Its floor, however, is made entirely of sand; a fine,
+golden-brown mass of sand utterly obscures the floor from the doorsill to
+the opposite walls.  Judging by some holes and indentations in the center,
+the sand fills the room to a depth of at least four feet, and it is
+difficult to guess how far down the true floor might be.  Every so often,
+you think you can see the sand stir, as if something were below it.  A door
+leads out to the east.  
+~
+0 13 0
+D1
+~
+~
+1 0 6642
+S
+#6644
+Dam Room~
+This chamber is constructed of very strong granite blocks overgrown with
+a thin, slick layer of greenish lichens.  The south end of the room is a
+sheer wall of what appears to be concrete, reinforced occasionally with
+badly rusted iron rods which run from floor to ceiling.  The wall curves
+slightly, bulging in the middle; water seeps through hairline cracks,
+causing huge stains upon the stone floor and large masses of moss on the
+floor.  Passages lead out to the north and west; another passes, oddly
+enough, out to the south through the middle of the dam.  
+~
+0 9 0
+D0
+~
+~
+0 0 6642
+D2
+~
+~
+0 0 6646
+D3
+~
+~
+0 0 6645
+M 80 H 80
+S
+#6645
+Checkerboard Room~
+This large square chamber is illuminated by bright, flickering magical
+torches set high up upon the walls.  The room's sole feature is a large
+checkboard pattern, laid out in a grid of eighty-one squares of alternating
+blue and white hue.  The purpose of the grid is uncertain, but it appears
+that it is now or formerly was powerfully trapped: the charred corpses of
+several travellers rest upon or near several squares, pierced by sharp
+arrows or apparently slain by bolts of magical energy.  The most recent
+corpse is no more than a few days old.  Nothing is evident upon the far side
+of the room which would make crossing the grid worthwhile.  A passage leads
+out to the east.  
+~
+0 9 0
+D1
+~
+~
+0 0 6644
+M 90 H 90
+S
+#6646
+Charred Room~
+The scorching-hot air of this room begins to suck the moisture out of
+your lungs in seconds.  This chamber might once have been elegantly
+furnished, but now charred sticks and black, crumbling walls are all that
+remain of furniture or wall decorations.  A great concentric scorchmark
+radiates outwards from the center of the floor, in increasingly grey waves
+until it touches the walls.  The inside of the door to the north is badly
+charred and the doorknob appears to be slightly melted.  The blackened
+remains of a skeleton lie on the floor, one ashen hand still outstretched
+towards the door in a feeble attempt to evade whatever holocaust consumed
+him.  The smell of ash and burned wood still fills the room.  
+~
+0 8 0
+D0
+~
+~
+0 0 6644
+M 40 H 40
+S
+#6647
+Shroud of Flames~
+You stand in a curiously elliptical room, shaped like a wine-jar with
+narrow bottom and top.  The walls of this obviously magical chamber are made
+of shimmering flames, which cast no heat, dancing and waving like
+palm-fronds in the wind.  As you watch, trails of red and blue intermingle
+with the crackling orange fire.  Every so often, the strands of flame will
+chance to part, giving you a glimpse of a bizarre volcanic landscape
+outside, with giant, towering geysers of magma and smoking chasms all
+around.  Somewhere in the distance stands a great city on a rocky crag,
+shimmering like brass.  
+~
+0 12 0
+M 15 H 15
+S
+#6648
+Room of Cold Walls~
+An unnatural cold prevails in this room.  Your breath is visible in a
+great cloud before you; the dry chill burns through your garments and seems
+to sink into your bones.  Four metal walls surround this wide space, and the
+cold seems to emanate from them.  Made of iron strips riveted together, they
+are deathly cold and unprotected flesh will stick to them.  You can see
+various scraps of hide here and there on the walls from unfortunate
+travellers who discovered this fact too late.  The purpose of this room is
+uncertain, but judging by some empty and discarded boxes in the corner, it
+seems that it was intended for some kind of storage room.  Doors leads out
+to the north and south, and a now-broken hatch appears to have once covered
+a staircase leading down.  
+~
+0 9 0
+D0
+~
+~
+1 0 6640
+D2
+~
+~
+1 0 6649
+D5
+~
+~
+0 0 6650
+M 70 H 70
+S
+#6649
+Battered Couches~
+This surprisingly warm and cheerful chamber appears to have been
+outfitted for a temporary dwelling, or at least a place to rest.  Four
+large, battered couches, in various states of disrepair, slouch at cheerful
+angles at various points along the walls of the little room.  Somebody has
+hung a wooden board, painted with a crude representation of an orc's head,
+upon the wall; daggers are imbedded in it.  An old barrel of beer, now
+empty, props up a three-legged table.  A door leads out to the north.  
+~
+0 9 0
+D0
+~
+~
+1 0 6648
+S
+#6650
+Room of the Spear~
+This room is of a plain and undistiguished appearance, constructed of
+rectangular blocks of grey stone set without mortar.  It is chiefly notable
+for an enormous spear, nearly twenty feet long and four inches thick, made
+of a rough and flame-hardened wood.  What can be seen of the head is iron;
+it is buried almost to the shaft in the stone wall about six feet off the
+ground, and the blocks are cracked around it as if it had been hurled with
+tremendous force.  A skeletal hand, much larger than human-sized, is
+transfixed by the spear and there pinned to the wall; from the remains of
+the wrist-bone it was apparently first pierced and then hacked off.  Nothing
+else of note is here.  To the north a chill wind blows from a staircase
+leading upwards, and to the south an archway supports a broken door.  
+~
+0 8 0
+D2
+~
+~
+0 0 6651
+D4
+~
+~
+0 0 6648
+M 80 H 80
+S
+#6651
+Slime-filled Room~
+Your nostrils are assailed by the overpowering stench of decay as you
+step into this chamber.  This appears to have formerly been a chamber of
+ordinary shape, about twenty feet square, with passages leading out to the
+north, west, and east.  However, as far as you can tell, some muck-secreting
+dwells in this place now; a layer of hardened mucus, thin enough in places
+to still see the walls, thick as wood planks in others, covers all. 
+Drippings of slime from the ceiling have hardened over time into rubbery
+stalactites.  In the floor are many hundreds of small, perfectly round
+footprints, themselves being covered over in time by the hardening slime.  
+~
+0 9 0
+D0
+~
+~
+0 0 6650
+D1
+~
+~
+0 0 6653
+D3
+~
+~
+0 0 6652
+M 30 H 30
+S
+#6652
+Slimy Larder~
+This chamber appears to be a natural cavern, formed by the slow erosion
+of limestone and the later actions of some creature.  The reek of insectine
+secretion is present here as in the adjoining chamber; stalactites,
+stalagmites, and other cave features are buried beneath a glossy, rubbery
+layer of hardened slime.  Upon one wall of the cave is a particularly large
+glob of the stone-like mucus, with bubble-like formations submerged within
+it, possibly egg sacs or corpses.  A round cave passage leads out to the
+east.  
+~
+0 9 0
+D1
+~
+~
+0 0 6651
+M 25 H 25
+S
+#6653
+Crawler's Lair~
+The stench of drying mucus reaches its peak as you push your way into
+this slime-walled cavern.  This hollow in the rock, patiently excavated over
+the course of decades, is the lair of some huge insect; bits and pieces of
+offal and shredded clothing are heaped about, cemented together into a
+disgusting mass with the everpresent secreted slime.  A few objects lie
+tossed about here and there, apparently the discarded possessions of victims
+who met their end here.  A twisty passage leads out of this fetid hole to
+the west.  
+~
+0 9 0
+D3
+~
+~
+0 0 6651
+S
+#6654
+Ladder Storage Room~
+You stand in a large, rectangular cistern constructed from thick blocks
+of limestone.  A broad ledge runs along the western wall, approximately four
+feet above the ground, which is slick with the moss which is the only
+remnant of the long-vanished water.  The walls are deeply stained from the
+long operation of the cistern.  An archway, now bricked up, is set into the
+southern wall, and some kind of circular opening has been excavated in the
+wall to the east.  
+ 
+The room is at present being used to store ladders.  All manners of straight
+wooden ladders, sturdy step-ladders, and coiled rope ladders are lying about
+on the ground or leaning against one wall.  One such ladder is conveniently
+placed to reach to a gap in the boards covering the ceiling, although there
+is no indication of who left these implements here.
+~
+0 0 0
+D1
+~
+~
+0 0 6655
+D4
+~
+~
+0 0 6630
+M 50 H 50
+S
+#6655
+Screw-Bored Passage~
+This long cylidrical tunnel, appoximately sixty yards long and a little
+more than six feet high, is cut through solid rock.  Wide spiral grooves
+running from floor to ceiling give the impression that this passage was
+gouged through the earth with a gigantic boring augur.  The tiny bones of
+unfamiliar animals are visible here and there in the walls, where they have
+been exposed by the excavation.  A warm glow is visible from the eastern end
+of the passage.  
+ 
+A small, strangely-shaped alcove is visible at one point in the passage, as
+if the course of the tunnel happened to intersect the edge of another room.
+~
+0 8 0
+D1
+~
+~
+0 0 6657
+D2
+~
+~
+0 0 6656
+D3
+~
+~
+0 0 6654
+M 60 H 60
+S
+#6656
+Pantry~
+This small room, approximately eight feet square, is surrounded on three
+sides with dusty wooden shelves covered in some kind of mildewed paper.  On
+the western wall is a small wooden door, into which is set a small rack
+apparently for the storage of mops and brooms.  The door is nailed shut from
+the other side, as evidenced by the points of protruding nails.  
+ 
+The shelves are lined with tin canisters and small burlap sacks, all of which
+seem thoroughly and systematically ransacked.
+ 
+The northeast corner of the room has been ripped open by some kind of
+tremendous force, leaving a gap perhaps three feet wide in the shelves and
+plaster wall.
+~
+0 8 0
+E
+canister~
+Every canister, and each sack, is labelled 'GINGER' in a strangely angled
+writing.  All the containers are empty, however.  
+~
+D0
+~
+~
+0 0 6655
+M 60 H 50
+S
+#6657
+Wallpapered Hallway~
+This broad north-south hallway is a study in elegance.  Both walls are
+covered in embossed wallpaper of a deep green hue, in which are visible in
+relief large swirls and symbolic floral patterns.  The ceiling is decorated
+in similar fashion, with squares of decorated plaster, and the floor is
+thick carpet, the color of which has been obscured by a layer of fine dust. 
+ 
+The ambiance however is marred by a gigantic circular hole, perhaps seven
+feet in diameter, which appears to have been drilled into the western wall.
+Flaps of shredded wallpaper still cover the aperture, and a small amount
+of gravel is neatly heaped nearby.
+ 
+It is possible that there were once several doors in this hallway, as a
+number of doorway-like alcoves have been tastefully covered with wallpaper.
+One large set of double doors is apparent on the eastern side of the
+hall, and to the south the passage terminates in a narrow set of steps
+curving downwards.
+~
+0 9 0
+D1
+~
+~
+1 0 6658
+D3
+~
+~
+0 0 6655
+D5
+~
+~
+0 0 6659
+M 50 H 50
+S
+#6658
+Balcony, Operating Theater~
+This elegantly appointed balcony, styled in the shape of a trapezoid,
+forms one of a set of balconies surrounding as a ring a stage or platform. 
+The stage itself is some distance below you, and other levels of balconies
+above and below you are evident.  The furnishings on this balcony are rich
+if made somewhat shabby by age; large benches covered in some sort of velvet
+afford an elegant seat for viewing the proceedings below.  A pair of
+mahogany double doors is in the western wall, with a sign in an unfamiliar
+language above it painted with rococo flourishes.  
+~
+0 8 0
+D3
+~
+~
+1 0 6657
+M 50 H 50
+S
+#6659
+Operating Theater~
+A large, octagonal room is surrounded on all sides by tiered balconies,
+rising in four levels towards the distant ceiling.  The floor of this room
+resembles a stage; large candleabras in which a few stumps of candles
+flicker are placed to afford the maximum light to the proceedings.  In the
+center of the floor is a rectangular raised dais or slab, rising
+approximately three feet from the ground.  A number of liquid stains are
+evident upon the slab.  Nearby are the broken-down remains of wooden racks;
+their equipment indicates that they were once used for storing tools of some
+sort.  A small opening in the lowest balcony to the west leads to a narrow
+staircase, winding upwards.  
+~
+0 0 0
+E
+stains~
+The stains are primarily of a rust-red hue, although some are orange or
+purple.  
+~
+D3
+~
+~
+0 0 6657
+M 50 H 50
+S
+#0
+
+
+
+#SPECIALS
+M 6634 spec_cast_cleric Load to: Batris the Mystic
+M 6635 spec_thief Load to: Ailios the Rogue
+S
+
+
+
+#RESETS
+D 0 6626 2 1
+D 0 6627 0 1
+D 0 6634 5 2
+D 0 6635 4 2
+D 0 6639 1 1
+D 0 6640 1 2
+D 0 6640 2 1
+D 0 6640 3 1
+D 0 6641 3 2
+D 0 6642 3 1
+D 0 6643 1 1
+D 0 6648 0 1
+D 0 6648 2 1
+D 0 6649 0 1
+D 0 6657 1 1
+D 0 6658 3 1
+M 1 6625 1 6627 1
+O 0 6625 0 6627
+M 1 6629 1 6631 1
+G 0 6633 0
+M 1 6636 1 6632 1
+M 1 6630 1 6633 1
+O 0 6627 0 6636
+M 1 6626 1 6637 1
+G 0 6626 0
+M 1 6627 1 6638 1
+E 0 6628 0 3
+O 0 6638 0 6639
+P 0 6639 1 6638 1
+M 1 6631 1 6641 1
+G 0 6636 0
+M 1 6632 1 6643 1
+G 0 6637 0
+O 0 6634 0 6644
+O 0 6653 0 6645
+P 0 6652 1 6653 1
+M 1 6637 1 6645 1
+O 0 6630 0 6646
+O 0 6631 0 6647
+M 1 6628 1 6647 1
+E 0 6632 0 14
+O 0 6651 0 6648
+M 1 6635 1 6649 1
+E 0 6643 0 16
+E 0 6646 0 22
+G 0 6650 0
+E 0 6647 0 8
+M 1 6634 1 6649 1
+E 0 6645 0 5
+E 0 6644 0 7
+E 0 6642 0 16
+M 1 6633 1 6649 1
+E 0 6649 0 10
+E 0 6648 0 5
+E 0 6641 0 16
+O 0 6629 0 6650
+O 0 6640 0 6652
+O 0 6640 0 6652
+P 0 6635 1 6640 1
+O 0 6640 0 6652
+M 1 6638 1 6653 1
+G 0 6656 0
+O 0 6654 0 6653
+O 0 6655 0 6653
+O 0 6657 0 6654
+M 1 6639 1 6656 1
+O 0 6659 0 6656
+O 0 6658 0 6659
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$

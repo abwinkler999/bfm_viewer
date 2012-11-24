@@ -1,0 +1,1358 @@
+#AREADATA
+Name Epping~
+Builders Sartorius~
+VNUMs 3600 3649
+Credits { ALL } Bleys   Epping~
+Security 9
+Deathroom 1
+Flags 1
+End
+
+
+
+#MOBILES
+#3600
+Surman miller~
+Surman the Miller~
+Surman the Miller counts his profits.
+~
+Surman, the miller of Epping, is a grossly fat man clad in a suit of
+rather too-expensive clothes.  He's easily the richest man for miles around,
+as a result of his monopoly over milling in Epping.  Area farmers must
+either choose to grind their grain in his mill, and pay him 60% of its
+weight, or transport it over land or water to Ravenspur or Knathelos in
+hopes of finding a buyer.  If gossip is any evidence, Surman's not above
+asking his 'boys' to make sure freak hull fractures happen to barges
+belonging to farmers refusing to make use of his mill.  
+~
+human~
+ABS 0 -300 0
+8 14 17d10+64 16d10+64 2d5+4 punch
+47 47 47 71
+0 0 0 0
+stand stand male 20
+AHMV ABCDEFGHIJK medium unknown
+#3601
+mill thug~
+a mill thug~
+A mill thug oversees the operation.
+~
+This local scum works for Surman, the miller, keeping his operation
+moving smoothly.  Whenever a local farmer complains about the exorbitant
+fees for milling his grain, or someone tries to set up a competing
+operation, Surman just asks his 'boys' to take care of the problem.  
+~
+human~
+ATY 0 -100 0
+6 12 13d10+36 12d10+36 2d4+2 punch
+59 59 59 77
+0 0 0 0
+stand stand either 11
+AHMV ABCDEFGHIJK medium unknown
+#3602
+citizen epping~
+a citizen of Epping~
+A citizen of Epping meanders past.
+~
+The goodfolk of Epping are, by and large, farmers, laborers, or
+shopkeepers.  They seem generally happy, although any you talk to seem to
+bear an ill- concealed ire directed at the mill and its owner.  
+~
+human~
+AH L 0 0
+2 8 5d10+4 4d10+4 1d6+-2 punch
+83 83 83 89
+0 0 0 0
+stand stand either 8
+AHMV ABCDEFGHIJK medium unknown
+#3603
+flour merchant~
+the flour merchant~
+The flour merchant chews a toothpick and grins at passersby.
+~
+This gentleman is dressed in a rather dandified red tunic and breeches,
+and sits before his booth with a cynical smirk on his face.  Sacks of flour
+are for sale; while the adventuring vocation gives little perspective on
+agricultural prices, you can still tell that the price is rather higher than
+it ought to be.  Nevertheless, people wander by once in a while, surrending
+coins for sacks of flour.  You can't see anyone else at the market selling
+flour.  
+~
+human~
+AB 0 -45 0
+5 11 11d10+25 10d10+25 1d5+4 punch
+65 65 65 80
+0 0 0 0
+stand stand male 10
+AHMV ABCDEFGHIJK medium unknown
+#3604
+highwayman thief bandit~
+a highwayman~
+A highwayman accosts you, demanding gold!
+~
+This bandit conceals his face in a long scarf.  Drawing a nasty-looking
+bodkin, he demands either your money or your blood.  
+~
+human~
+AGHKS J -100 0
+3 9 7d10+9 6d10+9 1d4+1 punch
+77 77 77 86
+0 0 0 0
+stand stand male 25
+AHMV ABCDEFGHIJK medium unknown
+#3605
+sleeping man~
+the Sleeping Man~
+A sleeping man reposes upon a park bench.
+~
+This man, say the locals, has been sleeping upon his park bench for as
+long as anyone can remember, at least fifty years now.  All attempts to wake
+him, even through magic, have failed, and the people of Epping have long
+since learned to simply leave him alone.  The Sleeping Man, as best you can
+see, is a gentleman of advanced age, perhaps seventy-five years old.  He is
+dressed in curious, old-fashioned clothing.  
+~
+human~
+ABK 0 350 0
+58 64 117d10+3364 116d10+3364 20d5+4 divine
+-253 -253 -253 -79
+0 0 0 0
+sleep sleep male 0
+AHMV ABCDEFGHIJK medium unknown
+#3606
+lone traveller~
+the lone traveller~
+A lone traveller, bundled up in a long cloak, strides along the road.
+~
+This tall, mysterious-looking fellow is wrapped up in a long cloak from
+head to toe.  His hooded cloak is secured with three great silver clasps,
+and he carries a wrapped-up bundle under his arms.  His head is bent
+slightly downwards, as if watching the road carefully, and he carries a
+walking-stick.  He seems resolute in his purpose, ignoring all distractions.
+~
+human~
+AG 0 300 0
+7 13 15d10+49 14d10+49 2d5+2 beating
+53 53 53 74
+0 0 0 0
+stand stand male 1
+AHMV ABCDEFGHIJK medium unknown
+#3607
+templar knight blue horse~
+a knight of the Blue Horse~
+A knight of the Blue Horse rests before the fire.
+~
+This proud templar appears to have recently returned from patrolling the
+nearby roads.  He is dressed in a strong, if much-battered suit of armor and
+bears a heavy bastard sword.  Upon his torso he bears a tabard with the
+emblem of the Order of the Blue Horse.  His face is restful but vigilant, as
+if his eyes are always anticipating danger.  
+~
+human~
+ABKT D 400 0
+16 22 33d10+256 32d10+256 1d3+28 smash
+-1 -1 -1 47
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+#3608
+jaldervin house guard~
+the Jaldervin house guard~
+A Jaldervin house guard stands at formal attention before the pavilion.
+~
+This house guard is dressed in the green-and-white tabard of the Lords of
+Jaldervin.  He carries a sharp halberd, which is ceremonially decorated with
+a streamer of long ribbons.  
+~
+human~
+AB 0 0 0
+6 12 13d10+36 12d10+36 1d3+10 punch
+59 59 59 77
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+M exall 3608 0~
+#0
+
+
+
+#OBJECTS
+#3600
+desk safe~
+a large wooden desk, set with a safe~
+A large wooden desk is set with a strong safe.~
+wood~
+container 0 P
+400 ACD 3601 400 100
+0 30 20 P
+#3601
+small iron key~
+a small iron key, marked with an S~
+A small iron key is marked with an S.~
+unknown~
+key PQ A
+0 0 0 0 0
+1 1 1 P
+#3602
+brass carrot~
+a brass carrot~
+A large carrot is carefully sculpted in bronze.~
+gold~
+treasure V A
+0 0 0 0 0
+1 0 13 P
+#3603
+sack flour~
+a sack of flour~
+A sack of flour is stamped with a large S.~
+unknown~
+food NU A
+6 24 0 0 0
+0 300 25 P
+#3604
+two four board~
+a two by four~
+A two by four has been carelessly discarded.~
+wood~
+weapon 0 AN
+mace 2 6 beating F
+4 12 2 P
+#3605
+tattered travelling cloak~
+a tattered travelling cloak~
+A tattered travelling cloak lies crumpled on the ground.~
+cloth~
+armor 0 AC
+2 3 4 0 0
+3 40 16 P
+#3606
+nasty looking knife~
+a nasty-looking knife~
+A nasty-looking knife is stuck into the ground.~
+steel~
+weapon 0 AN
+dagger 2 6 slice 0
+4 10 34 P
+A
+18 3
+#3607
+long clasped cloak~
+a long cloak, set with three silver clasps~
+A long hooded cloak is set with three silver clasps.~
+unknown~
+armor G AK
+5 1 1 1 0
+8 40 35 P
+A
+17 -3
+#3608
+bundle cloth bones~
+a cloth-wrapped bundle of bones~
+A bundle of human bones is bound up tightly in a heavy cloth.~
+unknown~
+trash I AP
+0 0 0 0 0
+0 15 1 P
+#3609
+hickory walking stick~
+a hickory walking stick~
+A long hickory walking stick is planted in the ground.~
+unknown~
+staff G AO
+20 6 6 'create spring' 0
+8 30 125 P
+#3610
+mountain stream~
+a mountain stream~
+A cold, clear mountain stream rushes down the side of the hill.~
+unknown~
+fountain 0 0
+999 999 'water' 0 0
+1 1 1 P
+#0
+
+
+
+#ROOMS
+#3600
+Outside Eppingate~
+You stand before a large gate, set into the great stone walls of the City
+of Ravenspur.  A broad, muddy track begins here, running eastwards across
+the rolling meadows of the Dawn Fallows towards the horizon.  Here and
+there, lone travellers or farmers' carts dot the deeply rutted roadway.  To
+the west, a detachment of guardsmen watch over the road where it leads into
+the City itself.  The terrain all around you is vacant meadowland, an
+expanse of tall grasses which leads as far as the eye can see to the north
+and east, and ends at a large river to the south.  
+~
+0 0 2
+D1
+~
+~
+0 0 3601
+D3
+~
+~
+0 0 3041
+S
+#3601
+Dawn Fallows~
+You stand on an old, rutted road which leads east to west through a great
+expanse of empty meadowland.  A vast sea of long grasses extends to the
+horizon in every direction, broken only by the occasional gentle ridge or
+rise in the landscape.  Every so often you can see what looks like an
+abandoned barn or half-collapsed farmhouse, and it seems that this wasteland
+was once inhabited and cultivated.  To the west you can see the walls and
+spires of a great city.  
+~
+0 0 2
+D1
+~
+~
+0 0 3602
+D3
+~
+~
+0 0 3600
+S
+#3602
+Dawn Fallows~
+You stand on an old, rutted road which leads east to west through a great
+expanse of empty meadowland.  A vast sea of long grasses extends to the
+horizon in every direction, broken only by the occasional gentle ridge or
+rise in the landscape.  Every so often you can see what looks like an
+abandoned barn or half-collapsed farmhouse, and it seems that this wasteland
+was once inhabited and cultivated.  
+ 
+You can see a crude pyre of charred logs and branches to the north, but there
+seems to be no way through the tall grasses.
+~
+0 0 2
+D1
+~
+~
+0 0 3603
+D3
+~
+~
+0 0 3601
+S
+#3603
+Dawn Fallows~
+You stand on an old, rutted road which leads east to west through a great
+expanse of empty meadowland.  A vast sea of long grasses extends to the
+horizon in every direction, broken only by the occasional gentle ridge or
+rise in the landscape.  Every so often you can see what looks like an
+abandoned barn or half-collapsed farmhouse, and it seems that this wasteland
+was once inhabited and cultivated.  
+~
+0 0 2
+D1
+~
+~
+0 0 3604
+D3
+~
+~
+0 0 3602
+S
+#3604
+Dawn Fallows~
+You stand on an old, rutted road which leads east to west.  Through a
+great expanse of empty meadowland.  A vast sea of long grasses extends to
+the horizon in every direction, broken only by the occasional gentle ridge
+or rise in the landscape.  Every so often you can see what looks like an
+abandoned barn or half-collapsed farmhouse, and it seems that this wasteland
+was once inhabited and cultivated.  The road here bends south, avoiding what
+looks like a group of massive tree stumps, and continues west.  
+~
+0 0 2
+D2
+~
+~
+0 0 3605
+D3
+~
+~
+0 0 3603
+S
+#3605
+Dawn Fallows~
+You stand on an old, rutted road which leads east to west through a great
+expanse of empty meadowland.  A vast sea of long grasses extends to the
+horizon in every direction, broken only by the occasional gentle ridge or
+rise in the landscape.  Every so often you can see what looks like an
+abandoned barn or half-collapsed farmhouse, and it seems that this wasteland
+was once inhabited and cultivated.  The road bends north and east.  
+~
+0 0 2
+D0
+~
+~
+0 0 3604
+D1
+~
+~
+0 0 3606
+S
+#3606
+Dawn Fallows~
+You stand on an old, rutted road which leads east to west through a great
+expanse of empty meadowland.  A vast sea of long grasses extends to the
+horizon in every direction, broken only by the occasional gentle ridge or
+rise in the landscape.  Every so often you can see what looks like an
+abandoned barn or half-collapsed farmhouse, and it seems that this wasteland
+was once inhabited and cultivated.  
+~
+0 0 2
+D1
+~
+~
+0 0 3607
+D3
+~
+~
+0 0 3605
+S
+#3607
+Dawn Fallows~
+You stand on an old, rutted road which leads east to west through a great
+expanse of empty meadowland.  A vast sea of long grasses extends to the
+horizon in every direction, broken only by the occasional gentle ridge or
+rise in the landscape.  Every so often you can see what looks like an
+abandoned barn or half-collapsed farmhouse, and it seems that this wasteland
+was once inhabited and cultivated.  A old, overgrown path has almost
+disappeared into the long grasses to the north.  
+~
+0 0 2
+D0
+~
+~
+0 0 1701
+D1
+~
+~
+0 0 3608
+D3
+~
+~
+0 0 3606
+S
+#3608
+Dawn Fallows~
+You stand on an old, rutted road which leads east to west through a great
+expanse of empty meadowland.  A vast sea of long grasses extends to the
+horizon in every direction, broken only by the occasional gentle ridge or
+rise in the landscape.  Every so often you can see what looks like an
+abandoned barn or half-collapsed farmhouse, and it seems that this wasteland
+was once inhabited and cultivated.  To the east you can see a group of
+small, orderly farms surrounding a little town.  
+~
+0 0 2
+D1
+~
+~
+0 0 3609
+D3
+~
+~
+0 0 3607
+S
+#3609
+Dawn Fallows, outside Epping~
+The vast expanse of empty grassland encompasses a little island of
+settlement, as the long road passes through a group of small farms.  To the
+south stands a little farming village, a tidy cluster of small thatched
+cottages along the bank of a wide river.  Groups of men tend the fields of
+oats and wheat on either side the road, as others load carts with hay and
+vegetables, taking them into town.  
+~
+0 0 2
+D1
+~
+~
+0 0 3625
+D2
+~
+~
+0 0 3614
+D3
+~
+~
+0 0 3608
+S
+#3610
+Overgrown Path in the Fallows~
+An old path of hardpacked earth traces an ancient route north and south
+through the grassy expanses of the Dawn Fallows.  Ruts in the ground
+indicate this was once a frequently followed route, although it doesn't seem
+to lead anywhere in particular.  
+The path intersects with a wider road to the south.
+~
+0 0 2
+D0
+~
+~
+0 0 3611
+S
+#3611
+Overgrown Path in the Fallows~
+An old path of hardpacked earth traces an ancient route north and south
+through the grassy expanses of the Dawn Fallows.  Ruts in the ground
+indicate this was once a frequently followed route, although it doesn't seem
+to lead anywhere in particular.  
+~
+0 0 2
+D0
+~
+~
+0 0 3612
+D2
+~
+~
+0 0 3610
+S
+#3612
+Overgrown Path in the Fallows~
+An old path of hardpacked earth traces an ancient route north and south
+through the grassy expanses of the Dawn Fallows.  The tall meadow grasses
+begin to thin out a little as the ground grows a little rocky, and you can
+spy through the lush vegetation a range of mountains far to the north.  The
+old path trails off into oblivion here, but you can see a much more recent
+trail hacked and trampled through the grass to the west.  
+~
+0 0 0
+D2
+~
+~
+0 0 3611
+D3
+~
+~
+0 0 3613
+S
+#3613
+Rude Path in the Fallows~
+Here in the midst of the vacant meadows stands some sort of settlement. 
+Crude tents and stick huts are banded together into a large ring, encircled
+in some places by rude fences of stone or split logs.  A large wicker arch
+stands to the south, apparently giving entrance to the village.  You can see
+great numbers of goblins milling about inside, and closer inspection reveals
+dozens of tiny paths moving through the nearby meadows, all leading to this
+place.  A crudely blazed trail leads east.  
+~
+0 0 2
+D1
+~
+~
+0 0 3612
+D2
+~
+~
+0 0 6601
+S
+#3614
+High Street, Epping~
+Epping is a small farming community, little more than a collection of
+houses surrounding a single street, with a few shops and other public
+buildings.  High Street runs north and south through the middle of town. 
+The tidy thatched cottages which line the street look well-kempt and fairly
+prosperous.  A few pedestrians and carts travel the street, but all else is
+rather quiet.  The street continues south into Epping, and becomes a muddy
+road to the north.  
+~
+0 0 1
+D0
+~
+~
+0 0 3609
+D2
+~
+~
+0 0 3615
+S
+#3615
+Market Square, Epping~
+The village marketplace is little busier than the rest of Epping,
+although a goodly number of booths and stalls are set up in this large
+central square.  Here, farmers from the small holdings in the Dawn Fallows
+sell lettuces, potatoes, and eggs, trading them for cloth, tools, and
+imported goods from the river.  The largest stall is large and
+freshly-painted, sporting a large S in red upon the front.  The High Street
+continues north and south through town.  A small alley leads to a
+dilapidated stone tower to the east, and a shady grove of trees is to the
+west.  
+~
+0 0 1
+D0
+~
+~
+0 0 3614
+D1
+~
+~
+0 0 3617
+D2
+~
+~
+0 0 3618
+D3
+~
+~
+0 0 3616
+S
+#3616
+Town Park~
+This little park is appointed with a small grove of fruit trees, neatly
+arranged in a semicircle, and a small stone fountain which babbles over
+polished stones.  Small beds of flowers are planted beside the park
+entrance; honeybees investigate particularly aromatic blooms while songbirds
+regard all passersby with a curious eye.  A couple small wooden benches
+complete this almost suspiciously pleasant picture.  The village marketplace
+is to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 3615
+S
+#3617
+Oldtower Alley~
+This tiny alley, not even wide enough for a horse and cart, runs between
+two stone buildings.  Weeds grow between ancient paving stones, some of
+which are carved with curious characters.  The sunlight seems strangely
+dimmer in this alleyway, muted as if passing through heavy clouds.  To the
+east stands an old, round stone tower, about thirty feet tall, which stands
+above all other buildings in the village, its masonry crumbling from old
+age.  A fence of wrought iron bars, badly rusted, surrounds the rotten door
+to this ruin.  The alley leads back west into the village marketplace.  
+~
+0 0 1
+D1
+~
+~
+0 0 6200
+D3
+~
+~
+0 0 3615
+S
+#3618
+High Street, Epping~
+Epping is a small farming community, little more than a collection of
+houses surrounding a single street, with a few shops and other public
+buildings.  High Street runs north and south through the middle of town. 
+The tidy thatched cottages which line the street look well-kempt and fairly
+prosperous.  A few pedestrians and carts travel the street, but all else is
+rather quiet.  
+The street continues north and south, meeting the village marketplace to
+the north.
+ 
+Several houses here show signs of recent damage, and the sight of broken
+glass is common in the streets.  Here and there a chimney is collapsed or
+a house wall is cracked.
+~
+0 0 1
+D0
+~
+~
+0 0 3615
+D2
+~
+~
+0 0 3619
+S
+#3619
+High Street, Epping~
+Epping is a small farming community, little more than a collection of
+houses surrounding a single street, with a few shops and other public
+buildings.  High Street runs north and south through the middle of town. 
+The tidy thatched cottages which line the street look well-kempt and fairly
+prosperous.  A few pedestrians and carts travel the street, but all else is
+rather quiet.  
+The street continues north, and ends at the public landing to the south.
+~
+0 0 1
+D0
+~
+~
+0 0 3618
+D2
+~
+~
+0 0 3620
+S
+#3620
+Public Landing, Epping~
+This public dock juts partly into the Hocking, which flows directly to
+the south, and affords the citizens of Epping easy access to the river.  All
+around you are watercraft from grain barges to small fishing boats moored on
+the dock or pulled up onto the gravel embankment.  Lining the nearby street
+are small warehouse sheds and shops.  The high street begins here, running
+directly through town to the north.  To the east is the largest building in
+Epping, a large grain mill.  
+~
+0 0 1
+D0
+~
+~
+0 0 3619
+D1
+~
+~
+0 0 3621
+D2
+~
+~
+0 0 1011
+S
+#3621
+Surman's Mill~
+You stand in the entrance of Epping's largest building, a mighty grain
+mill which draws its power from the churning Hocking outside.  The mill
+floor is open, and you can see that its bottom floor is about sixty feet
+square.  The mill is quite busy; a long line of men, carrying grain in
+handcarts or wheelbarrows, wait patiently before great scales to the north. 
+Elsewhere, huge piles of grain or flour sacks are being stacked or moved by
+teams of workmen.  The mill floor continues to the north and east, and the
+exit outside is to the west.  
+~
+0 8 0
+D0
+~
+~
+0 0 3622
+D1
+~
+~
+0 0 3624
+D3
+~
+~
+0 0 3620
+S
+#3622
+Surman's Mill~
+In this corner of the great mill, a long line of men ends at a set of
+huge scales.  Each man brings up his grain, in loose sacks, or bushel
+baskets, to be weighed on the scale by a group of millworkers.  A figure is
+called out and written in chalk on the parcels of grain, and then each man
+pushes his cart or wheelbarrow to the southeast.  None of the farmers seem
+to be very pleased by this process, although the overseers look quite
+content.  The mill floor continues to the east and south.  
+~
+0 8 0
+D1
+~
+~
+0 0 3623
+D2
+~
+~
+0 0 3621
+S
+#3623
+Surman's Mill~
+Enormous piles of flour sacks are heaped in wide, even piles, reaching
+eight or nine feet in places.  Each brown sack is marked with a prominent
+letter S.  In one corner of the mill, sacks are stacked evenly like bricks,
+enclosing a rectangular space with a desk and chair.  All around you are
+mill workers moving sacks of grain and flour, and farmers slowly pushing
+their carts of grain towards the scales or mill.  The mill continues west
+and south.  
+~
+0 8 0
+D2
+~
+~
+0 0 3624
+D3
+~
+~
+0 0 3622
+S
+#3624
+Wheelhouse at Surman's Mill~
+A terrific grinding noise fills the air as you behold the main engine of
+the grain mill.  A monstrous axle protrudes through a gap into the south
+wall, connecting through some combination of gears to an apparatus of one
+huge granite wheel resting upon another.  A group of workmen carefully pours
+ripe grain into a hole in the top of the mill, while another collects
+freshly ground flour from a spot at the bottom.  The new flour is carefully
+weighed, and then separated; a portion is returned to a man waiting beside
+the mill, while the majority is poured into a sack.  The mill house
+continues north and west.  
+~
+0 8 0
+D0
+~
+~
+0 0 3623
+D3
+~
+~
+0 0 3621
+S
+#3625
+Wranner's Road~
+This abandoned road runs from east to west across the trackless
+wilderness.  Hints of regular maintenance and even paving-stones are still
+visible here and there in the bed of this roadway, and the wagon-ruts which
+run down the center are still visible after so many years of abandonment. 
+The road passes through countless acres of grasslands, light scrub, and
+occasional groves of trees.  In the distant north and northwest you can see
+a line of grey, forested mountains.  Infrequent dots of ruined settlement
+are visible in the great waste, mostly the ruins of farmhouses or barns.  
+ 
+The road continues east and west.
+~
+0 0 1
+D1
+~
+~
+0 0 3626
+D3
+~
+~
+0 0 3609
+S
+#3626
+Wranner's Road~
+This abandoned road runs from east to west across the trackless
+wilderness.  Hints of regular maintenance and even paving-stones are still
+visible here and there in the bed of this roadway, and the wagon-ruts which
+run down the center are still visible after so many years of abandonment.
+The road passes through countless acres of grasslands, light scrub, and
+occasional groves of trees.  In the distant north and northwest you can see
+a line of grey, forested mountains.  Infrequent dots of ruined settlement
+are visible in the great waste, mostly the ruins of farmhouses or barns.
+The road continues east and west.
+~
+0 0 1
+D1
+~
+~
+0 0 3627
+D3
+~
+~
+0 0 3625
+S
+#3627
+Wranner's Road~
+This abandoned road runs from east to west across the trackless
+wilderness.  Hints of regular maintenance and even paving-stones are still
+visible here and there in the bed of this roadway, and the wagon-ruts which
+run down the center are still visible after so many years of abandonment.
+The road passes through countless acres of grasslands, light scrub, and
+occasional groves of trees.  In the distant north and northwest you can see
+a line of grey, forested mountains.  Infrequent dots of ruined settlement
+are visible in the great waste, mostly the ruins of farmhouses or barns.
+The road continues east and west.
+~
+0 0 1
+D1
+~
+~
+0 0 3628
+D3
+~
+~
+0 0 3626
+S
+#3628
+Ruined Village~
+The fading remains of the road passes through dotted masses of stone and
+overgrown masonry which must have once been a village.  This former hamlet,
+like countless others, was destroyed in the chaos of the Despondency; now a
+few pitiful piles of stone mark the former outlines of houses, a well, and
+what might have been a church.  The marks of fire are still visible upon a
+few fallen stones, bearing a silent testament to the end.  
+ 
+The road continues north and west.
+~
+0 0 1
+D0
+~
+~
+0 0 3629
+D3
+~
+~
+0 0 3627
+S
+#3629
+Wranner's Road~
+This abandoned road runs from east to west across the trackless
+wilderness.  Hints of regular maintenance and even paving-stones are still
+visible here and there in the bed of this roadway, and the wagon-ruts which
+run down the center are still visible after so many years of abandonment.
+The road passes through countless acres of grasslands, light scrub, and
+occasional groves of trees.  In the distant north and northwest you can see
+a line of grey, forested mountains.  Infrequent dots of ruined settlement
+are visible in the great waste, mostly the ruins of farmhouses or barns.
+The road continues east and west.
+~
+0 0 2
+D1
+~
+~
+0 0 3630
+D2
+~
+~
+0 0 3628
+S
+#3630
+Escarpment, along Wranner's Road~
+The rocky, pitted road rises sharply, angling up a steep hill to the
+east.  A long ridge runs across the landscape from northwest to southeast,
+apparently ending at a thickly-forested valley far off to the south.  A
+lonely scattering of pine trees dots the barren line of rocky earth on this
+ridge; directly to the east you can see the still-apparent clearing where
+the road passes up the hill and across the ridge.  To the north you can see
+a great black scar upon the earth, as if the entire plain had been set
+afire.  
+  Wranner's Road leads east and west.
+~
+0 0 2
+D1
+~
+~
+0 0 3631
+D3
+~
+~
+0 0 3629
+S
+#3631
+Wranner's Road~
+The rapidly diminishing road wanders east to west atop a long, flat
+ridge.  Here at the top of the ridge, a swath has been cut through the
+sporadic pine trees which are scattered across the hill.  However, the
+neglect of this path over time has permitted the forest a modest
+retrenchment, and small saplings grow in the dusty, gravel-strewn ruts.  To
+the east, the road passes to the south of a massive rock, which towers above
+the surrounding plain.  To the west, the road descends the ridge, leading
+into a region of open fields and scrub bushes.  
+To the south, a faint track leads along the ridge into the sparse forest.
+~
+0 0 4
+D1
+~
+~
+0 0 3632
+D2
+~
+~
+0 0 3636
+D3
+~
+~
+0 0 3630
+S
+#3632
+Wranner's Road~
+The road, dwindling almost to the point of imperceptibility, passes in a
+straight line along the southern side of a great mass of limestone, which
+juts upwards into the sky like a stabbing tooth.  The sides of the rock are
+dotted with clinging trees, lichens, and patches of moss; you can see birds
+circling above.  A small path traces it way northwards, clinging to the edge
+of the hillside.  The road continues west along a narrow ridge, and leads
+eastwards along a long wooden bridge which traverses a deep sinkhole.  
+~
+0 0 4
+D0
+~
+~
+0 0 3633
+D1
+~
+~
+0 0 2900
+D3
+~
+~
+0 0 3631
+S
+#3633
+Rocky Trail~
+The faded memory of a path clings tenuously to this rocky hillside. 
+Large chunks of limestone, broken loose from the great mass to your left,
+dot the path, and every footfall brings a tiny shower of pebbles.  From this
+vantage point you can spot the winding track of a river, somewhere to the
+south, as it twists through hills before disappearing into a great valley. 
+Other feet than yours have passed this way, you can see; strangely shaped
+bootprints are indented into the dust and gravel here and there along the
+path.  This trail descends from the hillside to the south, joining a wider
+road which passes along the top of a ridge.  To the north, the trail
+continues up the hill.  
+~
+0 0 4
+D0
+~
+~
+0 0 3634
+D2
+~
+~
+0 0 3632
+S
+#3634
+Rocky Trail~
+The faded memory of a path clings tenuously to this rocky hillside. 
+Large chunks of limestone, broken loose from the great mass to your left,
+dot the path, and every footfall brings a tiny shower of pebbles.  From this
+vantage point you can spot the winding track of a river, somewhere to the
+south, as it twists through hills before disappearing into a great valley. 
+Other feet than yours have passed this way, you can see; strangely shaped
+bootprints are indented into the dust and gravel here and there along the
+path.  The trail descends to the south, and twists further around the hill
+to the west.  
+~
+0 0 5
+D2
+~
+~
+0 0 3633
+D3
+~
+~
+0 0 3635
+S
+#3635
+Rocky Trail, before the Last Call Inn~
+The tenaciously clinging path twists around the hillside, ending at last
+at a small plateau, which juts out of the great mass of limestone over
+the great valley below.  In the center of the plateau sits a squat stone
+structure, of a simple rectangular construction with a gabled slate roof.
+The front of the building has been recently whitewashed, and a large
+signboard depicts an almost-empty bottle with the legend 'LAST CALL INN'.
+A stone rose is carved into the keystone above the inn's doorframe.
+ 
+The path winds down around the hill to the east.
+~
+0 0 5
+D1
+~
+~
+0 0 3634
+D2
+~
+~
+0 0 3800
+S
+#3636
+The Ridgeway~
+A faint road passes north and south along the top of a long, flat ridge. 
+This hillside is covered in conifers and dry, scrub bushes; the soil looks
+reddish in color and dry.  Few animal tracks are apparent here, but a few
+birds of prey circle overhead.  To the north this track intersects a larger
+road bisecting the ridge, and to the south it continues towards a distant
+range of snowy mountains.  
+~
+0 0 4
+D0
+~
+~
+0 0 3631
+D2
+~
+~
+0 0 3637
+S
+#3637
+The Ridgeway~
+A faint road passes north and south along the top of a long, flat ridge. 
+This hillside is covered in conifers and dry, scrub bushes; the soil looks
+reddish in color and dry.  Few animal tracks are apparent here, but a few
+birds of prey circle overhead.  The track turns here, following the jagged
+ridge north and east.  A range of snowy-topped mountains are visible in the
+distant south.  
+~
+0 0 4
+D0
+~
+~
+0 0 3636
+D1
+~
+~
+0 0 3638
+S
+#3638
+The Ridgeway~
+A faint road passes north and south along the top of a long, flat ridge. 
+This hillside is covered in conifers and dry, scrub bushes; the soil looks
+reddish in color and dry.  Few animal tracks are apparent here, but a few
+birds of prey circle overhead.  The track follows the top of the jagged
+ridge, turning west and south here.  A range of snowy-topped mountains is
+visible in the distant south.  
+~
+0 0 4
+D2
+~
+~
+0 0 3639
+D3
+~
+~
+0 0 3637
+S
+#3639
+The Ridgeway~
+A faint road passes north and south along the top of a long, flat ridge. 
+This hillside is covered in conifers and dry, scrub bushes; the soil looks
+reddish in color and dry.  Few animal tracks are apparent here, but a few
+birds of prey circle overhead.  You notice that to the south the tree cover
+becomes thicker and denser, giving way to a coniferous forest.  A range of
+snowy-topped mountains is visible farther south.  The track follows the top
+of the ridge, passing north and south.  
+~
+0 0 4
+D0
+~
+~
+0 0 3638
+D2
+~
+~
+0 0 3640
+S
+#3640
+The Ridgeway~
+A faint road passes north and south along the top of a long, flat ridge. 
+You are here at the edge of a coniferous forest; clumps of pine and fir
+thicken to the south into a dense mass of evergreens.  To the north the
+track passes through a wasteland of scrub and barren grasses.  Far off to
+the south you can see a range of snowy-capped mountains and a narrow pass
+winding upwards.  
+~
+0 0 3
+D0
+~
+~
+0 0 3639
+D2
+~
+~
+0 0 3641
+S
+#3641
+The Ridgeway~
+A faint road passes along the top of a long, flat ridge.  You are in the
+midst of a coniferous forest; tall stands of evergreens litter the ground
+with a dense, spongy layer of fallen pine needles, and your footfalls are
+muffled.  The great spur of limestone which forms the ridge breaks apart
+here, and sheer, broken cliffs are visible to the west and south, offering
+spectacular views down hundreds of feet to roiling streams far below.  A
+narrow set of what appear to be stone steps disappear down the steep
+hillside to the east, twisting back to descend into a deep gorge carved from
+the limestone.  The path leads north along the top of the ridge towards the
+edge of the wood.  To the south you can see large, snow-capped mountains
+between which cuts a narrow pass.  
+~
+0 0 3
+D0
+~
+~
+0 0 3640
+D1
+~
+~
+0 0 3642
+S
+#3642
+Cloven Gorge~
+A well-maintained path runs along the bottom of a deep, high-walled
+gorge.  This narrow defile appears to have been worn by the eroding action
+of water over the course of centuries; sheer limestone walls rise on either
+side of you to tower above your head.  Small pine trees and clumps of
+longmoss manage to cling tenuously to the rocky walls, casting a greenish
+shade over the trail.  The air here is still and peaceful, filled with
+birdsong and the sound of trickling water.  The gorge narrows to
+impassability to the north, but someone has chipped rough steps out of the
+broken shale, and a makeshift staircase twists along the steep hillside to
+the west, leading to the top of the hill.  The path continues south.  
+~
+0 0 3
+D2
+~
+~
+0 0 3643
+D3
+~
+~
+0 0 3641
+S
+#3643
+Before a House, Cloven Gorge~
+A well-maintained path runs along the bottom of a deep, high-walled
+gorge.  This narrow defile appears to have been worn by the eroding action
+of water over the course of centuries; sheer limestone walls rise on either
+side of you to tower above your head.  Small pine trees and clumps of
+longmoss manage to cling tenuously to the rocky walls, casting a greenish
+shade over the trail.  A wide natural cavern, open to the sky, is eroded
+from the rock wall to the east, and a large, stout, stocky two-story log
+cabin stands in the cavern, raised slightly from the path.  A broad porch
+stands before the cabin, and a large banner flies out front.  The path seems
+much better maintained here.  It leads north and south along the bottom of
+the gorge.  
+~
+0 0 3
+E
+banner~
+The banner is white and bears the emblem of a blue horse.  
+~
+D0
+~
+~
+0 0 3642
+D1
+~
+~
+1 0 3647
+D2
+~
+~
+0 0 3644
+S
+#3644
+Cloven Gorge~
+A well-maintained path runs along the bottom of a deep, high-walled
+gorge.  This narrow defile appears to have been worn by the eroding action
+of water over the course of centuries; sheer limestone walls rise on either
+side of you to tower above your head.  Small pine trees and clumps of
+longmoss manage to cling tenuously to the rocky walls, casting a greenish
+shade over the trail.  A steady drip of water, trickling in miniscule
+rivulets down the boulders, creates slippery puddles here and there, and you
+can see in places that an underground river is forming beneath the rocky
+ground of the path.  This trail winds through the narrow gorge to the west
+and north.  
+~
+0 0 3
+D0
+~
+~
+0 0 3643
+D3
+~
+~
+0 0 3645
+S
+#3645
+Cloven Gorge~
+A well-maintained path runs along the bottom of a deep, high-walled
+gorge.  This narrow defile appears to have been worn by the eroding action
+of water over the course of centuries; sheer limestone walls rise on either
+side of you to tower above your head.  Small pine trees and clumps of
+longmoss manage to cling tenuously to the rocky walls, casting a greenish
+shade over the trail.  In some places, the path squeezes between boulders
+leaving barely enough room for an armored man to pass, although chisel marks
+indicate that someone has been working to widen the road.  The trail winds
+through the gorge to the east, and rises steeply to meet a mountain pass to
+the south.  
+~
+0 0 3
+D1
+~
+~
+0 0 3644
+D2
+~
+~
+0 0 3646
+S
+#3646
+Forested Pass~
+A steeply-cleft pass drives narrowly through a gap in the high hills.  At
+this altitude, the air is crisp and clear, and you can smell fresh water and
+pine trees to the south.  To the west stand two great mountains capped in
+snow and swirling clouds.  The pass opens to the south into a bowl-shaped
+valley with a sparkling blue lake in the center.  The walls of the pass are
+quite sheer, and the pattern of rocks which appear shattered rather than
+eroded hints at artificial creation.  The pass enters the valley to the
+south, and drops sharply downwards to the north.  
+~
+0 0 3
+D0
+~
+~
+0 0 3645
+D2
+~
+~
+0 0 6441
+S
+#3647
+Pathwarden Lodge~
+This rustic lodge is furnished in a very spartan fashion.  A large
+central room contains a large hearth and banqueting-table; the high ceiling
+extends to the second floor where a balcony overlooks the main hall.  The
+furniture is quite plain, made of stout and unadorned oak.  Such decoration
+as exists is heraldic; a large coat of arms is painted upon one wall, and
+smaller emblems are set around the fireplace, apparently those of individual
+warriors.  Upon one wall hangs a roll of names, listed as bandits or
+highwaymen slain or driven off.  A strong, iron-banded door leads out to the
+west.  
+~
+0 8 0
+E
+coat~
+Argent, a horse passant azure.
+~
+D3
+~
+~
+1 0 3643
+M 110 H 110
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 3643 1 1
+D 0 3647 3 1
+M 1 3602 4 3614 1
+M 1 3602 4 3615 1
+M 1 3603 1 3615 1
+G 0 3603 0
+M 1 3605 1 3616 1
+M 1 3602 4 3618 1
+M 1 3602 4 3620 1
+M 1 3601 5 3621 1
+E 0 3604 0 16
+M 1 3601 5 3622 2
+E 0 3604 0 16
+M 1 3601 5 3623 1
+E 0 3604 0 16
+M 1 3600 1 3623 1
+G 0 3601 0
+O 0 3600 0 3623
+P 0 3602 1 3600 1
+M 1 3601 5 3624 1
+E 0 3604 0 16
+M 1 3606 1 3630 1
+E 0 3609 0 17
+E 0 3607 0 12
+G 0 3608 0
+O 0 3610 0 3644
+O 0 176 0 3646
+M 1 3607 1 3647 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#$
