@@ -47,6 +47,7 @@ class GameWorld
       if some_area.include? ".are" # only mud areas, please
         #current_areaFile = File.new(some_area);
         masterReturnString << load_an_area("area/" + some_area)
+        puts "Loaded in to masterReturnString: " + some_area + "; string is now length " + masterReturnString.length.to_s;
       end
     }
     return masterReturnString
@@ -60,8 +61,10 @@ class GameWorld
     read_rooms; # go through isolate and pull out all rooms
     # end ...until we run out of .are files in the directory.
     return_string = "";
+    puts "Return_string length at beginning of " + currentAreaFile + " - " + return_string.length.to_s;
+    puts "Number of rooms in this area: " + @rooms.length.to_s;
     #@rooms.sort!
-    @rooms.each { |i| 
+    @rooms.each { |i|
       return_string << '<div><p><h3>#<a name="' + i.vnum.to_s + '">' + i.vnum.to_s + " " + i.room_name + "</h3></p>";
       return_string << '<p>' + i.description + '</p>';
       return_string << '<p>Exits: '
@@ -79,14 +82,17 @@ class GameWorld
           return_string << '<span class="eds" title="' + value + '">' + key + "</span>";
         }
       end
+      #puts "Wrote out " + i.room_name + " #" + i.vnum.to_s;
       return_string << '</div>';
     }
+    puts "Return_string length at end of " + currentAreaFile + " - " + return_string.length.to_s
     return return_string;
   end
   
   def read_area(currentAreaFile)
     reading_rooms = false;
     areaFile = File.new(currentAreaFile);
+    puts "Reading " + currentAreaFile.to_s
     if areaFile
       #IO.foreach("ravens.are") { |line| @area << line }
       IO.foreach(areaFile) { |line| @area << line }
@@ -156,24 +162,24 @@ class GameWorld
     #  ~
     #  ~
     #  0 0 3036
-      $stdout << "Attempting to load exit for room " + thisRoom.vnum.to_s + "\n\r"; 
+      #$stdout << "Attempting to load exit for room " + thisRoom.vnum.to_s + "\n\r"; 
       begin # scanning for exits loop
         read_line = "";
         read_line << @room_section.shift; #D2
-        $stdout << "D?  " + read_line + "\n\r";
+        #$stdout << "D?  " + read_line + "\n\r";
         if read_line.chomp == "S" # handling nonexit data
           break; # ran out of exits
         elsif read_line.chomp[0] == "M" # Mana/healing rate bonuses
-          $stdout << "Skipping mana/healing rates in room " + thisRoom.vnum.to_s + "\n\r"
+          #$stdout << "Skipping mana/healing rates in room " + thisRoom.vnum.to_s + "\n\r"
           next; #carry on
         elsif read_line.chomp == "E" #extended room description!  ack
           #just like room descriptions
-          $stdout << "There's an extended room description here.\n\r";
+          #$stdout << "There's an extended room description here.\n\r";
           i = 0; #REMOVE
           edOver = false;
           ed_desc = "";
           ed_name = @room_section.shift.chomp.delete "~"
-          $stdout << "Recorded extended description called: " + ed_name + "\n\r";
+          #$stdout << "Recorded extended description called: " + ed_name + "\n\r";
           begin #read in lines, throw them away
             read_line = @room_section.shift;
             i = i + 1;
@@ -184,11 +190,11 @@ class GameWorld
           #end until false # end reading description lines loop
           end until (i > 25)
           thisRoom.eds[ed_name] = ed_desc;
-          $stdout << "Description was: " + ed_desc + "\n\r";
+          #$stdout << "Description was: " + ed_desc + "\n\r";
           next; #keep going looking for exits
         end # handling nonexit data
         exitNum = Integer(read_line[1]);  #i.e. the "2"
-        $stdout << "OK, valid exit in direction " + decipher_exit(exitNum) + "\n\r"
+        #$stdout << "OK, valid exit in direction " + decipher_exit(exitNum) + "\n\r"
         2.times {@room_section.shift} # 2x ~
         read_line = @room_section.shift.chomp! #0 0 3036
         if (read_line[0] != "0" && read_line[0] != "1" && read_line[0] != "2" && read_line[0] != "9" && read_line[0..1] != "AB")# might have exit description, feh, skip line
@@ -197,12 +203,12 @@ class GameWorld
         end
         #read_line.slice!(0..5);
         #thisRoom.exits[exitNum] = Integer(read_line);
-        $stdout << "Looks like exit is to " + get_the_last_number(read_line) + "\n\r"
-        $stdout << "Inserting at " + decipher_exit(exitNum) + " vnum " + get_the_last_number(read_line) + "\n\r"
+        #$stdout << "Looks like exit is to " + get_the_last_number(read_line) + "\n\r"
+        #$stdout << "Inserting at " + decipher_exit(exitNum) + " vnum " + get_the_last_number(read_line) + "\n\r"
         thisRoom.exits[exitNum] = Integer(get_the_last_number(read_line))
         
       end until false # scanning for exits loop
-      $stdout << "Finished reading exits for " + thisRoom.vnum.to_s + "\n\r"
+      #$stdout << "Finished reading exits for " + thisRoom.vnum.to_s + "\n\r"
      
       @rooms << thisRoom;
       
