@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'cucumber'
 
 class Room
   attr_accessor :vnum, :room_name, :description, :exits, :eds
@@ -79,7 +80,7 @@ class GameWorld
       if i.eds.empty? == false
         return_string << '<p>Extra descriptions: ';
         i.eds.each {|key, value|
-          return_string << '<span class="eds" title="' + value + '">' + key + "</span>";
+          return_string << '<span class="eds">' + value + "</span>";
         }
       end
       #puts "Wrote out " + i.room_name + " #" + i.vnum.to_s;
