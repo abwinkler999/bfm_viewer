@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'cucumber'
+require 'watir-webdriver'
 
 class Room
   attr_accessor :vnum, :room_name, :description, :exits, :eds
